@@ -10,7 +10,7 @@
 - Platziert alle wichtigen Kulturitems im dritten Tab der Galerie
 - Erweitert das Angebot der Wirtschaftsitems im vierten Tab massiv.
 
-**Items aus DLCs sind nur verfügbar, wenn man das DLC besitzt!
+**Items aus DLCs sind nur verfügbar, wenn man das DLC besitzt!**
 
 
 
@@ -21,7 +21,7 @@
 - Places all important culture items in the third tab of the gallery
 - Massively expands the range of economy items in the fourth tab
 
-**Items from DLCs are only available if you own the DLC!
+**Items from DLCs are only available if you own the DLC!**
 
 
 
