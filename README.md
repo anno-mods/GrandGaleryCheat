@@ -1,4 +1,5 @@
-<img src="https://github.com/anno-mods.png" style="max-width: 100%;">
+<img src="https://github.com/schwubbe/Git-Repo/blob/main/screenshot.png" style="max-width: 100%;">
+![Image](https://github.com/schwubbe/Git-Repo/blob/main/screenshot.png)
 <h1 align="center">Grand Galery Overhaul</h1>
 
 - EN below -
