@@ -29,17 +29,6 @@
 
 | GUID | Name DE | Name EN | Version | DLC |
 |------|------|------|------|------|
-| 124839 | Lehmvorkommen verschieben | Move Clay Deposit | 25. December 2022 | Land of Lions |
-| 124840 | Ölquelle verschieben | Move Oil Spring | 25. December 2022 | Land of Lions |
-| 124841 | Erzart der Mine anpassen | Change Deposit Ore | 25. December 2022 | Land of Lions |
-| 124842 | Fruchtbarkeit anpassen | Change Fertility | 25. December 2022 | Land of Lions |
-| 124845 | Kaffeeproduktion der Alten Welt | Old World Coffee Production | 25. December 2022 | Land of Lions |
-| 124849 | Rumproduktion der Alten Welt | Old World Rum Production | 25. December 2022 | Land of Lions |
-| 124850 | Baumwollproduktion der Alten Welt | Old World Cotton Production | 25. December 2022 | Land of Lions |
-| 124843 | Baugenehmigung für die Great Eastern | Great Eastern Permit | 25. December 2022 | Land of Lions |
-| 124844 | Baugenehmigung für den Ausbau der Anlegestelle | Pier Upgrade Permit | 25. December 2022 | Land of Lions |
-| 124846 | Forschungskoffer | Research Kit | 25. December 2022 | Land of Lions |
-| 125340 | Genehmigung zur Erweiterung des Campus | Campus Extension Permit | 25. December 2022 | Land of Lions |
 | 111120 | Kautschukbaum | Hevea Tree | 25. December 2022 | Botanica |
 | 112612 | Riesenseerose | Giant Water Lily | 25. December 2022 | Botanica |
 | 112731 | Metaxya-​Farn | Metaxya Fern | 25. December 2022 | Botanica |
