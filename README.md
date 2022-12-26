@@ -25,8 +25,8 @@
 
 ## Added Economy Items
 
-| GUID | Name DE | Name EN | Version |
-
+| GUID | Name DE | Name EN | Version | DLC |
+|------|------|------|------|------|
 | 124839 | Lehmvorkommen verschieben | Move Clay Deposit | 25. December 2022 | Land of Lions |
 | 124840 | Ölquelle verschieben | Move Oil Spring | 25. December 2022 | Land of Lions |
 | 124841 | Erzart der Mine anpassen | Change Deposit Ore | 25. December 2022 | Land of Lions |
