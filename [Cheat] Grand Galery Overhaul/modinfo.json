@@ -1,0 +1,51 @@
+{
+  "Version": "1.0.0",
+  "ModID": "Grand Galery Overhaul",
+  "IncompatibleIds": null,
+  "ModDependencies": null,
+  "Category": {
+    "Chinese": null,
+    "English": "Cheat",
+    "French": null,
+    "German": "Cheat",
+    "Italian": null,
+    "Japanese": null,
+    "Korean": null,
+    "Polish": null,
+    "Russian": null,
+    "Spanish": null,
+    "Taiwanese": null
+  },
+  "ModName": {
+    "Chinese": null,
+    "English": "Grand Galery Overhaul",
+    "French": null,
+    "German": "Grand Galery Overhaul",
+    "Italian": null,
+    "Japanese": null,
+    "Korean": null,
+    "Polish": null,
+    "Russian": null,
+    "Spanish": null,
+    "Taiwanese": null
+  },
+  "Description": {
+    "Chinese": null,
+    "English": "Adds many items to the gallery and sets all prices to 0.",
+    "French": null,
+    "German": "Fügt viele Items der Galerie hinzu und setzt alle Preise auf 0.",
+    "Italian": null,
+    "Japanese": null,
+    "Korean": null,
+    "Polish": null,
+    "Russian": null,
+    "Spanish": null,
+    "Taiwanese": null
+  },
+  "KnownIssues": null,
+  "DLCDependencies": null,
+  "CreatorName": "schwubbe",
+  "CreatorContact": "https://discord.gg/4XQTznE",
+  "Image": null
+  
+}

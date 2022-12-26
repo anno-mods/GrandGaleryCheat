@@ -1,0 +1,4214 @@
+<ModOps>
+    <!-- ScenarioWorkshopItem fuer Item 190511 Augustus-Forum erzeugen -->
+    <ModOp GUID = "4308" Type = "addNextSibling">
+        <Asset>
+            <Template>ScenarioWorkshopItem</Template>
+            <Values>
+                <Standard>
+                    <!-- GUID aus Range von schwubbe -->
+                    <GUID>1357900110</GUID>
+                    <Name>WorkshopItemForGalary</Name>
+                </Standard>
+                <Text />
+                <ScenarioWorkshopItem>
+                    <!-- verweis auf das Asset -->
+                    <AssetReference>190511</AssetReference>
+                </ScenarioWorkshopItem>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- ein ScenarioWorkshopPackage aus dem ScenarioWorkshopItem erstellen -->
+    <ModOp GUID="2258" Type="addNextSibling">
+        <Asset>
+            <Template>ScenarioWorkshopPackage</Template>
+            <Values>
+                <Standard>
+                    <!-- GUID aus Range von schwubbe -->
+                    <GUID>1357900111</GUID>
+                    <Name>WorkshopPackageForGalery</Name>
+                </Standard>
+                <ScenarioWorkshopPackage>
+                    <ScenarioWorkshopItems>
+                        <Item>
+                            <ScenarioWorkshopItem>1357900110</ScenarioWorkshopItem>
+                        </Item>
+                    </ScenarioWorkshopItems>
+                    <RubberDots>20</RubberDots>
+                    <PackageHeadline>0</PackageHeadline>
+                    <PackageRubberDotScaleFactor>1</PackageRubberDotScaleFactor>
+                    <PackageMaxCount>9999</PackageMaxCount>
+                    <PackageDescription>0</PackageDescription>
+                    <PackageFluffText>4590</PackageFluffText>
+                </ScenarioWorkshopPackage>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- ScenarioWorkshopPackage in der Galerie einpflegen -->
+    <ModOp GUID="1252" Type="add" Path="Values/ScenarioWorkshopScene/ScenarioWorkshopCategories/Skin/ScenarioWorkshopCategory">
+        <Item>
+            <ScenarioWorkshopPackage>1357900111</ScenarioWorkshopPackage>
+        </Item>
+    </ModOp>
+
+
+    <!-- ScenarioWorkshopItem fuer Item 190510 Minerva-Heiligtum erzeugen -->
+    <ModOp GUID = "4308" Type = "addNextSibling">
+        <Asset>
+            <Template>ScenarioWorkshopItem</Template>
+            <Values>
+                <Standard>
+                    <!-- GUID aus Range von schwubbe -->
+                    <GUID>1357900106</GUID>
+                    <Name>WorkshopItemForGalary</Name>
+                </Standard>
+                <Text />
+                <ScenarioWorkshopItem>
+                    <!-- verweis auf das Asset -->
+                    <AssetReference>190510</AssetReference>
+                </ScenarioWorkshopItem>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- ein ScenarioWorkshopPackage aus dem ScenarioWorkshopItem erstellen -->
+    <ModOp GUID="2258" Type="addNextSibling">
+        <Asset>
+            <Template>ScenarioWorkshopPackage</Template>
+            <Values>
+                <Standard>
+                    <!-- GUID aus Range von schwubbe -->
+                    <GUID>1357900107</GUID>
+                    <Name>WorkshopPackageForGalery</Name>
+                </Standard>
+                <ScenarioWorkshopPackage>
+                    <ScenarioWorkshopItems>
+                        <Item>
+                            <ScenarioWorkshopItem>1357900106</ScenarioWorkshopItem>
+                        </Item>
+                    </ScenarioWorkshopItems>
+                    <RubberDots>15</RubberDots>
+                    <PackageHeadline>0</PackageHeadline>
+                    <PackageRubberDotScaleFactor>1</PackageRubberDotScaleFactor>
+                    <PackageMaxCount>9999</PackageMaxCount>
+                    <PackageDescription>0</PackageDescription>
+                    <PackageFluffText>4590</PackageFluffText>
+                </ScenarioWorkshopPackage>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- ScenarioWorkshopPackage in der Galerie einpflegen -->
+    <ModOp GUID="1252" Type="add" Path="Values/ScenarioWorkshopScene/ScenarioWorkshopCategories/Skin/ScenarioWorkshopCategory">
+        <Item>
+            <ScenarioWorkshopPackage>1357900107</ScenarioWorkshopPackage>
+        </Item>
+    </ModOp>
+
+
+    <!-- ScenarioWorkshopItem fuer Item 190512 Imperiumsadler-Mosaik erzeugen -->
+    <ModOp GUID = "4308" Type = "addNextSibling">
+        <Asset>
+            <Template>ScenarioWorkshopItem</Template>
+            <Values>
+                <Standard>
+                    <!-- GUID aus Range von schwubbe -->
+                    <GUID>1357900108</GUID>
+                    <Name>WorkshopItemForGalary</Name>
+                </Standard>
+                <Text />
+                <ScenarioWorkshopItem>
+                    <!-- verweis auf das Asset -->
+                    <AssetReference>190512</AssetReference>
+                </ScenarioWorkshopItem>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- ein ScenarioWorkshopPackage aus dem ScenarioWorkshopItem erstellen -->
+    <ModOp GUID="2258" Type="addNextSibling">
+        <Asset>
+            <Template>ScenarioWorkshopPackage</Template>
+            <Values>
+                <Standard>
+                    <!-- GUID aus Range von schwubbe -->
+                    <GUID>1357900109</GUID>
+                    <Name>WorkshopPackageForGalery</Name>
+                </Standard>
+                <ScenarioWorkshopPackage>
+                    <ScenarioWorkshopItems>
+                        <Item>
+                            <ScenarioWorkshopItem>1357900108</ScenarioWorkshopItem>
+                        </Item>
+                    </ScenarioWorkshopItems>
+                    <RubberDots>15</RubberDots>
+                    <PackageHeadline>0</PackageHeadline>
+                    <PackageRubberDotScaleFactor>1</PackageRubberDotScaleFactor>
+                    <PackageMaxCount>9999</PackageMaxCount>
+                    <PackageDescription>0</PackageDescription>
+                    <PackageFluffText>4590</PackageFluffText>
+                </ScenarioWorkshopPackage>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- ScenarioWorkshopPackage in der Galerie einpflegen -->
+    <ModOp GUID="1252" Type="add" Path="Values/ScenarioWorkshopScene/ScenarioWorkshopCategories/Skin/ScenarioWorkshopCategory">
+        <Item>
+            <ScenarioWorkshopPackage>1357900109</ScenarioWorkshopPackage>
+        </Item>
+    </ModOp>
+
+
+    <!-- ScenarioWorkshopItem fuer Item 112478 Mauer von Atlantis erzeugen -->
+    <ModOp GUID = "4308" Type = "addNextSibling">
+        <Asset>
+            <Template>ScenarioWorkshopItem</Template>
+            <Values>
+                <Standard>
+                    <!-- GUID aus Range von schwubbe -->
+                    <GUID>1357900112</GUID>
+                    <Name>WorkshopItemForGalary</Name>
+                </Standard>
+                <Text />
+                <ScenarioWorkshopItem>
+                    <!-- verweis auf das Asset -->
+                    <AssetReference>112478</AssetReference>
+                </ScenarioWorkshopItem>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- ein ScenarioWorkshopPackage aus dem ScenarioWorkshopItem erstellen -->
+    <ModOp GUID="2258" Type="addNextSibling">
+        <Asset>
+            <Template>ScenarioWorkshopPackage</Template>
+            <Values>
+                <Standard>
+                    <!-- GUID aus Range von schwubbe -->
+                    <GUID>1357900113</GUID>
+                    <Name>WorkshopPackageForGalery</Name>
+                </Standard>
+                <ScenarioWorkshopPackage>
+                    <ScenarioWorkshopItems>
+                        <Item>
+                            <ScenarioWorkshopItem>1357900112</ScenarioWorkshopItem>
+                        </Item>
+                    </ScenarioWorkshopItems>
+                    <RubberDots>20</RubberDots>
+                    <PackageHeadline>0</PackageHeadline>
+                    <PackageRubberDotScaleFactor>1</PackageRubberDotScaleFactor>
+                    <PackageMaxCount>9999</PackageMaxCount>
+                    <PackageDescription>0</PackageDescription>
+                    <PackageFluffText>4590</PackageFluffText>
+                </ScenarioWorkshopPackage>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- ScenarioWorkshopPackage in der Galerie einpflegen -->
+    <ModOp GUID="1252" Type="add" Path="Values/ScenarioWorkshopScene/ScenarioWorkshopCategories/Skin/ScenarioWorkshopCategory">
+        <Item>
+            <ScenarioWorkshopPackage>1357900113</ScenarioWorkshopPackage>
+        </Item>
+    </ModOp>
+
+
+    <!-- ScenarioWorkshopItem fuer Item 112483 Tempel des Poseidon erzeugen -->
+    <ModOp GUID = "4308" Type = "addNextSibling">
+        <Asset>
+            <Template>ScenarioWorkshopItem</Template>
+            <Values>
+                <Standard>
+                    <!-- GUID aus Range von schwubbe -->
+                    <GUID>1357900114</GUID>
+                    <Name>WorkshopItemForGalary</Name>
+                </Standard>
+                <Text />
+                <ScenarioWorkshopItem>
+                    <!-- verweis auf das Asset -->
+                    <AssetReference>112483</AssetReference>
+                </ScenarioWorkshopItem>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- ein ScenarioWorkshopPackage aus dem ScenarioWorkshopItem erstellen -->
+    <ModOp GUID="2258" Type="addNextSibling">
+        <Asset>
+            <Template>ScenarioWorkshopPackage</Template>
+            <Values>
+                <Standard>
+                    <!-- GUID aus Range von schwubbe -->
+                    <GUID>1357900115</GUID>
+                    <Name>WorkshopPackageForGalery</Name>
+                </Standard>
+                <ScenarioWorkshopPackage>
+                    <ScenarioWorkshopItems>
+                        <Item>
+                            <ScenarioWorkshopItem>1357900114</ScenarioWorkshopItem>
+                        </Item>
+                    </ScenarioWorkshopItems>
+                    <RubberDots>20</RubberDots>
+                    <PackageHeadline>0</PackageHeadline>
+                    <PackageRubberDotScaleFactor>1</PackageRubberDotScaleFactor>
+                    <PackageMaxCount>9999</PackageMaxCount>
+                    <PackageDescription>0</PackageDescription>
+                    <PackageFluffText>4590</PackageFluffText>
+                </ScenarioWorkshopPackage>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- ScenarioWorkshopPackage in der Galerie einpflegen -->
+    <ModOp GUID="1252" Type="add" Path="Values/ScenarioWorkshopScene/ScenarioWorkshopCategories/Skin/ScenarioWorkshopCategory">
+        <Item>
+            <ScenarioWorkshopPackage>1357900115</ScenarioWorkshopPackage>
+        </Item>
+    </ModOp>
+
+
+    <!-- ScenarioWorkshopItem fuer Item 112484 Gerichtshof erzeugen -->
+    <ModOp GUID = "4308" Type = "addNextSibling">
+        <Asset>
+            <Template>ScenarioWorkshopItem</Template>
+            <Values>
+                <Standard>
+                    <!-- GUID aus Range von schwubbe -->
+                    <GUID>1357900116</GUID>
+                    <Name>WorkshopItemForGalary</Name>
+                </Standard>
+                <Text />
+                <ScenarioWorkshopItem>
+                    <!-- verweis auf das Asset -->
+                    <AssetReference>112484</AssetReference>
+                </ScenarioWorkshopItem>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- ein ScenarioWorkshopPackage aus dem ScenarioWorkshopItem erstellen -->
+    <ModOp GUID="2258" Type="addNextSibling">
+        <Asset>
+            <Template>ScenarioWorkshopPackage</Template>
+            <Values>
+                <Standard>
+                    <!-- GUID aus Range von schwubbe -->
+                    <GUID>1357900117</GUID>
+                    <Name>WorkshopPackageForGalery</Name>
+                </Standard>
+                <ScenarioWorkshopPackage>
+                    <ScenarioWorkshopItems>
+                        <Item>
+                            <ScenarioWorkshopItem>1357900116</ScenarioWorkshopItem>
+                        </Item>
+                    </ScenarioWorkshopItems>
+                    <RubberDots>20</RubberDots>
+                    <PackageHeadline>0</PackageHeadline>
+                    <PackageRubberDotScaleFactor>1</PackageRubberDotScaleFactor>
+                    <PackageMaxCount>9999</PackageMaxCount>
+                    <PackageDescription>0</PackageDescription>
+                    <PackageFluffText>4590</PackageFluffText>
+                </ScenarioWorkshopPackage>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- ScenarioWorkshopPackage in der Galerie einpflegen -->
+    <ModOp GUID="1252" Type="add" Path="Values/ScenarioWorkshopScene/ScenarioWorkshopCategories/Skin/ScenarioWorkshopCategory">
+        <Item>
+            <ScenarioWorkshopPackage>1357900117</ScenarioWorkshopPackage>
+        </Item>
+    </ModOp>
+
+
+    <!-- ScenarioWorkshopItem fuer Item 112485 Oreichalkos-Statue erzeugen -->
+    <ModOp GUID = "4308" Type = "addNextSibling">
+        <Asset>
+            <Template>ScenarioWorkshopItem</Template>
+            <Values>
+                <Standard>
+                    <!-- GUID aus Range von schwubbe -->
+                    <GUID>1357900118</GUID>
+                    <Name>WorkshopItemForGalary</Name>
+                </Standard>
+                <Text />
+                <ScenarioWorkshopItem>
+                    <!-- verweis auf das Asset -->
+                    <AssetReference>112485</AssetReference>
+                </ScenarioWorkshopItem>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- ein ScenarioWorkshopPackage aus dem ScenarioWorkshopItem erstellen -->
+    <ModOp GUID="2258" Type="addNextSibling">
+        <Asset>
+            <Template>ScenarioWorkshopPackage</Template>
+            <Values>
+                <Standard>
+                    <!-- GUID aus Range von schwubbe -->
+                    <GUID>1357900119</GUID>
+                    <Name>WorkshopPackageForGalery</Name>
+                </Standard>
+                <ScenarioWorkshopPackage>
+                    <ScenarioWorkshopItems>
+                        <Item>
+                            <ScenarioWorkshopItem>1357900118</ScenarioWorkshopItem>
+                        </Item>
+                    </ScenarioWorkshopItems>
+                    <RubberDots>20</RubberDots>
+                    <PackageHeadline>0</PackageHeadline>
+                    <PackageRubberDotScaleFactor>1</PackageRubberDotScaleFactor>
+                    <PackageMaxCount>9999</PackageMaxCount>
+                    <PackageDescription>0</PackageDescription>
+                    <PackageFluffText>4590</PackageFluffText>
+                </ScenarioWorkshopPackage>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- ScenarioWorkshopPackage in der Galerie einpflegen -->
+    <ModOp GUID="1252" Type="add" Path="Values/ScenarioWorkshopScene/ScenarioWorkshopCategories/Skin/ScenarioWorkshopCategory">
+        <Item>
+            <ScenarioWorkshopPackage>1357900119</ScenarioWorkshopPackage>
+        </Item>
+    </ModOp>
+
+
+    <!-- ScenarioWorkshopItem fuer Item 112821 Gipfel von Atlantis erzeugen -->
+    <ModOp GUID = "4308" Type = "addNextSibling">
+        <Asset>
+            <Template>ScenarioWorkshopItem</Template>
+            <Values>
+                <Standard>
+                    <!-- GUID aus Range von schwubbe -->
+                    <GUID>1357900120</GUID>
+                    <Name>WorkshopItemForGalary</Name>
+                </Standard>
+                <Text />
+                <ScenarioWorkshopItem>
+                    <!-- verweis auf das Asset -->
+                    <AssetReference>112821</AssetReference>
+                </ScenarioWorkshopItem>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- ein ScenarioWorkshopPackage aus dem ScenarioWorkshopItem erstellen -->
+    <ModOp GUID="2258" Type="addNextSibling">
+        <Asset>
+            <Template>ScenarioWorkshopPackage</Template>
+            <Values>
+                <Standard>
+                    <!-- GUID aus Range von schwubbe -->
+                    <GUID>1357900121</GUID>
+                    <Name>WorkshopPackageForGalery</Name>
+                </Standard>
+                <ScenarioWorkshopPackage>
+                    <ScenarioWorkshopItems>
+                        <Item>
+                            <ScenarioWorkshopItem>1357900120</ScenarioWorkshopItem>
+                        </Item>
+                    </ScenarioWorkshopItems>
+                    <RubberDots>20</RubberDots>
+                    <PackageHeadline>0</PackageHeadline>
+                    <PackageRubberDotScaleFactor>1</PackageRubberDotScaleFactor>
+                    <PackageMaxCount>9999</PackageMaxCount>
+                    <PackageDescription>0</PackageDescription>
+                    <PackageFluffText>4590</PackageFluffText>
+                </ScenarioWorkshopPackage>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- ScenarioWorkshopPackage in der Galerie einpflegen -->
+    <ModOp GUID="1252" Type="add" Path="Values/ScenarioWorkshopScene/ScenarioWorkshopCategories/Skin/ScenarioWorkshopCategory">
+        <Item>
+            <ScenarioWorkshopPackage>1357900121</ScenarioWorkshopPackage>
+        </Item>
+    </ModOp>
+
+
+    <!-- ScenarioWorkshopItem fuer Item 112824 Atlantische Tafel erzeugen -->
+    <ModOp GUID = "4308" Type = "addNextSibling">
+        <Asset>
+            <Template>ScenarioWorkshopItem</Template>
+            <Values>
+                <Standard>
+                    <!-- GUID aus Range von schwubbe -->
+                    <GUID>1357900122</GUID>
+                    <Name>WorkshopItemForGalary</Name>
+                </Standard>
+                <Text />
+                <ScenarioWorkshopItem>
+                    <!-- verweis auf das Asset -->
+                    <AssetReference>112824</AssetReference>
+                </ScenarioWorkshopItem>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- ein ScenarioWorkshopPackage aus dem ScenarioWorkshopItem erstellen -->
+    <ModOp GUID="2258" Type="addNextSibling">
+        <Asset>
+            <Template>ScenarioWorkshopPackage</Template>
+            <Values>
+                <Standard>
+                    <!-- GUID aus Range von schwubbe -->
+                    <GUID>1357900123</GUID>
+                    <Name>WorkshopPackageForGalery</Name>
+                </Standard>
+                <ScenarioWorkshopPackage>
+                    <ScenarioWorkshopItems>
+                        <Item>
+                            <ScenarioWorkshopItem>1357900122</ScenarioWorkshopItem>
+                        </Item>
+                    </ScenarioWorkshopItems>
+                    <RubberDots>20</RubberDots>
+                    <PackageHeadline>0</PackageHeadline>
+                    <PackageRubberDotScaleFactor>1</PackageRubberDotScaleFactor>
+                    <PackageMaxCount>9999</PackageMaxCount>
+                    <PackageDescription>0</PackageDescription>
+                    <PackageFluffText>4590</PackageFluffText>
+                </ScenarioWorkshopPackage>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- ScenarioWorkshopPackage in der Galerie einpflegen -->
+    <ModOp GUID="1252" Type="add" Path="Values/ScenarioWorkshopScene/ScenarioWorkshopCategories/Skin/ScenarioWorkshopCategory">
+        <Item>
+            <ScenarioWorkshopPackage>1357900123</ScenarioWorkshopPackage>
+        </Item>
+    </ModOp>
+
+
+    <!-- ScenarioWorkshopItem fuer Item 190514 Goidelischer Steinkreis erzeugen -->
+    <ModOp GUID = "4308" Type = "addNextSibling">
+        <Asset>
+            <Template>ScenarioWorkshopItem</Template>
+            <Values>
+                <Standard>
+                    <!-- GUID aus Range von schwubbe -->
+                    <GUID>1357900130</GUID>
+                    <Name>WorkshopItemForGalary</Name>
+                </Standard>
+                <Text />
+                <ScenarioWorkshopItem>
+                    <!-- verweis auf das Asset -->
+                    <AssetReference>190514</AssetReference>
+                </ScenarioWorkshopItem>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- ein ScenarioWorkshopPackage aus dem ScenarioWorkshopItem erstellen -->
+    <ModOp GUID="2258" Type="addNextSibling">
+        <Asset>
+            <Template>ScenarioWorkshopPackage</Template>
+            <Values>
+                <Standard>
+                    <!-- GUID aus Range von schwubbe -->
+                    <GUID>1357900131</GUID>
+                    <Name>WorkshopPackageForGalery</Name>
+                </Standard>
+                <ScenarioWorkshopPackage>
+                    <ScenarioWorkshopItems>
+                        <Item>
+                            <ScenarioWorkshopItem>1357900130</ScenarioWorkshopItem>
+                        </Item>
+                    </ScenarioWorkshopItems>
+                    <RubberDots>20</RubberDots>
+                    <PackageHeadline>0</PackageHeadline>
+                    <PackageRubberDotScaleFactor>1</PackageRubberDotScaleFactor>
+                    <PackageMaxCount>9999</PackageMaxCount>
+                    <PackageDescription>0</PackageDescription>
+                    <PackageFluffText>4590</PackageFluffText>
+                </ScenarioWorkshopPackage>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- ScenarioWorkshopPackage in der Galerie einpflegen -->
+    <ModOp GUID="1252" Type="add" Path="Values/ScenarioWorkshopScene/ScenarioWorkshopCategories/Skin/ScenarioWorkshopCategory">
+        <Item>
+            <ScenarioWorkshopPackage>1357900131</ScenarioWorkshopPackage>
+        </Item>
+    </ModOp>
+
+
+    <!-- ScenarioWorkshopItem fuer Item 190552 Weißzahn, das Schwert von Rhydderch erzeugen -->
+    <ModOp GUID = "4308" Type = "addNextSibling">
+        <Asset>
+            <Template>ScenarioWorkshopItem</Template>
+            <Values>
+                <Standard>
+                    <!-- GUID aus Range von schwubbe -->
+                    <GUID>1357900132</GUID>
+                    <Name>WorkshopItemForGalary</Name>
+                </Standard>
+                <Text />
+                <ScenarioWorkshopItem>
+                    <!-- verweis auf das Asset -->
+                    <AssetReference>190552</AssetReference>
+                </ScenarioWorkshopItem>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- ein ScenarioWorkshopPackage aus dem ScenarioWorkshopItem erstellen -->
+    <ModOp GUID="2258" Type="addNextSibling">
+        <Asset>
+            <Template>ScenarioWorkshopPackage</Template>
+            <Values>
+                <Standard>
+                    <!-- GUID aus Range von schwubbe -->
+                    <GUID>1357900133</GUID>
+                    <Name>WorkshopPackageForGalery</Name>
+                </Standard>
+                <ScenarioWorkshopPackage>
+                    <ScenarioWorkshopItems>
+                        <Item>
+                            <ScenarioWorkshopItem>1357900132</ScenarioWorkshopItem>
+                        </Item>
+                    </ScenarioWorkshopItems>
+                    <RubberDots>20</RubberDots>
+                    <PackageHeadline>0</PackageHeadline>
+                    <PackageRubberDotScaleFactor>1</PackageRubberDotScaleFactor>
+                    <PackageMaxCount>9999</PackageMaxCount>
+                    <PackageDescription>0</PackageDescription>
+                    <PackageFluffText>4590</PackageFluffText>
+                </ScenarioWorkshopPackage>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- ScenarioWorkshopPackage in der Galerie einpflegen -->
+    <ModOp GUID="1252" Type="add" Path="Values/ScenarioWorkshopScene/ScenarioWorkshopCategories/Skin/ScenarioWorkshopCategory">
+        <Item>
+            <ScenarioWorkshopPackage>1357900133</ScenarioWorkshopPackage>
+        </Item>
+    </ModOp>
+
+
+    <!-- ScenarioWorkshopItem fuer Item 190515 Brón-Dolmen erzeugen -->
+    <ModOp GUID = "4308" Type = "addNextSibling">
+        <Asset>
+            <Template>ScenarioWorkshopItem</Template>
+            <Values>
+                <Standard>
+                    <!-- GUID aus Range von schwubbe -->
+                    <GUID>1357900124</GUID>
+                    <Name>WorkshopItemForGalary</Name>
+                </Standard>
+                <Text />
+                <ScenarioWorkshopItem>
+                    <!-- verweis auf das Asset -->
+                    <AssetReference>190515</AssetReference>
+                </ScenarioWorkshopItem>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- ein ScenarioWorkshopPackage aus dem ScenarioWorkshopItem erstellen -->
+    <ModOp GUID="2258" Type="addNextSibling">
+        <Asset>
+            <Template>ScenarioWorkshopPackage</Template>
+            <Values>
+                <Standard>
+                    <!-- GUID aus Range von schwubbe -->
+                    <GUID>1357900125</GUID>
+                    <Name>WorkshopPackageForGalery</Name>
+                </Standard>
+                <ScenarioWorkshopPackage>
+                    <ScenarioWorkshopItems>
+                        <Item>
+                            <ScenarioWorkshopItem>1357900124</ScenarioWorkshopItem>
+                        </Item>
+                    </ScenarioWorkshopItems>
+                    <RubberDots>15</RubberDots>
+                    <PackageHeadline>0</PackageHeadline>
+                    <PackageRubberDotScaleFactor>1</PackageRubberDotScaleFactor>
+                    <PackageMaxCount>9999</PackageMaxCount>
+                    <PackageDescription>0</PackageDescription>
+                    <PackageFluffText>4590</PackageFluffText>
+                </ScenarioWorkshopPackage>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- ScenarioWorkshopPackage in der Galerie einpflegen -->
+    <ModOp GUID="1252" Type="add" Path="Values/ScenarioWorkshopScene/ScenarioWorkshopCategories/Skin/ScenarioWorkshopCategory">
+        <Item>
+            <ScenarioWorkshopPackage>1357900125</ScenarioWorkshopPackage>
+        </Item>
+    </ModOp>
+
+
+    <!-- ScenarioWorkshopItem fuer Item 190517 Menhire erzeugen -->
+    <ModOp GUID = "4308" Type = "addNextSibling">
+        <Asset>
+            <Template>ScenarioWorkshopItem</Template>
+            <Values>
+                <Standard>
+                    <!-- GUID aus Range von schwubbe -->
+                    <GUID>1357900126</GUID>
+                    <Name>WorkshopItemForGalary</Name>
+                </Standard>
+                <Text />
+                <ScenarioWorkshopItem>
+                    <!-- verweis auf das Asset -->
+                    <AssetReference>190517</AssetReference>
+                </ScenarioWorkshopItem>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- ein ScenarioWorkshopPackage aus dem ScenarioWorkshopItem erstellen -->
+    <ModOp GUID="2258" Type="addNextSibling">
+        <Asset>
+            <Template>ScenarioWorkshopPackage</Template>
+            <Values>
+                <Standard>
+                    <!-- GUID aus Range von schwubbe -->
+                    <GUID>1357900127</GUID>
+                    <Name>WorkshopPackageForGalery</Name>
+                </Standard>
+                <ScenarioWorkshopPackage>
+                    <ScenarioWorkshopItems>
+                        <Item>
+                            <ScenarioWorkshopItem>1357900126</ScenarioWorkshopItem>
+                        </Item>
+                    </ScenarioWorkshopItems>
+                    <RubberDots>15</RubberDots>
+                    <PackageHeadline>0</PackageHeadline>
+                    <PackageRubberDotScaleFactor>1</PackageRubberDotScaleFactor>
+                    <PackageMaxCount>9999</PackageMaxCount>
+                    <PackageDescription>0</PackageDescription>
+                    <PackageFluffText>4590</PackageFluffText>
+                </ScenarioWorkshopPackage>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- ScenarioWorkshopPackage in der Galerie einpflegen -->
+    <ModOp GUID="1252" Type="add" Path="Values/ScenarioWorkshopScene/ScenarioWorkshopCategories/Skin/ScenarioWorkshopCategory">
+        <Item>
+            <ScenarioWorkshopPackage>1357900127</ScenarioWorkshopPackage>
+        </Item>
+    </ModOp>
+
+
+    <!-- ScenarioWorkshopItem fuer Item 190519 Goidelischer Steinknoten erzeugen -->
+    <ModOp GUID = "4308" Type = "addNextSibling">
+        <Asset>
+            <Template>ScenarioWorkshopItem</Template>
+            <Values>
+                <Standard>
+                    <!-- GUID aus Range von schwubbe -->
+                    <GUID>1357900128</GUID>
+                    <Name>WorkshopItemForGalary</Name>
+                </Standard>
+                <Text />
+                <ScenarioWorkshopItem>
+                    <!-- verweis auf das Asset -->
+                    <AssetReference>190519</AssetReference>
+                </ScenarioWorkshopItem>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- ein ScenarioWorkshopPackage aus dem ScenarioWorkshopItem erstellen -->
+    <ModOp GUID="2258" Type="addNextSibling">
+        <Asset>
+            <Template>ScenarioWorkshopPackage</Template>
+            <Values>
+                <Standard>
+                    <!-- GUID aus Range von schwubbe -->
+                    <GUID>1357900129</GUID>
+                    <Name>WorkshopPackageForGalery</Name>
+                </Standard>
+                <ScenarioWorkshopPackage>
+                    <ScenarioWorkshopItems>
+                        <Item>
+                            <ScenarioWorkshopItem>1357900128</ScenarioWorkshopItem>
+                        </Item>
+                    </ScenarioWorkshopItems>
+                    <RubberDots>15</RubberDots>
+                    <PackageHeadline>0</PackageHeadline>
+                    <PackageRubberDotScaleFactor>1</PackageRubberDotScaleFactor>
+                    <PackageMaxCount>9999</PackageMaxCount>
+                    <PackageDescription>0</PackageDescription>
+                    <PackageFluffText>4590</PackageFluffText>
+                </ScenarioWorkshopPackage>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- ScenarioWorkshopPackage in der Galerie einpflegen -->
+    <ModOp GUID="1252" Type="add" Path="Values/ScenarioWorkshopScene/ScenarioWorkshopCategories/Skin/ScenarioWorkshopCategory">
+        <Item>
+            <ScenarioWorkshopPackage>1357900129</ScenarioWorkshopPackage>
+        </Item>
+    </ModOp>
+
+
+    <!-- ScenarioWorkshopItem fuer Item 190539 Tara-Brosche erzeugen -->
+    <ModOp GUID = "4308" Type = "addNextSibling">
+        <Asset>
+            <Template>ScenarioWorkshopItem</Template>
+            <Values>
+                <Standard>
+                    <!-- GUID aus Range von schwubbe -->
+                    <GUID>1357900134</GUID>
+                    <Name>WorkshopItemForGalary</Name>
+                </Standard>
+                <Text />
+                <ScenarioWorkshopItem>
+                    <!-- verweis auf das Asset -->
+                    <AssetReference>190539</AssetReference>
+                </ScenarioWorkshopItem>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- ein ScenarioWorkshopPackage aus dem ScenarioWorkshopItem erstellen -->
+    <ModOp GUID="2258" Type="addNextSibling">
+        <Asset>
+            <Template>ScenarioWorkshopPackage</Template>
+            <Values>
+                <Standard>
+                    <!-- GUID aus Range von schwubbe -->
+                    <GUID>1357900135</GUID>
+                    <Name>WorkshopPackageForGalery</Name>
+                </Standard>
+                <ScenarioWorkshopPackage>
+                    <ScenarioWorkshopItems>
+                        <Item>
+                            <ScenarioWorkshopItem>1357900134</ScenarioWorkshopItem>
+                        </Item>
+                    </ScenarioWorkshopItems>
+                    <RubberDots>10</RubberDots>
+                    <PackageHeadline>0</PackageHeadline>
+                    <PackageRubberDotScaleFactor>1</PackageRubberDotScaleFactor>
+                    <PackageMaxCount>9999</PackageMaxCount>
+                    <PackageDescription>0</PackageDescription>
+                    <PackageFluffText>4590</PackageFluffText>
+                </ScenarioWorkshopPackage>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- ScenarioWorkshopPackage in der Galerie einpflegen -->
+    <ModOp GUID="1252" Type="add" Path="Values/ScenarioWorkshopScene/ScenarioWorkshopCategories/Skin/ScenarioWorkshopCategory">
+        <Item>
+            <ScenarioWorkshopPackage>1357900135</ScenarioWorkshopPackage>
+        </Item>
+    </ModOp>
+
+
+    <!-- ScenarioWorkshopItem fuer Item 114794 Eingefrorenes Wollhaarmammut erzeugen -->
+    <ModOp GUID = "4308" Type = "addNextSibling">
+        <Asset>
+            <Template>ScenarioWorkshopItem</Template>
+            <Values>
+                <Standard>
+                    <!-- GUID aus Range von schwubbe -->
+                    <GUID>1357900138</GUID>
+                    <Name>WorkshopItemForGalary</Name>
+                </Standard>
+                <Text />
+                <ScenarioWorkshopItem>
+                    <!-- verweis auf das Asset -->
+                    <AssetReference>114794</AssetReference>
+                </ScenarioWorkshopItem>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- ein ScenarioWorkshopPackage aus dem ScenarioWorkshopItem erstellen -->
+    <ModOp GUID="2258" Type="addNextSibling">
+        <Asset>
+            <Template>ScenarioWorkshopPackage</Template>
+            <Values>
+                <Standard>
+                    <!-- GUID aus Range von schwubbe -->
+                    <GUID>1357900139</GUID>
+                    <Name>WorkshopPackageForGalery</Name>
+                </Standard>
+                <ScenarioWorkshopPackage>
+                    <ScenarioWorkshopItems>
+                        <Item>
+                            <ScenarioWorkshopItem>1357900138</ScenarioWorkshopItem>
+                        </Item>
+                    </ScenarioWorkshopItems>
+                    <RubberDots>20</RubberDots>
+                    <PackageHeadline>0</PackageHeadline>
+                    <PackageRubberDotScaleFactor>1</PackageRubberDotScaleFactor>
+                    <PackageMaxCount>9999</PackageMaxCount>
+                    <PackageDescription>0</PackageDescription>
+                    <PackageFluffText>4590</PackageFluffText>
+                </ScenarioWorkshopPackage>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- ScenarioWorkshopPackage in der Galerie einpflegen -->
+    <ModOp GUID="1252" Type="add" Path="Values/ScenarioWorkshopScene/ScenarioWorkshopCategories/Skin/ScenarioWorkshopCategory">
+        <Item>
+            <ScenarioWorkshopPackage>1357900139</ScenarioWorkshopPackage>
+        </Item>
+    </ModOp>
+
+
+    <!-- ScenarioWorkshopItem fuer Item 115474 Wolfswelpen-Mumie erzeugen -->
+    <ModOp GUID = "4308" Type = "addNextSibling">
+        <Asset>
+            <Template>ScenarioWorkshopItem</Template>
+            <Values>
+                <Standard>
+                    <!-- GUID aus Range von schwubbe -->
+                    <GUID>1357900136</GUID>
+                    <Name>WorkshopItemForGalary</Name>
+                </Standard>
+                <Text />
+                <ScenarioWorkshopItem>
+                    <!-- verweis auf das Asset -->
+                    <AssetReference>115474</AssetReference>
+                </ScenarioWorkshopItem>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- ein ScenarioWorkshopPackage aus dem ScenarioWorkshopItem erstellen -->
+    <ModOp GUID="2258" Type="addNextSibling">
+        <Asset>
+            <Template>ScenarioWorkshopPackage</Template>
+            <Values>
+                <Standard>
+                    <!-- GUID aus Range von schwubbe -->
+                    <GUID>1357900137</GUID>
+                    <Name>WorkshopPackageForGalery</Name>
+                </Standard>
+                <ScenarioWorkshopPackage>
+                    <ScenarioWorkshopItems>
+                        <Item>
+                            <ScenarioWorkshopItem>1357900136</ScenarioWorkshopItem>
+                        </Item>
+                    </ScenarioWorkshopItems>
+                    <RubberDots>15</RubberDots>
+                    <PackageHeadline>0</PackageHeadline>
+                    <PackageRubberDotScaleFactor>1</PackageRubberDotScaleFactor>
+                    <PackageMaxCount>9999</PackageMaxCount>
+                    <PackageDescription>0</PackageDescription>
+                    <PackageFluffText>4590</PackageFluffText>
+                </ScenarioWorkshopPackage>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- ScenarioWorkshopPackage in der Galerie einpflegen -->
+    <ModOp GUID="1252" Type="add" Path="Values/ScenarioWorkshopScene/ScenarioWorkshopCategories/Skin/ScenarioWorkshopCategory">
+        <Item>
+            <ScenarioWorkshopPackage>1357900137</ScenarioWorkshopPackage>
+        </Item>
+    </ModOp>
+
+
+    <!-- ScenarioWorkshopItem fuer Item 114637 Sammlung von Relikten der verschwollenen Expedition erzeugen -->
+    <ModOp GUID = "4308" Type = "addNextSibling">
+        <Asset>
+            <Template>ScenarioWorkshopItem</Template>
+            <Values>
+                <Standard>
+                    <!-- GUID aus Range von schwubbe -->
+                    <GUID>1357900140</GUID>
+                    <Name>WorkshopItemForGalary</Name>
+                </Standard>
+                <Text />
+                <ScenarioWorkshopItem>
+                    <!-- verweis auf das Asset -->
+                    <AssetReference>114637</AssetReference>
+                </ScenarioWorkshopItem>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- ein ScenarioWorkshopPackage aus dem ScenarioWorkshopItem erstellen -->
+    <ModOp GUID="2258" Type="addNextSibling">
+        <Asset>
+            <Template>ScenarioWorkshopPackage</Template>
+            <Values>
+                <Standard>
+                    <!-- GUID aus Range von schwubbe -->
+                    <GUID>1357900141</GUID>
+                    <Name>WorkshopPackageForGalery</Name>
+                </Standard>
+                <ScenarioWorkshopPackage>
+                    <ScenarioWorkshopItems>
+                        <Item>
+                            <ScenarioWorkshopItem>1357900140</ScenarioWorkshopItem>
+                        </Item>
+                    </ScenarioWorkshopItems>
+                    <RubberDots>10</RubberDots>
+                    <PackageHeadline>0</PackageHeadline>
+                    <PackageRubberDotScaleFactor>1</PackageRubberDotScaleFactor>
+                    <PackageMaxCount>9999</PackageMaxCount>
+                    <PackageDescription>0</PackageDescription>
+                    <PackageFluffText>4590</PackageFluffText>
+                </ScenarioWorkshopPackage>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- ScenarioWorkshopPackage in der Galerie einpflegen -->
+    <ModOp GUID="1252" Type="add" Path="Values/ScenarioWorkshopScene/ScenarioWorkshopCategories/Skin/ScenarioWorkshopCategory">
+        <Item>
+            <ScenarioWorkshopPackage>1357900141</ScenarioWorkshopPackage>
+        </Item>
+    </ModOp>
+
+
+    <!-- ScenarioWorkshopItem fuer Item 124883 Die Bundeslade erzeugen -->
+    <ModOp GUID = "4308" Type = "addNextSibling">
+        <Asset>
+            <Template>ScenarioWorkshopItem</Template>
+            <Values>
+                <Standard>
+                    <!-- GUID aus Range von schwubbe -->
+                    <GUID>1357900146</GUID>
+                    <Name>WorkshopItemForGalary</Name>
+                </Standard>
+                <Text />
+                <ScenarioWorkshopItem>
+                    <!-- verweis auf das Asset -->
+                    <AssetReference>124883</AssetReference>
+                </ScenarioWorkshopItem>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- ein ScenarioWorkshopPackage aus dem ScenarioWorkshopItem erstellen -->
+    <ModOp GUID="2258" Type="addNextSibling">
+        <Asset>
+            <Template>ScenarioWorkshopPackage</Template>
+            <Values>
+                <Standard>
+                    <!-- GUID aus Range von schwubbe -->
+                    <GUID>1357900147</GUID>
+                    <Name>WorkshopPackageForGalery</Name>
+                </Standard>
+                <ScenarioWorkshopPackage>
+                    <ScenarioWorkshopItems>
+                        <Item>
+                            <ScenarioWorkshopItem>1357900146</ScenarioWorkshopItem>
+                        </Item>
+                    </ScenarioWorkshopItems>
+                    <RubberDots>20</RubberDots>
+                    <PackageHeadline>0</PackageHeadline>
+                    <PackageRubberDotScaleFactor>1</PackageRubberDotScaleFactor>
+                    <PackageMaxCount>9999</PackageMaxCount>
+                    <PackageDescription>0</PackageDescription>
+                    <PackageFluffText>4590</PackageFluffText>
+                </ScenarioWorkshopPackage>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- ScenarioWorkshopPackage in der Galerie einpflegen -->
+    <ModOp GUID="1252" Type="add" Path="Values/ScenarioWorkshopScene/ScenarioWorkshopCategories/Skin/ScenarioWorkshopCategory">
+        <Item>
+            <ScenarioWorkshopPackage>1357900147</ScenarioWorkshopPackage>
+        </Item>
+    </ModOp>
+
+
+    <!-- ScenarioWorkshopItem fuer Item 124884 Ghebbi-Diorama erzeugen -->
+    <ModOp GUID = "4308" Type = "addNextSibling">
+        <Asset>
+            <Template>ScenarioWorkshopItem</Template>
+            <Values>
+                <Standard>
+                    <!-- GUID aus Range von schwubbe -->
+                    <GUID>1357900142</GUID>
+                    <Name>WorkshopItemForGalary</Name>
+                </Standard>
+                <Text />
+                <ScenarioWorkshopItem>
+                    <!-- verweis auf das Asset -->
+                    <AssetReference>124884</AssetReference>
+                </ScenarioWorkshopItem>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- ein ScenarioWorkshopPackage aus dem ScenarioWorkshopItem erstellen -->
+    <ModOp GUID="2258" Type="addNextSibling">
+        <Asset>
+            <Template>ScenarioWorkshopPackage</Template>
+            <Values>
+                <Standard>
+                    <!-- GUID aus Range von schwubbe -->
+                    <GUID>1357900143</GUID>
+                    <Name>WorkshopPackageForGalery</Name>
+                </Standard>
+                <ScenarioWorkshopPackage>
+                    <ScenarioWorkshopItems>
+                        <Item>
+                            <ScenarioWorkshopItem>1357900142</ScenarioWorkshopItem>
+                        </Item>
+                    </ScenarioWorkshopItems>
+                    <RubberDots>15</RubberDots>
+                    <PackageHeadline>0</PackageHeadline>
+                    <PackageRubberDotScaleFactor>1</PackageRubberDotScaleFactor>
+                    <PackageMaxCount>9999</PackageMaxCount>
+                    <PackageDescription>0</PackageDescription>
+                    <PackageFluffText>4590</PackageFluffText>
+                </ScenarioWorkshopPackage>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- ScenarioWorkshopPackage in der Galerie einpflegen -->
+    <ModOp GUID="1252" Type="add" Path="Values/ScenarioWorkshopScene/ScenarioWorkshopCategories/Skin/ScenarioWorkshopCategory">
+        <Item>
+            <ScenarioWorkshopPackage>1357900143</ScenarioWorkshopPackage>
+        </Item>
+    </ModOp>
+
+
+    <!-- ScenarioWorkshopItem fuer Item 124885 Kidusisches Kirchen-Diorama erzeugen -->
+    <ModOp GUID = "4308" Type = "addNextSibling">
+        <Asset>
+            <Template>ScenarioWorkshopItem</Template>
+            <Values>
+                <Standard>
+                    <!-- GUID aus Range von schwubbe -->
+                    <GUID>1357900144</GUID>
+                    <Name>WorkshopItemForGalary</Name>
+                </Standard>
+                <Text />
+                <ScenarioWorkshopItem>
+                    <!-- verweis auf das Asset -->
+                    <AssetReference>124885</AssetReference>
+                </ScenarioWorkshopItem>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- ein ScenarioWorkshopPackage aus dem ScenarioWorkshopItem erstellen -->
+    <ModOp GUID="2258" Type="addNextSibling">
+        <Asset>
+            <Template>ScenarioWorkshopPackage</Template>
+            <Values>
+                <Standard>
+                    <!-- GUID aus Range von schwubbe -->
+                    <GUID>1357900145</GUID>
+                    <Name>WorkshopPackageForGalery</Name>
+                </Standard>
+                <ScenarioWorkshopPackage>
+                    <ScenarioWorkshopItems>
+                        <Item>
+                            <ScenarioWorkshopItem>1357900144</ScenarioWorkshopItem>
+                        </Item>
+                    </ScenarioWorkshopItems>
+                    <RubberDots>15</RubberDots>
+                    <PackageHeadline>0</PackageHeadline>
+                    <PackageRubberDotScaleFactor>1</PackageRubberDotScaleFactor>
+                    <PackageMaxCount>9999</PackageMaxCount>
+                    <PackageDescription>0</PackageDescription>
+                    <PackageFluffText>4590</PackageFluffText>
+                </ScenarioWorkshopPackage>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- ScenarioWorkshopPackage in der Galerie einpflegen -->
+    <ModOp GUID="1252" Type="add" Path="Values/ScenarioWorkshopScene/ScenarioWorkshopCategories/Skin/ScenarioWorkshopCategory">
+        <Item>
+            <ScenarioWorkshopPackage>1357900145</ScenarioWorkshopPackage>
+        </Item>
+    </ModOp>
+
+
+    <!-- ScenarioWorkshopItem fuer Item 124871 Löwe von Selamawi erzeugen -->
+    <ModOp GUID = "4308" Type = "addNextSibling">
+        <Asset>
+            <Template>ScenarioWorkshopItem</Template>
+            <Values>
+                <Standard>
+                    <!-- GUID aus Range von schwubbe -->
+                    <GUID>1357900148</GUID>
+                    <Name>WorkshopItemForGalary</Name>
+                </Standard>
+                <Text />
+                <ScenarioWorkshopItem>
+                    <!-- verweis auf das Asset -->
+                    <AssetReference>124871</AssetReference>
+                </ScenarioWorkshopItem>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- ein ScenarioWorkshopPackage aus dem ScenarioWorkshopItem erstellen -->
+    <ModOp GUID="2258" Type="addNextSibling">
+        <Asset>
+            <Template>ScenarioWorkshopPackage</Template>
+            <Values>
+                <Standard>
+                    <!-- GUID aus Range von schwubbe -->
+                    <GUID>1357900149</GUID>
+                    <Name>WorkshopPackageForGalery</Name>
+                </Standard>
+                <ScenarioWorkshopPackage>
+                    <ScenarioWorkshopItems>
+                        <Item>
+                            <ScenarioWorkshopItem>1357900148</ScenarioWorkshopItem>
+                        </Item>
+                    </ScenarioWorkshopItems>
+                    <RubberDots>10</RubberDots>
+                    <PackageHeadline>0</PackageHeadline>
+                    <PackageRubberDotScaleFactor>1</PackageRubberDotScaleFactor>
+                    <PackageMaxCount>9999</PackageMaxCount>
+                    <PackageDescription>0</PackageDescription>
+                    <PackageFluffText>4590</PackageFluffText>
+                </ScenarioWorkshopPackage>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- ScenarioWorkshopPackage in der Galerie einpflegen -->
+    <ModOp GUID="1252" Type="add" Path="Values/ScenarioWorkshopScene/ScenarioWorkshopCategories/Skin/ScenarioWorkshopCategory">
+        <Item>
+            <ScenarioWorkshopPackage>1357900149</ScenarioWorkshopPackage>
+        </Item>
+    </ModOp>
+
+
+    <!-- ScenarioWorkshopItem fuer Item 124875 Arksum-Obelisk erzeugen -->
+    <ModOp GUID = "4308" Type = "addNextSibling">
+        <Asset>
+            <Template>ScenarioWorkshopItem</Template>
+            <Values>
+                <Standard>
+                    <!-- GUID aus Range von schwubbe -->
+                    <GUID>1357900150</GUID>
+                    <Name>WorkshopItemForGalary</Name>
+                </Standard>
+                <Text />
+                <ScenarioWorkshopItem>
+                    <!-- verweis auf das Asset -->
+                    <AssetReference>124875</AssetReference>
+                </ScenarioWorkshopItem>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- ein ScenarioWorkshopPackage aus dem ScenarioWorkshopItem erstellen -->
+    <ModOp GUID="2258" Type="addNextSibling">
+        <Asset>
+            <Template>ScenarioWorkshopPackage</Template>
+            <Values>
+                <Standard>
+                    <!-- GUID aus Range von schwubbe -->
+                    <GUID>1357900151</GUID>
+                    <Name>WorkshopPackageForGalery</Name>
+                </Standard>
+                <ScenarioWorkshopPackage>
+                    <ScenarioWorkshopItems>
+                        <Item>
+                            <ScenarioWorkshopItem>1357900150</ScenarioWorkshopItem>
+                        </Item>
+                    </ScenarioWorkshopItems>
+                    <RubberDots>10</RubberDots>
+                    <PackageHeadline>0</PackageHeadline>
+                    <PackageRubberDotScaleFactor>1</PackageRubberDotScaleFactor>
+                    <PackageMaxCount>9999</PackageMaxCount>
+                    <PackageDescription>0</PackageDescription>
+                    <PackageFluffText>4590</PackageFluffText>
+                </ScenarioWorkshopPackage>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- ScenarioWorkshopPackage in der Galerie einpflegen -->
+    <ModOp GUID="1252" Type="add" Path="Values/ScenarioWorkshopScene/ScenarioWorkshopCategories/Skin/ScenarioWorkshopCategory">
+        <Item>
+            <ScenarioWorkshopPackage>1357900151</ScenarioWorkshopPackage>
+        </Item>
+    </ModOp>
+
+
+    <!-- ScenarioWorkshopItem fuer Item 124870 Ruhm der Könige erzeugen -->
+    <ModOp GUID = "4308" Type = "addNextSibling">
+        <Asset>
+            <Template>ScenarioWorkshopItem</Template>
+            <Values>
+                <Standard>
+                    <!-- GUID aus Range von schwubbe -->
+                    <GUID>1357900152</GUID>
+                    <Name>WorkshopItemForGalary</Name>
+                </Standard>
+                <Text />
+                <ScenarioWorkshopItem>
+                    <!-- verweis auf das Asset -->
+                    <AssetReference>124870</AssetReference>
+                </ScenarioWorkshopItem>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- ein ScenarioWorkshopPackage aus dem ScenarioWorkshopItem erstellen -->
+    <ModOp GUID="2258" Type="addNextSibling">
+        <Asset>
+            <Template>ScenarioWorkshopPackage</Template>
+            <Values>
+                <Standard>
+                    <!-- GUID aus Range von schwubbe -->
+                    <GUID>1357900153</GUID>
+                    <Name>WorkshopPackageForGalery</Name>
+                </Standard>
+                <ScenarioWorkshopPackage>
+                    <ScenarioWorkshopItems>
+                        <Item>
+                            <ScenarioWorkshopItem>1357900152</ScenarioWorkshopItem>
+                        </Item>
+                    </ScenarioWorkshopItems>
+                    <RubberDots>5</RubberDots>
+                    <PackageHeadline>0</PackageHeadline>
+                    <PackageRubberDotScaleFactor>1</PackageRubberDotScaleFactor>
+                    <PackageMaxCount>9999</PackageMaxCount>
+                    <PackageDescription>0</PackageDescription>
+                    <PackageFluffText>4590</PackageFluffText>
+                </ScenarioWorkshopPackage>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- ScenarioWorkshopPackage in der Galerie einpflegen -->
+    <ModOp GUID="1252" Type="add" Path="Values/ScenarioWorkshopScene/ScenarioWorkshopCategories/Skin/ScenarioWorkshopCategory">
+        <Item>
+            <ScenarioWorkshopPackage>1357900153</ScenarioWorkshopPackage>
+        </Item>
+    </ModOp>
+
+
+    <!-- ScenarioWorkshopItem fuer Item 124877 Masus Mappa mundi erzeugen -->
+    <ModOp GUID = "4308" Type = "addNextSibling">
+        <Asset>
+            <Template>ScenarioWorkshopItem</Template>
+            <Values>
+                <Standard>
+                    <!-- GUID aus Range von schwubbe -->
+                    <GUID>1357900154</GUID>
+                    <Name>WorkshopItemForGalary</Name>
+                </Standard>
+                <Text />
+                <ScenarioWorkshopItem>
+                    <!-- verweis auf das Asset -->
+                    <AssetReference>124877</AssetReference>
+                </ScenarioWorkshopItem>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- ein ScenarioWorkshopPackage aus dem ScenarioWorkshopItem erstellen -->
+    <ModOp GUID="2258" Type="addNextSibling">
+        <Asset>
+            <Template>ScenarioWorkshopPackage</Template>
+            <Values>
+                <Standard>
+                    <!-- GUID aus Range von schwubbe -->
+                    <GUID>1357900155</GUID>
+                    <Name>WorkshopPackageForGalery</Name>
+                </Standard>
+                <ScenarioWorkshopPackage>
+                    <ScenarioWorkshopItems>
+                        <Item>
+                            <ScenarioWorkshopItem>1357900154</ScenarioWorkshopItem>
+                        </Item>
+                    </ScenarioWorkshopItems>
+                    <RubberDots>15</RubberDots>
+                    <PackageHeadline>0</PackageHeadline>
+                    <PackageRubberDotScaleFactor>1</PackageRubberDotScaleFactor>
+                    <PackageMaxCount>9999</PackageMaxCount>
+                    <PackageDescription>0</PackageDescription>
+                    <PackageFluffText>4590</PackageFluffText>
+                </ScenarioWorkshopPackage>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- ScenarioWorkshopPackage in der Galerie einpflegen -->
+    <ModOp GUID="1252" Type="add" Path="Values/ScenarioWorkshopScene/ScenarioWorkshopCategories/Skin/ScenarioWorkshopCategory">
+        <Item>
+            <ScenarioWorkshopPackage>1357900155</ScenarioWorkshopPackage>
+        </Item>
+    </ModOp>
+
+
+    <!-- ScenarioWorkshopItem fuer Item 124881 Tambakto-Diorama erzeugen -->
+    <ModOp GUID = "4308" Type = "addNextSibling">
+        <Asset>
+            <Template>ScenarioWorkshopItem</Template>
+            <Values>
+                <Standard>
+                    <!-- GUID aus Range von schwubbe -->
+                    <GUID>1357900156</GUID>
+                    <Name>WorkshopItemForGalary</Name>
+                </Standard>
+                <Text />
+                <ScenarioWorkshopItem>
+                    <!-- verweis auf das Asset -->
+                    <AssetReference>124881</AssetReference>
+                </ScenarioWorkshopItem>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- ein ScenarioWorkshopPackage aus dem ScenarioWorkshopItem erstellen -->
+    <ModOp GUID="2258" Type="addNextSibling">
+        <Asset>
+            <Template>ScenarioWorkshopPackage</Template>
+            <Values>
+                <Standard>
+                    <!-- GUID aus Range von schwubbe -->
+                    <GUID>1357900157</GUID>
+                    <Name>WorkshopPackageForGalery</Name>
+                </Standard>
+                <ScenarioWorkshopPackage>
+                    <ScenarioWorkshopItems>
+                        <Item>
+                            <ScenarioWorkshopItem>1357900156</ScenarioWorkshopItem>
+                        </Item>
+                    </ScenarioWorkshopItems>
+                    <RubberDots>15</RubberDots>
+                    <PackageHeadline>0</PackageHeadline>
+                    <PackageRubberDotScaleFactor>1</PackageRubberDotScaleFactor>
+                    <PackageMaxCount>9999</PackageMaxCount>
+                    <PackageDescription>0</PackageDescription>
+                    <PackageFluffText>4590</PackageFluffText>
+                </ScenarioWorkshopPackage>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- ScenarioWorkshopPackage in der Galerie einpflegen -->
+    <ModOp GUID="1252" Type="add" Path="Values/ScenarioWorkshopScene/ScenarioWorkshopCategories/Skin/ScenarioWorkshopCategory">
+        <Item>
+            <ScenarioWorkshopPackage>1357900157</ScenarioWorkshopPackage>
+        </Item>
+    </ModOp>
+
+
+    <!-- ScenarioWorkshopItem fuer Item 124876 Schmuck von Masu Masu erzeugen -->
+    <ModOp GUID = "4308" Type = "addNextSibling">
+        <Asset>
+            <Template>ScenarioWorkshopItem</Template>
+            <Values>
+                <Standard>
+                    <!-- GUID aus Range von schwubbe -->
+                    <GUID>1357900158</GUID>
+                    <Name>WorkshopItemForGalary</Name>
+                </Standard>
+                <Text />
+                <ScenarioWorkshopItem>
+                    <!-- verweis auf das Asset -->
+                    <AssetReference>124876</AssetReference>
+                </ScenarioWorkshopItem>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- ein ScenarioWorkshopPackage aus dem ScenarioWorkshopItem erstellen -->
+    <ModOp GUID="2258" Type="addNextSibling">
+        <Asset>
+            <Template>ScenarioWorkshopPackage</Template>
+            <Values>
+                <Standard>
+                    <!-- GUID aus Range von schwubbe -->
+                    <GUID>1357900159</GUID>
+                    <Name>WorkshopPackageForGalery</Name>
+                </Standard>
+                <ScenarioWorkshopPackage>
+                    <ScenarioWorkshopItems>
+                        <Item>
+                            <ScenarioWorkshopItem>1357900158</ScenarioWorkshopItem>
+                        </Item>
+                    </ScenarioWorkshopItems>
+                    <RubberDots>10</RubberDots>
+                    <PackageHeadline>0</PackageHeadline>
+                    <PackageRubberDotScaleFactor>1</PackageRubberDotScaleFactor>
+                    <PackageMaxCount>9999</PackageMaxCount>
+                    <PackageDescription>0</PackageDescription>
+                    <PackageFluffText>4590</PackageFluffText>
+                </ScenarioWorkshopPackage>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- ScenarioWorkshopPackage in der Galerie einpflegen -->
+    <ModOp GUID="1252" Type="add" Path="Values/ScenarioWorkshopScene/ScenarioWorkshopCategories/Skin/ScenarioWorkshopCategory">
+        <Item>
+            <ScenarioWorkshopPackage>1357900159</ScenarioWorkshopPackage>
+        </Item>
+    </ModOp>
+
+
+    <!-- ScenarioWorkshopItem fuer Item 124880 Tempel-von-Nafir-Diorama erzeugen -->
+    <ModOp GUID = "4308" Type = "addNextSibling">
+        <Asset>
+            <Template>ScenarioWorkshopItem</Template>
+            <Values>
+                <Standard>
+                    <!-- GUID aus Range von schwubbe -->
+                    <GUID>1357900164</GUID>
+                    <Name>WorkshopItemForGalary</Name>
+                </Standard>
+                <Text />
+                <ScenarioWorkshopItem>
+                    <!-- verweis auf das Asset -->
+                    <AssetReference>124880</AssetReference>
+                </ScenarioWorkshopItem>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- ein ScenarioWorkshopPackage aus dem ScenarioWorkshopItem erstellen -->
+    <ModOp GUID="2258" Type="addNextSibling">
+        <Asset>
+            <Template>ScenarioWorkshopPackage</Template>
+            <Values>
+                <Standard>
+                    <!-- GUID aus Range von schwubbe -->
+                    <GUID>1357900165</GUID>
+                    <Name>WorkshopPackageForGalery</Name>
+                </Standard>
+                <ScenarioWorkshopPackage>
+                    <ScenarioWorkshopItems>
+                        <Item>
+                            <ScenarioWorkshopItem>1357900164</ScenarioWorkshopItem>
+                        </Item>
+                    </ScenarioWorkshopItems>
+                    <RubberDots>20</RubberDots>
+                    <PackageHeadline>0</PackageHeadline>
+                    <PackageRubberDotScaleFactor>1</PackageRubberDotScaleFactor>
+                    <PackageMaxCount>9999</PackageMaxCount>
+                    <PackageDescription>0</PackageDescription>
+                    <PackageFluffText>4590</PackageFluffText>
+                </ScenarioWorkshopPackage>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- ScenarioWorkshopPackage in der Galerie einpflegen -->
+    <ModOp GUID="1252" Type="add" Path="Values/ScenarioWorkshopScene/ScenarioWorkshopCategories/Skin/ScenarioWorkshopCategory">
+        <Item>
+            <ScenarioWorkshopPackage>1357900165</ScenarioWorkshopPackage>
+        </Item>
+    </ModOp>
+
+
+    <!-- ScenarioWorkshopItem fuer Item 124878 Hor-Statue erzeugen -->
+    <ModOp GUID = "4308" Type = "addNextSibling">
+        <Asset>
+            <Template>ScenarioWorkshopItem</Template>
+            <Values>
+                <Standard>
+                    <!-- GUID aus Range von schwubbe -->
+                    <GUID>1357900160</GUID>
+                    <Name>WorkshopItemForGalary</Name>
+                </Standard>
+                <Text />
+                <ScenarioWorkshopItem>
+                    <!-- verweis auf das Asset -->
+                    <AssetReference>124878</AssetReference>
+                </ScenarioWorkshopItem>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- ein ScenarioWorkshopPackage aus dem ScenarioWorkshopItem erstellen -->
+    <ModOp GUID="2258" Type="addNextSibling">
+        <Asset>
+            <Template>ScenarioWorkshopPackage</Template>
+            <Values>
+                <Standard>
+                    <!-- GUID aus Range von schwubbe -->
+                    <GUID>1357900161</GUID>
+                    <Name>WorkshopPackageForGalery</Name>
+                </Standard>
+                <ScenarioWorkshopPackage>
+                    <ScenarioWorkshopItems>
+                        <Item>
+                            <ScenarioWorkshopItem>1357900160</ScenarioWorkshopItem>
+                        </Item>
+                    </ScenarioWorkshopItems>
+                    <RubberDots>15</RubberDots>
+                    <PackageHeadline>0</PackageHeadline>
+                    <PackageRubberDotScaleFactor>1</PackageRubberDotScaleFactor>
+                    <PackageMaxCount>9999</PackageMaxCount>
+                    <PackageDescription>0</PackageDescription>
+                    <PackageFluffText>4590</PackageFluffText>
+                </ScenarioWorkshopPackage>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- ScenarioWorkshopPackage in der Galerie einpflegen -->
+    <ModOp GUID="1252" Type="add" Path="Values/ScenarioWorkshopScene/ScenarioWorkshopCategories/Skin/ScenarioWorkshopCategory">
+        <Item>
+            <ScenarioWorkshopPackage>1357900161</ScenarioWorkshopPackage>
+        </Item>
+    </ModOp>
+
+
+    <!-- ScenarioWorkshopItem fuer Item 124879 Statue von Anubis erzeugen -->
+    <ModOp GUID = "4308" Type = "addNextSibling">
+        <Asset>
+            <Template>ScenarioWorkshopItem</Template>
+            <Values>
+                <Standard>
+                    <!-- GUID aus Range von schwubbe -->
+                    <GUID>1357900162</GUID>
+                    <Name>WorkshopItemForGalary</Name>
+                </Standard>
+                <Text />
+                <ScenarioWorkshopItem>
+                    <!-- verweis auf das Asset -->
+                    <AssetReference>124879</AssetReference>
+                </ScenarioWorkshopItem>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- ein ScenarioWorkshopPackage aus dem ScenarioWorkshopItem erstellen -->
+    <ModOp GUID="2258" Type="addNextSibling">
+        <Asset>
+            <Template>ScenarioWorkshopPackage</Template>
+            <Values>
+                <Standard>
+                    <!-- GUID aus Range von schwubbe -->
+                    <GUID>1357900163</GUID>
+                    <Name>WorkshopPackageForGalery</Name>
+                </Standard>
+                <ScenarioWorkshopPackage>
+                    <ScenarioWorkshopItems>
+                        <Item>
+                            <ScenarioWorkshopItem>1357900162</ScenarioWorkshopItem>
+                        </Item>
+                    </ScenarioWorkshopItems>
+                    <RubberDots>15</RubberDots>
+                    <PackageHeadline>0</PackageHeadline>
+                    <PackageRubberDotScaleFactor>1</PackageRubberDotScaleFactor>
+                    <PackageMaxCount>9999</PackageMaxCount>
+                    <PackageDescription>0</PackageDescription>
+                    <PackageFluffText>4590</PackageFluffText>
+                </ScenarioWorkshopPackage>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- ScenarioWorkshopPackage in der Galerie einpflegen -->
+    <ModOp GUID="1252" Type="add" Path="Values/ScenarioWorkshopScene/ScenarioWorkshopCategories/Skin/ScenarioWorkshopCategory">
+        <Item>
+            <ScenarioWorkshopPackage>1357900163</ScenarioWorkshopPackage>
+        </Item>
+    </ModOp>
+
+
+    <!-- ScenarioWorkshopItem fuer Item 190473 Juanita die Mumie erzeugen -->
+    <ModOp GUID = "4308" Type = "addNextSibling">
+        <Asset>
+            <Template>ScenarioWorkshopItem</Template>
+            <Values>
+                <Standard>
+                    <!-- GUID aus Range von schwubbe -->
+                    <GUID>1357900166</GUID>
+                    <Name>WorkshopItemForGalary</Name>
+                </Standard>
+                <Text />
+                <ScenarioWorkshopItem>
+                    <!-- verweis auf das Asset -->
+                    <AssetReference>190473</AssetReference>
+                </ScenarioWorkshopItem>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- ein ScenarioWorkshopPackage aus dem ScenarioWorkshopItem erstellen -->
+    <ModOp GUID="2258" Type="addNextSibling">
+        <Asset>
+            <Template>ScenarioWorkshopPackage</Template>
+            <Values>
+                <Standard>
+                    <!-- GUID aus Range von schwubbe -->
+                    <GUID>1357900167</GUID>
+                    <Name>WorkshopPackageForGalery</Name>
+                </Standard>
+                <ScenarioWorkshopPackage>
+                    <ScenarioWorkshopItems>
+                        <Item>
+                            <ScenarioWorkshopItem>1357900166</ScenarioWorkshopItem>
+                        </Item>
+                    </ScenarioWorkshopItems>
+                    <RubberDots>15</RubberDots>
+                    <PackageHeadline>0</PackageHeadline>
+                    <PackageRubberDotScaleFactor>1</PackageRubberDotScaleFactor>
+                    <PackageMaxCount>9999</PackageMaxCount>
+                    <PackageDescription>0</PackageDescription>
+                    <PackageFluffText>4590</PackageFluffText>
+                </ScenarioWorkshopPackage>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- ScenarioWorkshopPackage in der Galerie einpflegen -->
+    <ModOp GUID="1252" Type="add" Path="Values/ScenarioWorkshopScene/ScenarioWorkshopCategories/Skin/ScenarioWorkshopCategory">
+        <Item>
+            <ScenarioWorkshopPackage>1357900167</ScenarioWorkshopPackage>
+        </Item>
+    </ModOp>
+
+
+    <!-- ScenarioWorkshopItem fuer Item 190496 Nazca-Grab erzeugen -->
+    <ModOp GUID = "4308" Type = "addNextSibling">
+        <Asset>
+            <Template>ScenarioWorkshopItem</Template>
+            <Values>
+                <Standard>
+                    <!-- GUID aus Range von schwubbe -->
+                    <GUID>1357900168</GUID>
+                    <Name>WorkshopItemForGalary</Name>
+                </Standard>
+                <Text />
+                <ScenarioWorkshopItem>
+                    <!-- verweis auf das Asset -->
+                    <AssetReference>190496</AssetReference>
+                </ScenarioWorkshopItem>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- ein ScenarioWorkshopPackage aus dem ScenarioWorkshopItem erstellen -->
+    <ModOp GUID="2258" Type="addNextSibling">
+        <Asset>
+            <Template>ScenarioWorkshopPackage</Template>
+            <Values>
+                <Standard>
+                    <!-- GUID aus Range von schwubbe -->
+                    <GUID>1357900169</GUID>
+                    <Name>WorkshopPackageForGalery</Name>
+                </Standard>
+                <ScenarioWorkshopPackage>
+                    <ScenarioWorkshopItems>
+                        <Item>
+                            <ScenarioWorkshopItem>1357900168</ScenarioWorkshopItem>
+                        </Item>
+                    </ScenarioWorkshopItems>
+                    <RubberDots>15</RubberDots>
+                    <PackageHeadline>0</PackageHeadline>
+                    <PackageRubberDotScaleFactor>1</PackageRubberDotScaleFactor>
+                    <PackageMaxCount>9999</PackageMaxCount>
+                    <PackageDescription>0</PackageDescription>
+                    <PackageFluffText>4590</PackageFluffText>
+                </ScenarioWorkshopPackage>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- ScenarioWorkshopPackage in der Galerie einpflegen -->
+    <ModOp GUID="1252" Type="add" Path="Values/ScenarioWorkshopScene/ScenarioWorkshopCategories/Skin/ScenarioWorkshopCategory">
+        <Item>
+            <ScenarioWorkshopPackage>1357900169</ScenarioWorkshopPackage>
+        </Item>
+    </ModOp>
+
+
+    <!-- ScenarioWorkshopItem fuer Item 190282 Affenzahnamulett erzeugen -->
+    <ModOp GUID = "4308" Type = "addNextSibling">
+        <Asset>
+            <Template>ScenarioWorkshopItem</Template>
+            <Values>
+                <Standard>
+                    <!-- GUID aus Range von schwubbe -->
+                    <GUID>1357900170</GUID>
+                    <Name>WorkshopItemForGalary</Name>
+                </Standard>
+                <Text />
+                <ScenarioWorkshopItem>
+                    <!-- verweis auf das Asset -->
+                    <AssetReference>190282</AssetReference>
+                </ScenarioWorkshopItem>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- ein ScenarioWorkshopPackage aus dem ScenarioWorkshopItem erstellen -->
+    <ModOp GUID="2258" Type="addNextSibling">
+        <Asset>
+            <Template>ScenarioWorkshopPackage</Template>
+            <Values>
+                <Standard>
+                    <!-- GUID aus Range von schwubbe -->
+                    <GUID>1357900171</GUID>
+                    <Name>WorkshopPackageForGalery</Name>
+                </Standard>
+                <ScenarioWorkshopPackage>
+                    <ScenarioWorkshopItems>
+                        <Item>
+                            <ScenarioWorkshopItem>1357900170</ScenarioWorkshopItem>
+                        </Item>
+                    </ScenarioWorkshopItems>
+                    <RubberDots>10</RubberDots>
+                    <PackageHeadline>0</PackageHeadline>
+                    <PackageRubberDotScaleFactor>1</PackageRubberDotScaleFactor>
+                    <PackageMaxCount>9999</PackageMaxCount>
+                    <PackageDescription>0</PackageDescription>
+                    <PackageFluffText>4590</PackageFluffText>
+                </ScenarioWorkshopPackage>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- ScenarioWorkshopPackage in der Galerie einpflegen -->
+    <ModOp GUID="1252" Type="add" Path="Values/ScenarioWorkshopScene/ScenarioWorkshopCategories/Skin/ScenarioWorkshopCategory">
+        <Item>
+            <ScenarioWorkshopPackage>1357900171</ScenarioWorkshopPackage>
+        </Item>
+    </ModOp>
+
+
+    <!-- ScenarioWorkshopItem fuer Item 190502 Tyrannosaurus-Rex erzeugen -->
+    <ModOp GUID = "4308" Type = "addNextSibling">
+        <Asset>
+            <Template>ScenarioWorkshopItem</Template>
+            <Values>
+                <Standard>
+                    <!-- GUID aus Range von schwubbe -->
+                    <GUID>1357900176</GUID>
+                    <Name>WorkshopItemForGalary</Name>
+                </Standard>
+                <Text />
+                <ScenarioWorkshopItem>
+                    <!-- verweis auf das Asset -->
+                    <AssetReference>190502</AssetReference>
+                </ScenarioWorkshopItem>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- ein ScenarioWorkshopPackage aus dem ScenarioWorkshopItem erstellen -->
+    <ModOp GUID="2258" Type="addNextSibling">
+        <Asset>
+            <Template>ScenarioWorkshopPackage</Template>
+            <Values>
+                <Standard>
+                    <!-- GUID aus Range von schwubbe -->
+                    <GUID>1357900177</GUID>
+                    <Name>WorkshopPackageForGalery</Name>
+                </Standard>
+                <ScenarioWorkshopPackage>
+                    <ScenarioWorkshopItems>
+                        <Item>
+                            <ScenarioWorkshopItem>1357900176</ScenarioWorkshopItem>
+                        </Item>
+                    </ScenarioWorkshopItems>
+                    <RubberDots>20</RubberDots>
+                    <PackageHeadline>0</PackageHeadline>
+                    <PackageRubberDotScaleFactor>1</PackageRubberDotScaleFactor>
+                    <PackageMaxCount>9999</PackageMaxCount>
+                    <PackageDescription>0</PackageDescription>
+                    <PackageFluffText>4590</PackageFluffText>
+                </ScenarioWorkshopPackage>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- ScenarioWorkshopPackage in der Galerie einpflegen -->
+    <ModOp GUID="1252" Type="add" Path="Values/ScenarioWorkshopScene/ScenarioWorkshopCategories/Skin/ScenarioWorkshopCategory">
+        <Item>
+            <ScenarioWorkshopPackage>1357900177</ScenarioWorkshopPackage>
+        </Item>
+    </ModOp>
+
+
+    <!-- ScenarioWorkshopItem fuer Item 190504 Apatosaurus erzeugen -->
+    <ModOp GUID = "4308" Type = "addNextSibling">
+        <Asset>
+            <Template>ScenarioWorkshopItem</Template>
+            <Values>
+                <Standard>
+                    <!-- GUID aus Range von schwubbe -->
+                    <GUID>1357900178</GUID>
+                    <Name>WorkshopItemForGalary</Name>
+                </Standard>
+                <Text />
+                <ScenarioWorkshopItem>
+                    <!-- verweis auf das Asset -->
+                    <AssetReference>190504</AssetReference>
+                </ScenarioWorkshopItem>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- ein ScenarioWorkshopPackage aus dem ScenarioWorkshopItem erstellen -->
+    <ModOp GUID="2258" Type="addNextSibling">
+        <Asset>
+            <Template>ScenarioWorkshopPackage</Template>
+            <Values>
+                <Standard>
+                    <!-- GUID aus Range von schwubbe -->
+                    <GUID>1357900179</GUID>
+                    <Name>WorkshopPackageForGalery</Name>
+                </Standard>
+                <ScenarioWorkshopPackage>
+                    <ScenarioWorkshopItems>
+                        <Item>
+                            <ScenarioWorkshopItem>1357900178</ScenarioWorkshopItem>
+                        </Item>
+                    </ScenarioWorkshopItems>
+                    <RubberDots>20</RubberDots>
+                    <PackageHeadline>0</PackageHeadline>
+                    <PackageRubberDotScaleFactor>1</PackageRubberDotScaleFactor>
+                    <PackageMaxCount>9999</PackageMaxCount>
+                    <PackageDescription>0</PackageDescription>
+                    <PackageFluffText>4590</PackageFluffText>
+                </ScenarioWorkshopPackage>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- ScenarioWorkshopPackage in der Galerie einpflegen -->
+    <ModOp GUID="1252" Type="add" Path="Values/ScenarioWorkshopScene/ScenarioWorkshopCategories/Skin/ScenarioWorkshopCategory">
+        <Item>
+            <ScenarioWorkshopPackage>1357900179</ScenarioWorkshopPackage>
+        </Item>
+    </ModOp>
+
+
+    <!-- ScenarioWorkshopItem fuer Item 190505 Mosasaurus-Fossil erzeugen -->
+    <ModOp GUID = "4308" Type = "addNextSibling">
+        <Asset>
+            <Template>ScenarioWorkshopItem</Template>
+            <Values>
+                <Standard>
+                    <!-- GUID aus Range von schwubbe -->
+                    <GUID>1357900180</GUID>
+                    <Name>WorkshopItemForGalary</Name>
+                </Standard>
+                <Text />
+                <ScenarioWorkshopItem>
+                    <!-- verweis auf das Asset -->
+                    <AssetReference>190505</AssetReference>
+                </ScenarioWorkshopItem>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- ein ScenarioWorkshopPackage aus dem ScenarioWorkshopItem erstellen -->
+    <ModOp GUID="2258" Type="addNextSibling">
+        <Asset>
+            <Template>ScenarioWorkshopPackage</Template>
+            <Values>
+                <Standard>
+                    <!-- GUID aus Range von schwubbe -->
+                    <GUID>1357900181</GUID>
+                    <Name>WorkshopPackageForGalery</Name>
+                </Standard>
+                <ScenarioWorkshopPackage>
+                    <ScenarioWorkshopItems>
+                        <Item>
+                            <ScenarioWorkshopItem>1357900180</ScenarioWorkshopItem>
+                        </Item>
+                    </ScenarioWorkshopItems>
+                    <RubberDots>20</RubberDots>
+                    <PackageHeadline>0</PackageHeadline>
+                    <PackageRubberDotScaleFactor>1</PackageRubberDotScaleFactor>
+                    <PackageMaxCount>9999</PackageMaxCount>
+                    <PackageDescription>0</PackageDescription>
+                    <PackageFluffText>4590</PackageFluffText>
+                </ScenarioWorkshopPackage>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- ScenarioWorkshopPackage in der Galerie einpflegen -->
+    <ModOp GUID="1252" Type="add" Path="Values/ScenarioWorkshopScene/ScenarioWorkshopCategories/Skin/ScenarioWorkshopCategory">
+        <Item>
+            <ScenarioWorkshopPackage>1357900181</ScenarioWorkshopPackage>
+        </Item>
+    </ModOp>
+
+
+    <!-- ScenarioWorkshopItem fuer Item 190503 Stegoraurus erzeugen -->
+    <ModOp GUID = "4308" Type = "addNextSibling">
+        <Asset>
+            <Template>ScenarioWorkshopItem</Template>
+            <Values>
+                <Standard>
+                    <!-- GUID aus Range von schwubbe -->
+                    <GUID>1357900172</GUID>
+                    <Name>WorkshopItemForGalary</Name>
+                </Standard>
+                <Text />
+                <ScenarioWorkshopItem>
+                    <!-- verweis auf das Asset -->
+                    <AssetReference>190503</AssetReference>
+                </ScenarioWorkshopItem>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- ein ScenarioWorkshopPackage aus dem ScenarioWorkshopItem erstellen -->
+    <ModOp GUID="2258" Type="addNextSibling">
+        <Asset>
+            <Template>ScenarioWorkshopPackage</Template>
+            <Values>
+                <Standard>
+                    <!-- GUID aus Range von schwubbe -->
+                    <GUID>1357900173</GUID>
+                    <Name>WorkshopPackageForGalery</Name>
+                </Standard>
+                <ScenarioWorkshopPackage>
+                    <ScenarioWorkshopItems>
+                        <Item>
+                            <ScenarioWorkshopItem>1357900172</ScenarioWorkshopItem>
+                        </Item>
+                    </ScenarioWorkshopItems>
+                    <RubberDots>15</RubberDots>
+                    <PackageHeadline>0</PackageHeadline>
+                    <PackageRubberDotScaleFactor>1</PackageRubberDotScaleFactor>
+                    <PackageMaxCount>9999</PackageMaxCount>
+                    <PackageDescription>0</PackageDescription>
+                    <PackageFluffText>4590</PackageFluffText>
+                </ScenarioWorkshopPackage>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- ScenarioWorkshopPackage in der Galerie einpflegen -->
+    <ModOp GUID="1252" Type="add" Path="Values/ScenarioWorkshopScene/ScenarioWorkshopCategories/Skin/ScenarioWorkshopCategory">
+        <Item>
+            <ScenarioWorkshopPackage>1357900173</ScenarioWorkshopPackage>
+        </Item>
+    </ModOp>
+
+
+    <!-- ScenarioWorkshopItem fuer Item 190549 Protoceratops-Eier erzeugen -->
+    <ModOp GUID = "4308" Type = "addNextSibling">
+        <Asset>
+            <Template>ScenarioWorkshopItem</Template>
+            <Values>
+                <Standard>
+                    <!-- GUID aus Range von schwubbe -->
+                    <GUID>1357900174</GUID>
+                    <Name>WorkshopItemForGalary</Name>
+                </Standard>
+                <Text />
+                <ScenarioWorkshopItem>
+                    <!-- verweis auf das Asset -->
+                    <AssetReference>190549</AssetReference>
+                </ScenarioWorkshopItem>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- ein ScenarioWorkshopPackage aus dem ScenarioWorkshopItem erstellen -->
+    <ModOp GUID="2258" Type="addNextSibling">
+        <Asset>
+            <Template>ScenarioWorkshopPackage</Template>
+            <Values>
+                <Standard>
+                    <!-- GUID aus Range von schwubbe -->
+                    <GUID>1357900175</GUID>
+                    <Name>WorkshopPackageForGalery</Name>
+                </Standard>
+                <ScenarioWorkshopPackage>
+                    <ScenarioWorkshopItems>
+                        <Item>
+                            <ScenarioWorkshopItem>1357900174</ScenarioWorkshopItem>
+                        </Item>
+                    </ScenarioWorkshopItems>
+                    <RubberDots>15</RubberDots>
+                    <PackageHeadline>0</PackageHeadline>
+                    <PackageRubberDotScaleFactor>1</PackageRubberDotScaleFactor>
+                    <PackageMaxCount>9999</PackageMaxCount>
+                    <PackageDescription>0</PackageDescription>
+                    <PackageFluffText>4590</PackageFluffText>
+                </ScenarioWorkshopPackage>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- ScenarioWorkshopPackage in der Galerie einpflegen -->
+    <ModOp GUID="1252" Type="add" Path="Values/ScenarioWorkshopScene/ScenarioWorkshopCategories/Skin/ScenarioWorkshopCategory">
+        <Item>
+            <ScenarioWorkshopPackage>1357900175</ScenarioWorkshopPackage>
+        </Item>
+    </ModOp>
+
+
+    <!-- ScenarioWorkshopItem fuer Item 190483 Ammoniten erzeugen -->
+    <ModOp GUID = "4308" Type = "addNextSibling">
+        <Asset>
+            <Template>ScenarioWorkshopItem</Template>
+            <Values>
+                <Standard>
+                    <!-- GUID aus Range von schwubbe -->
+                    <GUID>1357900182</GUID>
+                    <Name>WorkshopItemForGalary</Name>
+                </Standard>
+                <Text />
+                <ScenarioWorkshopItem>
+                    <!-- verweis auf das Asset -->
+                    <AssetReference>190483</AssetReference>
+                </ScenarioWorkshopItem>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- ein ScenarioWorkshopPackage aus dem ScenarioWorkshopItem erstellen -->
+    <ModOp GUID="2258" Type="addNextSibling">
+        <Asset>
+            <Template>ScenarioWorkshopPackage</Template>
+            <Values>
+                <Standard>
+                    <!-- GUID aus Range von schwubbe -->
+                    <GUID>1357900183</GUID>
+                    <Name>WorkshopPackageForGalery</Name>
+                </Standard>
+                <ScenarioWorkshopPackage>
+                    <ScenarioWorkshopItems>
+                        <Item>
+                            <ScenarioWorkshopItem>1357900182</ScenarioWorkshopItem>
+                        </Item>
+                    </ScenarioWorkshopItems>
+                    <RubberDots>10</RubberDots>
+                    <PackageHeadline>0</PackageHeadline>
+                    <PackageRubberDotScaleFactor>1</PackageRubberDotScaleFactor>
+                    <PackageMaxCount>9999</PackageMaxCount>
+                    <PackageDescription>0</PackageDescription>
+                    <PackageFluffText>4590</PackageFluffText>
+                </ScenarioWorkshopPackage>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- ScenarioWorkshopPackage in der Galerie einpflegen -->
+    <ModOp GUID="1252" Type="add" Path="Values/ScenarioWorkshopScene/ScenarioWorkshopCategories/Skin/ScenarioWorkshopCategory">
+        <Item>
+            <ScenarioWorkshopPackage>1357900183</ScenarioWorkshopPackage>
+        </Item>
+    </ModOp>
+
+
+    <!-- ScenarioWorkshopItem fuer Item 190509 Tempel des Poseidon erzeugen -->
+    <ModOp GUID = "4308" Type = "addNextSibling">
+        <Asset>
+            <Template>ScenarioWorkshopItem</Template>
+            <Values>
+                <Standard>
+                    <!-- GUID aus Range von schwubbe -->
+                    <GUID>1357900192</GUID>
+                    <Name>WorkshopItemForGalary</Name>
+                </Standard>
+                <Text />
+                <ScenarioWorkshopItem>
+                    <!-- verweis auf das Asset -->
+                    <AssetReference>190509</AssetReference>
+                </ScenarioWorkshopItem>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- ein ScenarioWorkshopPackage aus dem ScenarioWorkshopItem erstellen -->
+    <ModOp GUID="2258" Type="addNextSibling">
+        <Asset>
+            <Template>ScenarioWorkshopPackage</Template>
+            <Values>
+                <Standard>
+                    <!-- GUID aus Range von schwubbe -->
+                    <GUID>1357900193</GUID>
+                    <Name>WorkshopPackageForGalery</Name>
+                </Standard>
+                <ScenarioWorkshopPackage>
+                    <ScenarioWorkshopItems>
+                        <Item>
+                            <ScenarioWorkshopItem>1357900192</ScenarioWorkshopItem>
+                        </Item>
+                    </ScenarioWorkshopItems>
+                    <RubberDots>20</RubberDots>
+                    <PackageHeadline>0</PackageHeadline>
+                    <PackageRubberDotScaleFactor>1</PackageRubberDotScaleFactor>
+                    <PackageMaxCount>9999</PackageMaxCount>
+                    <PackageDescription>0</PackageDescription>
+                    <PackageFluffText>4590</PackageFluffText>
+                </ScenarioWorkshopPackage>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- ScenarioWorkshopPackage in der Galerie einpflegen -->
+    <ModOp GUID="1252" Type="add" Path="Values/ScenarioWorkshopScene/ScenarioWorkshopCategories/Skin/ScenarioWorkshopCategory">
+        <Item>
+            <ScenarioWorkshopPackage>1357900193</ScenarioWorkshopPackage>
+        </Item>
+    </ModOp>
+
+
+    <!-- ScenarioWorkshopItem fuer Item 190484 Die Ilias erzeugen -->
+    <ModOp GUID = "4308" Type = "addNextSibling">
+        <Asset>
+            <Template>ScenarioWorkshopItem</Template>
+            <Values>
+                <Standard>
+                    <!-- GUID aus Range von schwubbe -->
+                    <GUID>1357900184</GUID>
+                    <Name>WorkshopItemForGalary</Name>
+                </Standard>
+                <Text />
+                <ScenarioWorkshopItem>
+                    <!-- verweis auf das Asset -->
+                    <AssetReference>190484</AssetReference>
+                </ScenarioWorkshopItem>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- ein ScenarioWorkshopPackage aus dem ScenarioWorkshopItem erstellen -->
+    <ModOp GUID="2258" Type="addNextSibling">
+        <Asset>
+            <Template>ScenarioWorkshopPackage</Template>
+            <Values>
+                <Standard>
+                    <!-- GUID aus Range von schwubbe -->
+                    <GUID>1357900185</GUID>
+                    <Name>WorkshopPackageForGalery</Name>
+                </Standard>
+                <ScenarioWorkshopPackage>
+                    <ScenarioWorkshopItems>
+                        <Item>
+                            <ScenarioWorkshopItem>1357900184</ScenarioWorkshopItem>
+                        </Item>
+                    </ScenarioWorkshopItems>
+                    <RubberDots>15</RubberDots>
+                    <PackageHeadline>0</PackageHeadline>
+                    <PackageRubberDotScaleFactor>1</PackageRubberDotScaleFactor>
+                    <PackageMaxCount>9999</PackageMaxCount>
+                    <PackageDescription>0</PackageDescription>
+                    <PackageFluffText>4590</PackageFluffText>
+                </ScenarioWorkshopPackage>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- ScenarioWorkshopPackage in der Galerie einpflegen -->
+    <ModOp GUID="1252" Type="add" Path="Values/ScenarioWorkshopScene/ScenarioWorkshopCategories/Skin/ScenarioWorkshopCategory">
+        <Item>
+            <ScenarioWorkshopPackage>1357900185</ScenarioWorkshopPackage>
+        </Item>
+    </ModOp>
+
+
+    <!-- ScenarioWorkshopItem fuer Item 190485 Die Odyssee erzeugen -->
+    <ModOp GUID = "4308" Type = "addNextSibling">
+        <Asset>
+            <Template>ScenarioWorkshopItem</Template>
+            <Values>
+                <Standard>
+                    <!-- GUID aus Range von schwubbe -->
+                    <GUID>1357900186</GUID>
+                    <Name>WorkshopItemForGalary</Name>
+                </Standard>
+                <Text />
+                <ScenarioWorkshopItem>
+                    <!-- verweis auf das Asset -->
+                    <AssetReference>190485</AssetReference>
+                </ScenarioWorkshopItem>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- ein ScenarioWorkshopPackage aus dem ScenarioWorkshopItem erstellen -->
+    <ModOp GUID="2258" Type="addNextSibling">
+        <Asset>
+            <Template>ScenarioWorkshopPackage</Template>
+            <Values>
+                <Standard>
+                    <!-- GUID aus Range von schwubbe -->
+                    <GUID>1357900187</GUID>
+                    <Name>WorkshopPackageForGalery</Name>
+                </Standard>
+                <ScenarioWorkshopPackage>
+                    <ScenarioWorkshopItems>
+                        <Item>
+                            <ScenarioWorkshopItem>1357900186</ScenarioWorkshopItem>
+                        </Item>
+                    </ScenarioWorkshopItems>
+                    <RubberDots>15</RubberDots>
+                    <PackageHeadline>0</PackageHeadline>
+                    <PackageRubberDotScaleFactor>1</PackageRubberDotScaleFactor>
+                    <PackageMaxCount>9999</PackageMaxCount>
+                    <PackageDescription>0</PackageDescription>
+                    <PackageFluffText>4590</PackageFluffText>
+                </ScenarioWorkshopPackage>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- ScenarioWorkshopPackage in der Galerie einpflegen -->
+    <ModOp GUID="1252" Type="add" Path="Values/ScenarioWorkshopScene/ScenarioWorkshopCategories/Skin/ScenarioWorkshopCategory">
+        <Item>
+            <ScenarioWorkshopPackage>1357900187</ScenarioWorkshopPackage>
+        </Item>
+    </ModOp>
+
+
+    <!-- ScenarioWorkshopItem fuer Item 190508 Olympiatempel erzeugen -->
+    <ModOp GUID = "4308" Type = "addNextSibling">
+        <Asset>
+            <Template>ScenarioWorkshopItem</Template>
+            <Values>
+                <Standard>
+                    <!-- GUID aus Range von schwubbe -->
+                    <GUID>1357900188</GUID>
+                    <Name>WorkshopItemForGalary</Name>
+                </Standard>
+                <Text />
+                <ScenarioWorkshopItem>
+                    <!-- verweis auf das Asset -->
+                    <AssetReference>190508</AssetReference>
+                </ScenarioWorkshopItem>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- ein ScenarioWorkshopPackage aus dem ScenarioWorkshopItem erstellen -->
+    <ModOp GUID="2258" Type="addNextSibling">
+        <Asset>
+            <Template>ScenarioWorkshopPackage</Template>
+            <Values>
+                <Standard>
+                    <!-- GUID aus Range von schwubbe -->
+                    <GUID>1357900189</GUID>
+                    <Name>WorkshopPackageForGalery</Name>
+                </Standard>
+                <ScenarioWorkshopPackage>
+                    <ScenarioWorkshopItems>
+                        <Item>
+                            <ScenarioWorkshopItem>1357900188</ScenarioWorkshopItem>
+                        </Item>
+                    </ScenarioWorkshopItems>
+                    <RubberDots>15</RubberDots>
+                    <PackageHeadline>0</PackageHeadline>
+                    <PackageRubberDotScaleFactor>1</PackageRubberDotScaleFactor>
+                    <PackageMaxCount>9999</PackageMaxCount>
+                    <PackageDescription>0</PackageDescription>
+                    <PackageFluffText>4590</PackageFluffText>
+                </ScenarioWorkshopPackage>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- ScenarioWorkshopPackage in der Galerie einpflegen -->
+    <ModOp GUID="1252" Type="add" Path="Values/ScenarioWorkshopScene/ScenarioWorkshopCategories/Skin/ScenarioWorkshopCategory">
+        <Item>
+            <ScenarioWorkshopPackage>1357900189</ScenarioWorkshopPackage>
+        </Item>
+    </ModOp>
+
+
+    <!-- ScenarioWorkshopItem fuer Item 190513 Dionysisches Mosaik erzeugen -->
+    <ModOp GUID = "4308" Type = "addNextSibling">
+        <Asset>
+            <Template>ScenarioWorkshopItem</Template>
+            <Values>
+                <Standard>
+                    <!-- GUID aus Range von schwubbe -->
+                    <GUID>1357900190</GUID>
+                    <Name>WorkshopItemForGalary</Name>
+                </Standard>
+                <Text />
+                <ScenarioWorkshopItem>
+                    <!-- verweis auf das Asset -->
+                    <AssetReference>190513</AssetReference>
+                </ScenarioWorkshopItem>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- ein ScenarioWorkshopPackage aus dem ScenarioWorkshopItem erstellen -->
+    <ModOp GUID="2258" Type="addNextSibling">
+        <Asset>
+            <Template>ScenarioWorkshopPackage</Template>
+            <Values>
+                <Standard>
+                    <!-- GUID aus Range von schwubbe -->
+                    <GUID>1357900191</GUID>
+                    <Name>WorkshopPackageForGalery</Name>
+                </Standard>
+                <ScenarioWorkshopPackage>
+                    <ScenarioWorkshopItems>
+                        <Item>
+                            <ScenarioWorkshopItem>1357900190</ScenarioWorkshopItem>
+                        </Item>
+                    </ScenarioWorkshopItems>
+                    <RubberDots>15</RubberDots>
+                    <PackageHeadline>0</PackageHeadline>
+                    <PackageRubberDotScaleFactor>1</PackageRubberDotScaleFactor>
+                    <PackageMaxCount>9999</PackageMaxCount>
+                    <PackageDescription>0</PackageDescription>
+                    <PackageFluffText>4590</PackageFluffText>
+                </ScenarioWorkshopPackage>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- ScenarioWorkshopPackage in der Galerie einpflegen -->
+    <ModOp GUID="1252" Type="add" Path="Values/ScenarioWorkshopScene/ScenarioWorkshopCategories/Skin/ScenarioWorkshopCategory">
+        <Item>
+            <ScenarioWorkshopPackage>1357900191</ScenarioWorkshopPackage>
+        </Item>
+    </ModOp>
+
+
+    <!-- ScenarioWorkshopItem fuer Item 190543 Enosichthon-Statue erzeugen -->
+    <ModOp GUID = "4308" Type = "addNextSibling">
+        <Asset>
+            <Template>ScenarioWorkshopItem</Template>
+            <Values>
+                <Standard>
+                    <!-- GUID aus Range von schwubbe -->
+                    <GUID>1357900194</GUID>
+                    <Name>WorkshopItemForGalary</Name>
+                </Standard>
+                <Text />
+                <ScenarioWorkshopItem>
+                    <!-- verweis auf das Asset -->
+                    <AssetReference>190543</AssetReference>
+                </ScenarioWorkshopItem>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- ein ScenarioWorkshopPackage aus dem ScenarioWorkshopItem erstellen -->
+    <ModOp GUID="2258" Type="addNextSibling">
+        <Asset>
+            <Template>ScenarioWorkshopPackage</Template>
+            <Values>
+                <Standard>
+                    <!-- GUID aus Range von schwubbe -->
+                    <GUID>1357900195</GUID>
+                    <Name>WorkshopPackageForGalery</Name>
+                </Standard>
+                <ScenarioWorkshopPackage>
+                    <ScenarioWorkshopItems>
+                        <Item>
+                            <ScenarioWorkshopItem>1357900194</ScenarioWorkshopItem>
+                        </Item>
+                    </ScenarioWorkshopItems>
+                    <RubberDots>10</RubberDots>
+                    <PackageHeadline>0</PackageHeadline>
+                    <PackageRubberDotScaleFactor>1</PackageRubberDotScaleFactor>
+                    <PackageMaxCount>9999</PackageMaxCount>
+                    <PackageDescription>0</PackageDescription>
+                    <PackageFluffText>4590</PackageFluffText>
+                </ScenarioWorkshopPackage>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- ScenarioWorkshopPackage in der Galerie einpflegen -->
+    <ModOp GUID="1252" Type="add" Path="Values/ScenarioWorkshopScene/ScenarioWorkshopCategories/Skin/ScenarioWorkshopCategory">
+        <Item>
+            <ScenarioWorkshopPackage>1357900195</ScenarioWorkshopPackage>
+        </Item>
+    </ModOp>
+
+
+    <!-- ScenarioWorkshopItem fuer Item 190470 Walkürenhelm erzeugen -->
+    <ModOp GUID = "4308" Type = "addNextSibling">
+        <Asset>
+            <Template>ScenarioWorkshopItem</Template>
+            <Values>
+                <Standard>
+                    <!-- GUID aus Range von schwubbe -->
+                    <GUID>1357900198</GUID>
+                    <Name>WorkshopItemForGalary</Name>
+                </Standard>
+                <Text />
+                <ScenarioWorkshopItem>
+                    <!-- verweis auf das Asset -->
+                    <AssetReference>190470</AssetReference>
+                </ScenarioWorkshopItem>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- ein ScenarioWorkshopPackage aus dem ScenarioWorkshopItem erstellen -->
+    <ModOp GUID="2258" Type="addNextSibling">
+        <Asset>
+            <Template>ScenarioWorkshopPackage</Template>
+            <Values>
+                <Standard>
+                    <!-- GUID aus Range von schwubbe -->
+                    <GUID>1357900199</GUID>
+                    <Name>WorkshopPackageForGalery</Name>
+                </Standard>
+                <ScenarioWorkshopPackage>
+                    <ScenarioWorkshopItems>
+                        <Item>
+                            <ScenarioWorkshopItem>1357900198</ScenarioWorkshopItem>
+                        </Item>
+                    </ScenarioWorkshopItems>
+                    <RubberDots>20</RubberDots>
+                    <PackageHeadline>0</PackageHeadline>
+                    <PackageRubberDotScaleFactor>1</PackageRubberDotScaleFactor>
+                    <PackageMaxCount>9999</PackageMaxCount>
+                    <PackageDescription>0</PackageDescription>
+                    <PackageFluffText>4590</PackageFluffText>
+                </ScenarioWorkshopPackage>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- ScenarioWorkshopPackage in der Galerie einpflegen -->
+    <ModOp GUID="1252" Type="add" Path="Values/ScenarioWorkshopScene/ScenarioWorkshopCategories/Skin/ScenarioWorkshopCategory">
+        <Item>
+            <ScenarioWorkshopPackage>1357900199</ScenarioWorkshopPackage>
+        </Item>
+    </ModOp>
+
+
+    <!-- ScenarioWorkshopItem fuer Item 190480 Sæmundar-​Edda erzeugen -->
+    <ModOp GUID = "4308" Type = "addNextSibling">
+        <Asset>
+            <Template>ScenarioWorkshopItem</Template>
+            <Values>
+                <Standard>
+                    <!-- GUID aus Range von schwubbe -->
+                    <GUID>1357900200</GUID>
+                    <Name>WorkshopItemForGalary</Name>
+                </Standard>
+                <Text />
+                <ScenarioWorkshopItem>
+                    <!-- verweis auf das Asset -->
+                    <AssetReference>190480</AssetReference>
+                </ScenarioWorkshopItem>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- ein ScenarioWorkshopPackage aus dem ScenarioWorkshopItem erstellen -->
+    <ModOp GUID="2258" Type="addNextSibling">
+        <Asset>
+            <Template>ScenarioWorkshopPackage</Template>
+            <Values>
+                <Standard>
+                    <!-- GUID aus Range von schwubbe -->
+                    <GUID>1357900201</GUID>
+                    <Name>WorkshopPackageForGalery</Name>
+                </Standard>
+                <ScenarioWorkshopPackage>
+                    <ScenarioWorkshopItems>
+                        <Item>
+                            <ScenarioWorkshopItem>1357900200</ScenarioWorkshopItem>
+                        </Item>
+                    </ScenarioWorkshopItems>
+                    <RubberDots>20</RubberDots>
+                    <PackageHeadline>0</PackageHeadline>
+                    <PackageRubberDotScaleFactor>1</PackageRubberDotScaleFactor>
+                    <PackageMaxCount>9999</PackageMaxCount>
+                    <PackageDescription>0</PackageDescription>
+                    <PackageFluffText>4590</PackageFluffText>
+                </ScenarioWorkshopPackage>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- ScenarioWorkshopPackage in der Galerie einpflegen -->
+    <ModOp GUID="1252" Type="add" Path="Values/ScenarioWorkshopScene/ScenarioWorkshopCategories/Skin/ScenarioWorkshopCategory">
+        <Item>
+            <ScenarioWorkshopPackage>1357900201</ScenarioWorkshopPackage>
+        </Item>
+    </ModOp>
+
+
+    <!-- ScenarioWorkshopItem fuer Item 190493 Ring der Libenungen erzeugen -->
+    <ModOp GUID = "4308" Type = "addNextSibling">
+        <Asset>
+            <Template>ScenarioWorkshopItem</Template>
+            <Values>
+                <Standard>
+                    <!-- GUID aus Range von schwubbe -->
+                    <GUID>1357900202</GUID>
+                    <Name>WorkshopItemForGalary</Name>
+                </Standard>
+                <Text />
+                <ScenarioWorkshopItem>
+                    <!-- verweis auf das Asset -->
+                    <AssetReference>190493</AssetReference>
+                </ScenarioWorkshopItem>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- ein ScenarioWorkshopPackage aus dem ScenarioWorkshopItem erstellen -->
+    <ModOp GUID="2258" Type="addNextSibling">
+        <Asset>
+            <Template>ScenarioWorkshopPackage</Template>
+            <Values>
+                <Standard>
+                    <!-- GUID aus Range von schwubbe -->
+                    <GUID>1357900203</GUID>
+                    <Name>WorkshopPackageForGalery</Name>
+                </Standard>
+                <ScenarioWorkshopPackage>
+                    <ScenarioWorkshopItems>
+                        <Item>
+                            <ScenarioWorkshopItem>1357900202</ScenarioWorkshopItem>
+                        </Item>
+                    </ScenarioWorkshopItems>
+                    <RubberDots>20</RubberDots>
+                    <PackageHeadline>0</PackageHeadline>
+                    <PackageRubberDotScaleFactor>1</PackageRubberDotScaleFactor>
+                    <PackageMaxCount>9999</PackageMaxCount>
+                    <PackageDescription>0</PackageDescription>
+                    <PackageFluffText>4590</PackageFluffText>
+                </ScenarioWorkshopPackage>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- ScenarioWorkshopPackage in der Galerie einpflegen -->
+    <ModOp GUID="1252" Type="add" Path="Values/ScenarioWorkshopScene/ScenarioWorkshopCategories/Skin/ScenarioWorkshopCategory">
+        <Item>
+            <ScenarioWorkshopPackage>1357900203</ScenarioWorkshopPackage>
+        </Item>
+    </ModOp>
+
+
+    <!-- ScenarioWorkshopItem fuer Item 190516 Altar von Uppsidaisi erzeugen -->
+    <ModOp GUID = "4308" Type = "addNextSibling">
+        <Asset>
+            <Template>ScenarioWorkshopItem</Template>
+            <Values>
+                <Standard>
+                    <!-- GUID aus Range von schwubbe -->
+                    <GUID>1357900204</GUID>
+                    <Name>WorkshopItemForGalary</Name>
+                </Standard>
+                <Text />
+                <ScenarioWorkshopItem>
+                    <!-- verweis auf das Asset -->
+                    <AssetReference>190516</AssetReference>
+                </ScenarioWorkshopItem>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- ein ScenarioWorkshopPackage aus dem ScenarioWorkshopItem erstellen -->
+    <ModOp GUID="2258" Type="addNextSibling">
+        <Asset>
+            <Template>ScenarioWorkshopPackage</Template>
+            <Values>
+                <Standard>
+                    <!-- GUID aus Range von schwubbe -->
+                    <GUID>1357900205</GUID>
+                    <Name>WorkshopPackageForGalery</Name>
+                </Standard>
+                <ScenarioWorkshopPackage>
+                    <ScenarioWorkshopItems>
+                        <Item>
+                            <ScenarioWorkshopItem>1357900204</ScenarioWorkshopItem>
+                        </Item>
+                    </ScenarioWorkshopItems>
+                    <RubberDots>20</RubberDots>
+                    <PackageHeadline>0</PackageHeadline>
+                    <PackageRubberDotScaleFactor>1</PackageRubberDotScaleFactor>
+                    <PackageMaxCount>9999</PackageMaxCount>
+                    <PackageDescription>0</PackageDescription>
+                    <PackageFluffText>4590</PackageFluffText>
+                </ScenarioWorkshopPackage>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- ScenarioWorkshopPackage in der Galerie einpflegen -->
+    <ModOp GUID="1252" Type="add" Path="Values/ScenarioWorkshopScene/ScenarioWorkshopCategories/Skin/ScenarioWorkshopCategory">
+        <Item>
+            <ScenarioWorkshopPackage>1357900205</ScenarioWorkshopPackage>
+        </Item>
+    </ModOp>
+
+
+    <!-- ScenarioWorkshopItem fuer Item 190518 Drachenboot-Schnitzerei erzeugen -->
+    <ModOp GUID = "4308" Type = "addNextSibling">
+        <Asset>
+            <Template>ScenarioWorkshopItem</Template>
+            <Values>
+                <Standard>
+                    <!-- GUID aus Range von schwubbe -->
+                    <GUID>1357900196</GUID>
+                    <Name>WorkshopItemForGalary</Name>
+                </Standard>
+                <Text />
+                <ScenarioWorkshopItem>
+                    <!-- verweis auf das Asset -->
+                    <AssetReference>190518</AssetReference>
+                </ScenarioWorkshopItem>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- ein ScenarioWorkshopPackage aus dem ScenarioWorkshopItem erstellen -->
+    <ModOp GUID="2258" Type="addNextSibling">
+        <Asset>
+            <Template>ScenarioWorkshopPackage</Template>
+            <Values>
+                <Standard>
+                    <!-- GUID aus Range von schwubbe -->
+                    <GUID>1357900197</GUID>
+                    <Name>WorkshopPackageForGalery</Name>
+                </Standard>
+                <ScenarioWorkshopPackage>
+                    <ScenarioWorkshopItems>
+                        <Item>
+                            <ScenarioWorkshopItem>1357900196</ScenarioWorkshopItem>
+                        </Item>
+                    </ScenarioWorkshopItems>
+                    <RubberDots>15</RubberDots>
+                    <PackageHeadline>0</PackageHeadline>
+                    <PackageRubberDotScaleFactor>1</PackageRubberDotScaleFactor>
+                    <PackageMaxCount>9999</PackageMaxCount>
+                    <PackageDescription>0</PackageDescription>
+                    <PackageFluffText>4590</PackageFluffText>
+                </ScenarioWorkshopPackage>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- ScenarioWorkshopPackage in der Galerie einpflegen -->
+    <ModOp GUID="1252" Type="add" Path="Values/ScenarioWorkshopScene/ScenarioWorkshopCategories/Skin/ScenarioWorkshopCategory">
+        <Item>
+            <ScenarioWorkshopPackage>1357900197</ScenarioWorkshopPackage>
+        </Item>
+    </ModOp>
+
+
+    <!-- ScenarioWorkshopItem fuer Item 190540 Heimskringla erzeugen -->
+    <ModOp GUID = "4308" Type = "addNextSibling">
+        <Asset>
+            <Template>ScenarioWorkshopItem</Template>
+            <Values>
+                <Standard>
+                    <!-- GUID aus Range von schwubbe -->
+                    <GUID>1357900206</GUID>
+                    <Name>WorkshopItemForGalary</Name>
+                </Standard>
+                <Text />
+                <ScenarioWorkshopItem>
+                    <!-- verweis auf das Asset -->
+                    <AssetReference>190540</AssetReference>
+                </ScenarioWorkshopItem>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- ein ScenarioWorkshopPackage aus dem ScenarioWorkshopItem erstellen -->
+    <ModOp GUID="2258" Type="addNextSibling">
+        <Asset>
+            <Template>ScenarioWorkshopPackage</Template>
+            <Values>
+                <Standard>
+                    <!-- GUID aus Range von schwubbe -->
+                    <GUID>1357900207</GUID>
+                    <Name>WorkshopPackageForGalery</Name>
+                </Standard>
+                <ScenarioWorkshopPackage>
+                    <ScenarioWorkshopItems>
+                        <Item>
+                            <ScenarioWorkshopItem>1357900206</ScenarioWorkshopItem>
+                        </Item>
+                    </ScenarioWorkshopItems>
+                    <RubberDots>10</RubberDots>
+                    <PackageHeadline>0</PackageHeadline>
+                    <PackageRubberDotScaleFactor>1</PackageRubberDotScaleFactor>
+                    <PackageMaxCount>9999</PackageMaxCount>
+                    <PackageDescription>0</PackageDescription>
+                    <PackageFluffText>4590</PackageFluffText>
+                </ScenarioWorkshopPackage>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- ScenarioWorkshopPackage in der Galerie einpflegen -->
+    <ModOp GUID="1252" Type="add" Path="Values/ScenarioWorkshopScene/ScenarioWorkshopCategories/Skin/ScenarioWorkshopCategory">
+        <Item>
+            <ScenarioWorkshopPackage>1357900207</ScenarioWorkshopPackage>
+        </Item>
+    </ModOp>
+
+
+    <!-- ScenarioWorkshopItem fuer Item 114798 Igluit erzeugen -->
+    <ModOp GUID = "4308" Type = "addNextSibling">
+        <Asset>
+            <Template>ScenarioWorkshopItem</Template>
+            <Values>
+                <Standard>
+                    <!-- GUID aus Range von schwubbe -->
+                    <GUID>1357900208</GUID>
+                    <Name>WorkshopItemForGalary</Name>
+                </Standard>
+                <Text />
+                <ScenarioWorkshopItem>
+                    <!-- verweis auf das Asset -->
+                    <AssetReference>114798</AssetReference>
+                </ScenarioWorkshopItem>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- ein ScenarioWorkshopPackage aus dem ScenarioWorkshopItem erstellen -->
+    <ModOp GUID="2258" Type="addNextSibling">
+        <Asset>
+            <Template>ScenarioWorkshopPackage</Template>
+            <Values>
+                <Standard>
+                    <!-- GUID aus Range von schwubbe -->
+                    <GUID>1357900209</GUID>
+                    <Name>WorkshopPackageForGalery</Name>
+                </Standard>
+                <ScenarioWorkshopPackage>
+                    <ScenarioWorkshopItems>
+                        <Item>
+                            <ScenarioWorkshopItem>1357900208</ScenarioWorkshopItem>
+                        </Item>
+                    </ScenarioWorkshopItems>
+                    <RubberDots>15</RubberDots>
+                    <PackageHeadline>0</PackageHeadline>
+                    <PackageRubberDotScaleFactor>1</PackageRubberDotScaleFactor>
+                    <PackageMaxCount>9999</PackageMaxCount>
+                    <PackageDescription>0</PackageDescription>
+                    <PackageFluffText>4590</PackageFluffText>
+                </ScenarioWorkshopPackage>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- ScenarioWorkshopPackage in der Galerie einpflegen -->
+    <ModOp GUID="1252" Type="add" Path="Values/ScenarioWorkshopScene/ScenarioWorkshopCategories/Skin/ScenarioWorkshopCategory">
+        <Item>
+            <ScenarioWorkshopPackage>1357900209</ScenarioWorkshopPackage>
+        </Item>
+    </ModOp>
+
+
+    <!-- ScenarioWorkshopItem fuer Item 115473 Uummannaq-Mumie erzeugen -->
+    <ModOp GUID = "4308" Type = "addNextSibling">
+        <Asset>
+            <Template>ScenarioWorkshopItem</Template>
+            <Values>
+                <Standard>
+                    <!-- GUID aus Range von schwubbe -->
+                    <GUID>1357900210</GUID>
+                    <Name>WorkshopItemForGalary</Name>
+                </Standard>
+                <Text />
+                <ScenarioWorkshopItem>
+                    <!-- verweis auf das Asset -->
+                    <AssetReference>115473</AssetReference>
+                </ScenarioWorkshopItem>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- ein ScenarioWorkshopPackage aus dem ScenarioWorkshopItem erstellen -->
+    <ModOp GUID="2258" Type="addNextSibling">
+        <Asset>
+            <Template>ScenarioWorkshopPackage</Template>
+            <Values>
+                <Standard>
+                    <!-- GUID aus Range von schwubbe -->
+                    <GUID>1357900211</GUID>
+                    <Name>WorkshopPackageForGalery</Name>
+                </Standard>
+                <ScenarioWorkshopPackage>
+                    <ScenarioWorkshopItems>
+                        <Item>
+                            <ScenarioWorkshopItem>1357900210</ScenarioWorkshopItem>
+                        </Item>
+                    </ScenarioWorkshopItems>
+                    <RubberDots>15</RubberDots>
+                    <PackageHeadline>0</PackageHeadline>
+                    <PackageRubberDotScaleFactor>1</PackageRubberDotScaleFactor>
+                    <PackageMaxCount>9999</PackageMaxCount>
+                    <PackageDescription>0</PackageDescription>
+                    <PackageFluffText>4590</PackageFluffText>
+                </ScenarioWorkshopPackage>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- ScenarioWorkshopPackage in der Galerie einpflegen -->
+    <ModOp GUID="1252" Type="add" Path="Values/ScenarioWorkshopScene/ScenarioWorkshopCategories/Skin/ScenarioWorkshopCategory">
+        <Item>
+            <ScenarioWorkshopPackage>1357900211</ScenarioWorkshopPackage>
+        </Item>
+    </ModOp>
+
+
+    <!-- ScenarioWorkshopItem fuer Item 114796 Inunnguaq Inuksuk erzeugen -->
+    <ModOp GUID = "4308" Type = "addNextSibling">
+        <Asset>
+            <Template>ScenarioWorkshopItem</Template>
+            <Values>
+                <Standard>
+                    <!-- GUID aus Range von schwubbe -->
+                    <GUID>1357900212</GUID>
+                    <Name>WorkshopItemForGalary</Name>
+                </Standard>
+                <Text />
+                <ScenarioWorkshopItem>
+                    <!-- verweis auf das Asset -->
+                    <AssetReference>114796</AssetReference>
+                </ScenarioWorkshopItem>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- ein ScenarioWorkshopPackage aus dem ScenarioWorkshopItem erstellen -->
+    <ModOp GUID="2258" Type="addNextSibling">
+        <Asset>
+            <Template>ScenarioWorkshopPackage</Template>
+            <Values>
+                <Standard>
+                    <!-- GUID aus Range von schwubbe -->
+                    <GUID>1357900213</GUID>
+                    <Name>WorkshopPackageForGalery</Name>
+                </Standard>
+                <ScenarioWorkshopPackage>
+                    <ScenarioWorkshopItems>
+                        <Item>
+                            <ScenarioWorkshopItem>1357900212</ScenarioWorkshopItem>
+                        </Item>
+                    </ScenarioWorkshopItems>
+                    <RubberDots>10</RubberDots>
+                    <PackageHeadline>0</PackageHeadline>
+                    <PackageRubberDotScaleFactor>1</PackageRubberDotScaleFactor>
+                    <PackageMaxCount>9999</PackageMaxCount>
+                    <PackageDescription>0</PackageDescription>
+                    <PackageFluffText>4590</PackageFluffText>
+                </ScenarioWorkshopPackage>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- ScenarioWorkshopPackage in der Galerie einpflegen -->
+    <ModOp GUID="1252" Type="add" Path="Values/ScenarioWorkshopScene/ScenarioWorkshopCategories/Skin/ScenarioWorkshopCategory">
+        <Item>
+            <ScenarioWorkshopPackage>1357900213</ScenarioWorkshopPackage>
+        </Item>
+    </ModOp>
+
+
+    <!-- ScenarioWorkshopItem fuer Item 114799 Pirujaqarvik Inuksuk erzeugen -->
+    <ModOp GUID = "4308" Type = "addNextSibling">
+        <Asset>
+            <Template>ScenarioWorkshopItem</Template>
+            <Values>
+                <Standard>
+                    <!-- GUID aus Range von schwubbe -->
+                    <GUID>1357900214</GUID>
+                    <Name>WorkshopItemForGalary</Name>
+                </Standard>
+                <Text />
+                <ScenarioWorkshopItem>
+                    <!-- verweis auf das Asset -->
+                    <AssetReference>114799</AssetReference>
+                </ScenarioWorkshopItem>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- ein ScenarioWorkshopPackage aus dem ScenarioWorkshopItem erstellen -->
+    <ModOp GUID="2258" Type="addNextSibling">
+        <Asset>
+            <Template>ScenarioWorkshopPackage</Template>
+            <Values>
+                <Standard>
+                    <!-- GUID aus Range von schwubbe -->
+                    <GUID>1357900215</GUID>
+                    <Name>WorkshopPackageForGalery</Name>
+                </Standard>
+                <ScenarioWorkshopPackage>
+                    <ScenarioWorkshopItems>
+                        <Item>
+                            <ScenarioWorkshopItem>1357900214</ScenarioWorkshopItem>
+                        </Item>
+                    </ScenarioWorkshopItems>
+                    <RubberDots>10</RubberDots>
+                    <PackageHeadline>0</PackageHeadline>
+                    <PackageRubberDotScaleFactor>1</PackageRubberDotScaleFactor>
+                    <PackageMaxCount>9999</PackageMaxCount>
+                    <PackageDescription>0</PackageDescription>
+                    <PackageFluffText>4590</PackageFluffText>
+                </ScenarioWorkshopPackage>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- ScenarioWorkshopPackage in der Galerie einpflegen -->
+    <ModOp GUID="1252" Type="add" Path="Values/ScenarioWorkshopScene/ScenarioWorkshopCategories/Skin/ScenarioWorkshopCategory">
+        <Item>
+            <ScenarioWorkshopPackage>1357900215</ScenarioWorkshopPackage>
+        </Item>
+    </ModOp>
+
+
+    <!-- ScenarioWorkshopItem fuer Item 115472 Spielzeug-Qamutiik erzeugen -->
+    <ModOp GUID = "4308" Type = "addNextSibling">
+        <Asset>
+            <Template>ScenarioWorkshopItem</Template>
+            <Values>
+                <Standard>
+                    <!-- GUID aus Range von schwubbe -->
+                    <GUID>1357900216</GUID>
+                    <Name>WorkshopItemForGalary</Name>
+                </Standard>
+                <Text />
+                <ScenarioWorkshopItem>
+                    <!-- verweis auf das Asset -->
+                    <AssetReference>115472</AssetReference>
+                </ScenarioWorkshopItem>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- ein ScenarioWorkshopPackage aus dem ScenarioWorkshopItem erstellen -->
+    <ModOp GUID="2258" Type="addNextSibling">
+        <Asset>
+            <Template>ScenarioWorkshopPackage</Template>
+            <Values>
+                <Standard>
+                    <!-- GUID aus Range von schwubbe -->
+                    <GUID>1357900217</GUID>
+                    <Name>WorkshopPackageForGalery</Name>
+                </Standard>
+                <ScenarioWorkshopPackage>
+                    <ScenarioWorkshopItems>
+                        <Item>
+                            <ScenarioWorkshopItem>1357900216</ScenarioWorkshopItem>
+                        </Item>
+                    </ScenarioWorkshopItems>
+                    <RubberDots>10</RubberDots>
+                    <PackageHeadline>0</PackageHeadline>
+                    <PackageRubberDotScaleFactor>1</PackageRubberDotScaleFactor>
+                    <PackageMaxCount>9999</PackageMaxCount>
+                    <PackageDescription>0</PackageDescription>
+                    <PackageFluffText>4590</PackageFluffText>
+                </ScenarioWorkshopPackage>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- ScenarioWorkshopPackage in der Galerie einpflegen -->
+    <ModOp GUID="1252" Type="add" Path="Values/ScenarioWorkshopScene/ScenarioWorkshopCategories/Skin/ScenarioWorkshopCategory">
+        <Item>
+            <ScenarioWorkshopPackage>1357900217</ScenarioWorkshopPackage>
+        </Item>
+    </ModOp>
+
+
+    <!-- ScenarioWorkshopItem fuer Item 115471 Gemeißelter Steinbär erzeugen -->
+    <ModOp GUID = "4308" Type = "addNextSibling">
+        <Asset>
+            <Template>ScenarioWorkshopItem</Template>
+            <Values>
+                <Standard>
+                    <!-- GUID aus Range von schwubbe -->
+                    <GUID>1357900218</GUID>
+                    <Name>WorkshopItemForGalary</Name>
+                </Standard>
+                <Text />
+                <ScenarioWorkshopItem>
+                    <!-- verweis auf das Asset -->
+                    <AssetReference>115471</AssetReference>
+                </ScenarioWorkshopItem>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- ein ScenarioWorkshopPackage aus dem ScenarioWorkshopItem erstellen -->
+    <ModOp GUID="2258" Type="addNextSibling">
+        <Asset>
+            <Template>ScenarioWorkshopPackage</Template>
+            <Values>
+                <Standard>
+                    <!-- GUID aus Range von schwubbe -->
+                    <GUID>1357900219</GUID>
+                    <Name>WorkshopPackageForGalery</Name>
+                </Standard>
+                <ScenarioWorkshopPackage>
+                    <ScenarioWorkshopItems>
+                        <Item>
+                            <ScenarioWorkshopItem>1357900218</ScenarioWorkshopItem>
+                        </Item>
+                    </ScenarioWorkshopItems>
+                    <RubberDots>5</RubberDots>
+                    <PackageHeadline>0</PackageHeadline>
+                    <PackageRubberDotScaleFactor>1</PackageRubberDotScaleFactor>
+                    <PackageMaxCount>9999</PackageMaxCount>
+                    <PackageDescription>0</PackageDescription>
+                    <PackageFluffText>4590</PackageFluffText>
+                </ScenarioWorkshopPackage>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- ScenarioWorkshopPackage in der Galerie einpflegen -->
+    <ModOp GUID="1252" Type="add" Path="Values/ScenarioWorkshopScene/ScenarioWorkshopCategories/Skin/ScenarioWorkshopCategory">
+        <Item>
+            <ScenarioWorkshopPackage>1357900219</ScenarioWorkshopPackage>
+        </Item>
+    </ModOp>
+
+
+    <!-- ScenarioWorkshopItem fuer Item 190476 Barbarossas Knochen erzeugen -->
+    <ModOp GUID = "4308" Type = "addNextSibling">
+        <Asset>
+            <Template>ScenarioWorkshopItem</Template>
+            <Values>
+                <Standard>
+                    <!-- GUID aus Range von schwubbe -->
+                    <GUID>1357900220</GUID>
+                    <Name>WorkshopItemForGalary</Name>
+                </Standard>
+                <Text />
+                <ScenarioWorkshopItem>
+                    <!-- verweis auf das Asset -->
+                    <AssetReference>190476</AssetReference>
+                </ScenarioWorkshopItem>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- ein ScenarioWorkshopPackage aus dem ScenarioWorkshopItem erstellen -->
+    <ModOp GUID="2258" Type="addNextSibling">
+        <Asset>
+            <Template>ScenarioWorkshopPackage</Template>
+            <Values>
+                <Standard>
+                    <!-- GUID aus Range von schwubbe -->
+                    <GUID>1357900221</GUID>
+                    <Name>WorkshopPackageForGalery</Name>
+                </Standard>
+                <ScenarioWorkshopPackage>
+                    <ScenarioWorkshopItems>
+                        <Item>
+                            <ScenarioWorkshopItem>1357900220</ScenarioWorkshopItem>
+                        </Item>
+                    </ScenarioWorkshopItems>
+                    <RubberDots>15</RubberDots>
+                    <PackageHeadline>0</PackageHeadline>
+                    <PackageRubberDotScaleFactor>1</PackageRubberDotScaleFactor>
+                    <PackageMaxCount>9999</PackageMaxCount>
+                    <PackageDescription>0</PackageDescription>
+                    <PackageFluffText>4590</PackageFluffText>
+                </ScenarioWorkshopPackage>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- ScenarioWorkshopPackage in der Galerie einpflegen -->
+    <ModOp GUID="1252" Type="add" Path="Values/ScenarioWorkshopScene/ScenarioWorkshopCategories/Skin/ScenarioWorkshopCategory">
+        <Item>
+            <ScenarioWorkshopPackage>1357900221</ScenarioWorkshopPackage>
+        </Item>
+    </ModOp>
+
+
+    <!-- ScenarioWorkshopItem fuer Item 190545 Verschollener Schazu vonBen Sahid erzeugen -->
+    <ModOp GUID = "4308" Type = "addNextSibling">
+        <Asset>
+            <Template>ScenarioWorkshopItem</Template>
+            <Values>
+                <Standard>
+                    <!-- GUID aus Range von schwubbe -->
+                    <GUID>1357900222</GUID>
+                    <Name>WorkshopItemForGalary</Name>
+                </Standard>
+                <Text />
+                <ScenarioWorkshopItem>
+                    <!-- verweis auf das Asset -->
+                    <AssetReference>190545</AssetReference>
+                </ScenarioWorkshopItem>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- ein ScenarioWorkshopPackage aus dem ScenarioWorkshopItem erstellen -->
+    <ModOp GUID="2258" Type="addNextSibling">
+        <Asset>
+            <Template>ScenarioWorkshopPackage</Template>
+            <Values>
+                <Standard>
+                    <!-- GUID aus Range von schwubbe -->
+                    <GUID>1357900223</GUID>
+                    <Name>WorkshopPackageForGalery</Name>
+                </Standard>
+                <ScenarioWorkshopPackage>
+                    <ScenarioWorkshopItems>
+                        <Item>
+                            <ScenarioWorkshopItem>1357900222</ScenarioWorkshopItem>
+                        </Item>
+                    </ScenarioWorkshopItems>
+                    <RubberDots>15</RubberDots>
+                    <PackageHeadline>0</PackageHeadline>
+                    <PackageRubberDotScaleFactor>1</PackageRubberDotScaleFactor>
+                    <PackageMaxCount>9999</PackageMaxCount>
+                    <PackageDescription>0</PackageDescription>
+                    <PackageFluffText>4590</PackageFluffText>
+                </ScenarioWorkshopPackage>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- ScenarioWorkshopPackage in der Galerie einpflegen -->
+    <ModOp GUID="1252" Type="add" Path="Values/ScenarioWorkshopScene/ScenarioWorkshopCategories/Skin/ScenarioWorkshopCategory">
+        <Item>
+            <ScenarioWorkshopPackage>1357900223</ScenarioWorkshopPackage>
+        </Item>
+    </ModOp>
+
+
+    <!-- ScenarioWorkshopItem fuer Item 190551 Braaunbarts Entermesser erzeugen -->
+    <ModOp GUID = "4308" Type = "addNextSibling">
+        <Asset>
+            <Template>ScenarioWorkshopItem</Template>
+            <Values>
+                <Standard>
+                    <!-- GUID aus Range von schwubbe -->
+                    <GUID>1357900224</GUID>
+                    <Name>WorkshopItemForGalary</Name>
+                </Standard>
+                <Text />
+                <ScenarioWorkshopItem>
+                    <!-- verweis auf das Asset -->
+                    <AssetReference>190551</AssetReference>
+                </ScenarioWorkshopItem>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- ein ScenarioWorkshopPackage aus dem ScenarioWorkshopItem erstellen -->
+    <ModOp GUID="2258" Type="addNextSibling">
+        <Asset>
+            <Template>ScenarioWorkshopPackage</Template>
+            <Values>
+                <Standard>
+                    <!-- GUID aus Range von schwubbe -->
+                    <GUID>1357900225</GUID>
+                    <Name>WorkshopPackageForGalery</Name>
+                </Standard>
+                <ScenarioWorkshopPackage>
+                    <ScenarioWorkshopItems>
+                        <Item>
+                            <ScenarioWorkshopItem>1357900224</ScenarioWorkshopItem>
+                        </Item>
+                    </ScenarioWorkshopItems>
+                    <RubberDots>15</RubberDots>
+                    <PackageHeadline>0</PackageHeadline>
+                    <PackageRubberDotScaleFactor>1</PackageRubberDotScaleFactor>
+                    <PackageMaxCount>9999</PackageMaxCount>
+                    <PackageDescription>0</PackageDescription>
+                    <PackageFluffText>4590</PackageFluffText>
+                </ScenarioWorkshopPackage>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- ScenarioWorkshopPackage in der Galerie einpflegen -->
+    <ModOp GUID="1252" Type="add" Path="Values/ScenarioWorkshopScene/ScenarioWorkshopCategories/Skin/ScenarioWorkshopCategory">
+        <Item>
+            <ScenarioWorkshopPackage>1357900225</ScenarioWorkshopPackage>
+        </Item>
+    </ModOp>
+
+
+    <!-- ScenarioWorkshopItem fuer Item 112825 Admiral Nadaskys Säbel erzeugen -->
+    <ModOp GUID = "4308" Type = "addNextSibling">
+        <Asset>
+            <Template>ScenarioWorkshopItem</Template>
+            <Values>
+                <Standard>
+                    <!-- GUID aus Range von schwubbe -->
+                    <GUID>1357900226</GUID>
+                    <Name>WorkshopItemForGalary</Name>
+                </Standard>
+                <Text />
+                <ScenarioWorkshopItem>
+                    <!-- verweis auf das Asset -->
+                    <AssetReference>112825</AssetReference>
+                </ScenarioWorkshopItem>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- ein ScenarioWorkshopPackage aus dem ScenarioWorkshopItem erstellen -->
+    <ModOp GUID="2258" Type="addNextSibling">
+        <Asset>
+            <Template>ScenarioWorkshopPackage</Template>
+            <Values>
+                <Standard>
+                    <!-- GUID aus Range von schwubbe -->
+                    <GUID>1357900227</GUID>
+                    <Name>WorkshopPackageForGalery</Name>
+                </Standard>
+                <ScenarioWorkshopPackage>
+                    <ScenarioWorkshopItems>
+                        <Item>
+                            <ScenarioWorkshopItem>1357900226</ScenarioWorkshopItem>
+                        </Item>
+                    </ScenarioWorkshopItems>
+                    <RubberDots>15</RubberDots>
+                    <PackageHeadline>0</PackageHeadline>
+                    <PackageRubberDotScaleFactor>1</PackageRubberDotScaleFactor>
+                    <PackageMaxCount>9999</PackageMaxCount>
+                    <PackageDescription>0</PackageDescription>
+                    <PackageFluffText>4590</PackageFluffText>
+                </ScenarioWorkshopPackage>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- ScenarioWorkshopPackage in der Galerie einpflegen -->
+    <ModOp GUID="1252" Type="add" Path="Values/ScenarioWorkshopScene/ScenarioWorkshopCategories/Skin/ScenarioWorkshopCategory">
+        <Item>
+            <ScenarioWorkshopPackage>1357900227</ScenarioWorkshopPackage>
+        </Item>
+    </ModOp>
+
+
+    <!-- ScenarioWorkshopItem fuer Item 113472 Imperiale Galionsfigur erzeugen -->
+    <ModOp GUID = "4308" Type = "addNextSibling">
+        <Asset>
+            <Template>ScenarioWorkshopItem</Template>
+            <Values>
+                <Standard>
+                    <!-- GUID aus Range von schwubbe -->
+                    <GUID>1357900228</GUID>
+                    <Name>WorkshopItemForGalary</Name>
+                </Standard>
+                <Text />
+                <ScenarioWorkshopItem>
+                    <!-- verweis auf das Asset -->
+                    <AssetReference>113472</AssetReference>
+                </ScenarioWorkshopItem>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- ein ScenarioWorkshopPackage aus dem ScenarioWorkshopItem erstellen -->
+    <ModOp GUID="2258" Type="addNextSibling">
+        <Asset>
+            <Template>ScenarioWorkshopPackage</Template>
+            <Values>
+                <Standard>
+                    <!-- GUID aus Range von schwubbe -->
+                    <GUID>1357900229</GUID>
+                    <Name>WorkshopPackageForGalery</Name>
+                </Standard>
+                <ScenarioWorkshopPackage>
+                    <ScenarioWorkshopItems>
+                        <Item>
+                            <ScenarioWorkshopItem>1357900228</ScenarioWorkshopItem>
+                        </Item>
+                    </ScenarioWorkshopItems>
+                    <RubberDots>15</RubberDots>
+                    <PackageHeadline>0</PackageHeadline>
+                    <PackageRubberDotScaleFactor>1</PackageRubberDotScaleFactor>
+                    <PackageMaxCount>9999</PackageMaxCount>
+                    <PackageDescription>0</PackageDescription>
+                    <PackageFluffText>4590</PackageFluffText>
+                </ScenarioWorkshopPackage>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- ScenarioWorkshopPackage in der Galerie einpflegen -->
+    <ModOp GUID="1252" Type="add" Path="Values/ScenarioWorkshopScene/ScenarioWorkshopCategories/Skin/ScenarioWorkshopCategory">
+        <Item>
+            <ScenarioWorkshopPackage>1357900229</ScenarioWorkshopPackage>
+        </Item>
+    </ModOp>
+
+
+    <!-- ScenarioWorkshopItem fuer Item 113473 Nadaskys Orden erzeugen -->
+    <ModOp GUID = "4308" Type = "addNextSibling">
+        <Asset>
+            <Template>ScenarioWorkshopItem</Template>
+            <Values>
+                <Standard>
+                    <!-- GUID aus Range von schwubbe -->
+                    <GUID>1357900230</GUID>
+                    <Name>WorkshopItemForGalary</Name>
+                </Standard>
+                <Text />
+                <ScenarioWorkshopItem>
+                    <!-- verweis auf das Asset -->
+                    <AssetReference>113473</AssetReference>
+                </ScenarioWorkshopItem>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- ein ScenarioWorkshopPackage aus dem ScenarioWorkshopItem erstellen -->
+    <ModOp GUID="2258" Type="addNextSibling">
+        <Asset>
+            <Template>ScenarioWorkshopPackage</Template>
+            <Values>
+                <Standard>
+                    <!-- GUID aus Range von schwubbe -->
+                    <GUID>1357900231</GUID>
+                    <Name>WorkshopPackageForGalery</Name>
+                </Standard>
+                <ScenarioWorkshopPackage>
+                    <ScenarioWorkshopItems>
+                        <Item>
+                            <ScenarioWorkshopItem>1357900230</ScenarioWorkshopItem>
+                        </Item>
+                    </ScenarioWorkshopItems>
+                    <RubberDots>15</RubberDots>
+                    <PackageHeadline>0</PackageHeadline>
+                    <PackageRubberDotScaleFactor>1</PackageRubberDotScaleFactor>
+                    <PackageMaxCount>9999</PackageMaxCount>
+                    <PackageDescription>0</PackageDescription>
+                    <PackageFluffText>4590</PackageFluffText>
+                </ScenarioWorkshopPackage>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- ScenarioWorkshopPackage in der Galerie einpflegen -->
+    <ModOp GUID="1252" Type="add" Path="Values/ScenarioWorkshopScene/ScenarioWorkshopCategories/Skin/ScenarioWorkshopCategory">
+        <Item>
+            <ScenarioWorkshopPackage>1357900231</ScenarioWorkshopPackage>
+        </Item>
+    </ModOp>
+
+
+    <!-- ScenarioWorkshopItem fuer Item 190475 Neanderthaler Skelett erzeugen -->
+    <ModOp GUID = "4308" Type = "addNextSibling">
+        <Asset>
+            <Template>ScenarioWorkshopItem</Template>
+            <Values>
+                <Standard>
+                    <!-- GUID aus Range von schwubbe -->
+                    <GUID>1357900234</GUID>
+                    <Name>WorkshopItemForGalary</Name>
+                </Standard>
+                <Text />
+                <ScenarioWorkshopItem>
+                    <!-- verweis auf das Asset -->
+                    <AssetReference>190475</AssetReference>
+                </ScenarioWorkshopItem>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- ein ScenarioWorkshopPackage aus dem ScenarioWorkshopItem erstellen -->
+    <ModOp GUID="2258" Type="addNextSibling">
+        <Asset>
+            <Template>ScenarioWorkshopPackage</Template>
+            <Values>
+                <Standard>
+                    <!-- GUID aus Range von schwubbe -->
+                    <GUID>1357900235</GUID>
+                    <Name>WorkshopPackageForGalery</Name>
+                </Standard>
+                <ScenarioWorkshopPackage>
+                    <ScenarioWorkshopItems>
+                        <Item>
+                            <ScenarioWorkshopItem>1357900234</ScenarioWorkshopItem>
+                        </Item>
+                    </ScenarioWorkshopItems>
+                    <RubberDots>20</RubberDots>
+                    <PackageHeadline>0</PackageHeadline>
+                    <PackageRubberDotScaleFactor>1</PackageRubberDotScaleFactor>
+                    <PackageMaxCount>9999</PackageMaxCount>
+                    <PackageDescription>0</PackageDescription>
+                    <PackageFluffText>4590</PackageFluffText>
+                </ScenarioWorkshopPackage>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- ScenarioWorkshopPackage in der Galerie einpflegen -->
+    <ModOp GUID="1252" Type="add" Path="Values/ScenarioWorkshopScene/ScenarioWorkshopCategories/Skin/ScenarioWorkshopCategory">
+        <Item>
+            <ScenarioWorkshopPackage>1357900235</ScenarioWorkshopPackage>
+        </Item>
+    </ModOp>
+
+
+    <!-- ScenarioWorkshopItem fuer Item 190507 Höhnelmalereien von Valojoulx erzeugen -->
+    <ModOp GUID = "4308" Type = "addNextSibling">
+        <Asset>
+            <Template>ScenarioWorkshopItem</Template>
+            <Values>
+                <Standard>
+                    <!-- GUID aus Range von schwubbe -->
+                    <GUID>1357900236</GUID>
+                    <Name>WorkshopItemForGalary</Name>
+                </Standard>
+                <Text />
+                <ScenarioWorkshopItem>
+                    <!-- verweis auf das Asset -->
+                    <AssetReference>190507</AssetReference>
+                </ScenarioWorkshopItem>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- ein ScenarioWorkshopPackage aus dem ScenarioWorkshopItem erstellen -->
+    <ModOp GUID="2258" Type="addNextSibling">
+        <Asset>
+            <Template>ScenarioWorkshopPackage</Template>
+            <Values>
+                <Standard>
+                    <!-- GUID aus Range von schwubbe -->
+                    <GUID>1357900237</GUID>
+                    <Name>WorkshopPackageForGalery</Name>
+                </Standard>
+                <ScenarioWorkshopPackage>
+                    <ScenarioWorkshopItems>
+                        <Item>
+                            <ScenarioWorkshopItem>1357900236</ScenarioWorkshopItem>
+                        </Item>
+                    </ScenarioWorkshopItems>
+                    <RubberDots>20</RubberDots>
+                    <PackageHeadline>0</PackageHeadline>
+                    <PackageRubberDotScaleFactor>1</PackageRubberDotScaleFactor>
+                    <PackageMaxCount>9999</PackageMaxCount>
+                    <PackageDescription>0</PackageDescription>
+                    <PackageFluffText>4590</PackageFluffText>
+                </ScenarioWorkshopPackage>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- ScenarioWorkshopPackage in der Galerie einpflegen -->
+    <ModOp GUID="1252" Type="add" Path="Values/ScenarioWorkshopScene/ScenarioWorkshopCategories/Skin/ScenarioWorkshopCategory">
+        <Item>
+            <ScenarioWorkshopPackage>1357900237</ScenarioWorkshopPackage>
+        </Item>
+    </ModOp>
+
+
+    <!-- ScenarioWorkshopItem fuer Item 190506 Altamira-Höhlenmalereien erzeugen -->
+    <ModOp GUID = "4308" Type = "addNextSibling">
+        <Asset>
+            <Template>ScenarioWorkshopItem</Template>
+            <Values>
+                <Standard>
+                    <!-- GUID aus Range von schwubbe -->
+                    <GUID>1357900232</GUID>
+                    <Name>WorkshopItemForGalary</Name>
+                </Standard>
+                <Text />
+                <ScenarioWorkshopItem>
+                    <!-- verweis auf das Asset -->
+                    <AssetReference>190506</AssetReference>
+                </ScenarioWorkshopItem>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- ein ScenarioWorkshopPackage aus dem ScenarioWorkshopItem erstellen -->
+    <ModOp GUID="2258" Type="addNextSibling">
+        <Asset>
+            <Template>ScenarioWorkshopPackage</Template>
+            <Values>
+                <Standard>
+                    <!-- GUID aus Range von schwubbe -->
+                    <GUID>1357900233</GUID>
+                    <Name>WorkshopPackageForGalery</Name>
+                </Standard>
+                <ScenarioWorkshopPackage>
+                    <ScenarioWorkshopItems>
+                        <Item>
+                            <ScenarioWorkshopItem>1357900232</ScenarioWorkshopItem>
+                        </Item>
+                    </ScenarioWorkshopItems>
+                    <RubberDots>15</RubberDots>
+                    <PackageHeadline>0</PackageHeadline>
+                    <PackageRubberDotScaleFactor>1</PackageRubberDotScaleFactor>
+                    <PackageMaxCount>9999</PackageMaxCount>
+                    <PackageDescription>0</PackageDescription>
+                    <PackageFluffText>4590</PackageFluffText>
+                </ScenarioWorkshopPackage>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- ScenarioWorkshopPackage in der Galerie einpflegen -->
+    <ModOp GUID="1252" Type="add" Path="Values/ScenarioWorkshopScene/ScenarioWorkshopCategories/Skin/ScenarioWorkshopCategory">
+        <Item>
+            <ScenarioWorkshopPackage>1357900233</ScenarioWorkshopPackage>
+        </Item>
+    </ModOp>
+
+
+    <!-- ScenarioWorkshopItem fuer Item 124873 Figur von Mutter und Kind erzeugen -->
+    <ModOp GUID = "4308" Type = "addNextSibling">
+        <Asset>
+            <Template>ScenarioWorkshopItem</Template>
+            <Values>
+                <Standard>
+                    <!-- GUID aus Range von schwubbe -->
+                    <GUID>1357900240</GUID>
+                    <Name>WorkshopItemForGalary</Name>
+                </Standard>
+                <Text />
+                <ScenarioWorkshopItem>
+                    <!-- verweis auf das Asset -->
+                    <AssetReference>124873</AssetReference>
+                </ScenarioWorkshopItem>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- ein ScenarioWorkshopPackage aus dem ScenarioWorkshopItem erstellen -->
+    <ModOp GUID="2258" Type="addNextSibling">
+        <Asset>
+            <Template>ScenarioWorkshopPackage</Template>
+            <Values>
+                <Standard>
+                    <!-- GUID aus Range von schwubbe -->
+                    <GUID>1357900241</GUID>
+                    <Name>WorkshopPackageForGalery</Name>
+                </Standard>
+                <ScenarioWorkshopPackage>
+                    <ScenarioWorkshopItems>
+                        <Item>
+                            <ScenarioWorkshopItem>1357900240</ScenarioWorkshopItem>
+                        </Item>
+                    </ScenarioWorkshopItems>
+                    <RubberDots>10</RubberDots>
+                    <PackageHeadline>0</PackageHeadline>
+                    <PackageRubberDotScaleFactor>1</PackageRubberDotScaleFactor>
+                    <PackageMaxCount>9999</PackageMaxCount>
+                    <PackageDescription>0</PackageDescription>
+                    <PackageFluffText>4590</PackageFluffText>
+                </ScenarioWorkshopPackage>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- ScenarioWorkshopPackage in der Galerie einpflegen -->
+    <ModOp GUID="1252" Type="add" Path="Values/ScenarioWorkshopScene/ScenarioWorkshopCategories/Skin/ScenarioWorkshopCategory">
+        <Item>
+            <ScenarioWorkshopPackage>1357900241</ScenarioWorkshopPackage>
+        </Item>
+    </ModOp>
+
+
+    <!-- ScenarioWorkshopItem fuer Item 124874 Eindrucksvolle Terrakottafigur erzeugen -->
+    <ModOp GUID = "4308" Type = "addNextSibling">
+        <Asset>
+            <Template>ScenarioWorkshopItem</Template>
+            <Values>
+                <Standard>
+                    <!-- GUID aus Range von schwubbe -->
+                    <GUID>1357900242</GUID>
+                    <Name>WorkshopItemForGalary</Name>
+                </Standard>
+                <Text />
+                <ScenarioWorkshopItem>
+                    <!-- verweis auf das Asset -->
+                    <AssetReference>124874</AssetReference>
+                </ScenarioWorkshopItem>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- ein ScenarioWorkshopPackage aus dem ScenarioWorkshopItem erstellen -->
+    <ModOp GUID="2258" Type="addNextSibling">
+        <Asset>
+            <Template>ScenarioWorkshopPackage</Template>
+            <Values>
+                <Standard>
+                    <!-- GUID aus Range von schwubbe -->
+                    <GUID>1357900243</GUID>
+                    <Name>WorkshopPackageForGalery</Name>
+                </Standard>
+                <ScenarioWorkshopPackage>
+                    <ScenarioWorkshopItems>
+                        <Item>
+                            <ScenarioWorkshopItem>1357900242</ScenarioWorkshopItem>
+                        </Item>
+                    </ScenarioWorkshopItems>
+                    <RubberDots>10</RubberDots>
+                    <PackageHeadline>0</PackageHeadline>
+                    <PackageRubberDotScaleFactor>1</PackageRubberDotScaleFactor>
+                    <PackageMaxCount>9999</PackageMaxCount>
+                    <PackageDescription>0</PackageDescription>
+                    <PackageFluffText>4590</PackageFluffText>
+                </ScenarioWorkshopPackage>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- ScenarioWorkshopPackage in der Galerie einpflegen -->
+    <ModOp GUID="1252" Type="add" Path="Values/ScenarioWorkshopScene/ScenarioWorkshopCategories/Skin/ScenarioWorkshopCategory">
+        <Item>
+            <ScenarioWorkshopPackage>1357900243</ScenarioWorkshopPackage>
+        </Item>
+    </ModOp>
+
+
+    <!-- ScenarioWorkshopItem fuer Item 124882 Verzierte Lehmfliese erzeugen -->
+    <ModOp GUID = "4308" Type = "addNextSibling">
+        <Asset>
+            <Template>ScenarioWorkshopItem</Template>
+            <Values>
+                <Standard>
+                    <!-- GUID aus Range von schwubbe -->
+                    <GUID>1357900244</GUID>
+                    <Name>WorkshopItemForGalary</Name>
+                </Standard>
+                <Text />
+                <ScenarioWorkshopItem>
+                    <!-- verweis auf das Asset -->
+                    <AssetReference>124882</AssetReference>
+                </ScenarioWorkshopItem>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- ein ScenarioWorkshopPackage aus dem ScenarioWorkshopItem erstellen -->
+    <ModOp GUID="2258" Type="addNextSibling">
+        <Asset>
+            <Template>ScenarioWorkshopPackage</Template>
+            <Values>
+                <Standard>
+                    <!-- GUID aus Range von schwubbe -->
+                    <GUID>1357900245</GUID>
+                    <Name>WorkshopPackageForGalery</Name>
+                </Standard>
+                <ScenarioWorkshopPackage>
+                    <ScenarioWorkshopItems>
+                        <Item>
+                            <ScenarioWorkshopItem>1357900244</ScenarioWorkshopItem>
+                        </Item>
+                    </ScenarioWorkshopItems>
+                    <RubberDots>10</RubberDots>
+                    <PackageHeadline>0</PackageHeadline>
+                    <PackageRubberDotScaleFactor>1</PackageRubberDotScaleFactor>
+                    <PackageMaxCount>9999</PackageMaxCount>
+                    <PackageDescription>0</PackageDescription>
+                    <PackageFluffText>4590</PackageFluffText>
+                </ScenarioWorkshopPackage>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- ScenarioWorkshopPackage in der Galerie einpflegen -->
+    <ModOp GUID="1252" Type="add" Path="Values/ScenarioWorkshopScene/ScenarioWorkshopCategories/Skin/ScenarioWorkshopCategory">
+        <Item>
+            <ScenarioWorkshopPackage>1357900245</ScenarioWorkshopPackage>
+        </Item>
+    </ModOp>
+
+
+    <!-- ScenarioWorkshopItem fuer Item 124868 Bemalte Maske erzeugen -->
+    <ModOp GUID = "4308" Type = "addNextSibling">
+        <Asset>
+            <Template>ScenarioWorkshopItem</Template>
+            <Values>
+                <Standard>
+                    <!-- GUID aus Range von schwubbe -->
+                    <GUID>1357900246</GUID>
+                    <Name>WorkshopItemForGalary</Name>
+                </Standard>
+                <Text />
+                <ScenarioWorkshopItem>
+                    <!-- verweis auf das Asset -->
+                    <AssetReference>124868</AssetReference>
+                </ScenarioWorkshopItem>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- ein ScenarioWorkshopPackage aus dem ScenarioWorkshopItem erstellen -->
+    <ModOp GUID="2258" Type="addNextSibling">
+        <Asset>
+            <Template>ScenarioWorkshopPackage</Template>
+            <Values>
+                <Standard>
+                    <!-- GUID aus Range von schwubbe -->
+                    <GUID>1357900247</GUID>
+                    <Name>WorkshopPackageForGalery</Name>
+                </Standard>
+                <ScenarioWorkshopPackage>
+                    <ScenarioWorkshopItems>
+                        <Item>
+                            <ScenarioWorkshopItem>1357900246</ScenarioWorkshopItem>
+                        </Item>
+                    </ScenarioWorkshopItems>
+                    <RubberDots>5</RubberDots>
+                    <PackageHeadline>0</PackageHeadline>
+                    <PackageRubberDotScaleFactor>1</PackageRubberDotScaleFactor>
+                    <PackageMaxCount>9999</PackageMaxCount>
+                    <PackageDescription>0</PackageDescription>
+                    <PackageFluffText>4590</PackageFluffText>
+                </ScenarioWorkshopPackage>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- ScenarioWorkshopPackage in der Galerie einpflegen -->
+    <ModOp GUID="1252" Type="add" Path="Values/ScenarioWorkshopScene/ScenarioWorkshopCategories/Skin/ScenarioWorkshopCategory">
+        <Item>
+            <ScenarioWorkshopPackage>1357900247</ScenarioWorkshopPackage>
+        </Item>
+    </ModOp>
+
+
+    <!-- ScenarioWorkshopItem fuer Item 124869 Tierfigur erzeugen -->
+    <ModOp GUID = "4308" Type = "addNextSibling">
+        <Asset>
+            <Template>ScenarioWorkshopItem</Template>
+            <Values>
+                <Standard>
+                    <!-- GUID aus Range von schwubbe -->
+                    <GUID>1357900248</GUID>
+                    <Name>WorkshopItemForGalary</Name>
+                </Standard>
+                <Text />
+                <ScenarioWorkshopItem>
+                    <!-- verweis auf das Asset -->
+                    <AssetReference>124869</AssetReference>
+                </ScenarioWorkshopItem>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- ein ScenarioWorkshopPackage aus dem ScenarioWorkshopItem erstellen -->
+    <ModOp GUID="2258" Type="addNextSibling">
+        <Asset>
+            <Template>ScenarioWorkshopPackage</Template>
+            <Values>
+                <Standard>
+                    <!-- GUID aus Range von schwubbe -->
+                    <GUID>1357900249</GUID>
+                    <Name>WorkshopPackageForGalery</Name>
+                </Standard>
+                <ScenarioWorkshopPackage>
+                    <ScenarioWorkshopItems>
+                        <Item>
+                            <ScenarioWorkshopItem>1357900248</ScenarioWorkshopItem>
+                        </Item>
+                    </ScenarioWorkshopItems>
+                    <RubberDots>5</RubberDots>
+                    <PackageHeadline>0</PackageHeadline>
+                    <PackageRubberDotScaleFactor>1</PackageRubberDotScaleFactor>
+                    <PackageMaxCount>9999</PackageMaxCount>
+                    <PackageDescription>0</PackageDescription>
+                    <PackageFluffText>4590</PackageFluffText>
+                </ScenarioWorkshopPackage>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- ScenarioWorkshopPackage in der Galerie einpflegen -->
+    <ModOp GUID="1252" Type="add" Path="Values/ScenarioWorkshopScene/ScenarioWorkshopCategories/Skin/ScenarioWorkshopCategory">
+        <Item>
+            <ScenarioWorkshopPackage>1357900249</ScenarioWorkshopPackage>
+        </Item>
+    </ModOp>
+
+
+    <!-- ScenarioWorkshopItem fuer Item 124867 Ring aus Rinder-Elfenbein erzeugen -->
+    <ModOp GUID = "4308" Type = "addNextSibling">
+        <Asset>
+            <Template>ScenarioWorkshopItem</Template>
+            <Values>
+                <Standard>
+                    <!-- GUID aus Range von schwubbe -->
+                    <GUID>1357900238</GUID>
+                    <Name>WorkshopItemForGalary</Name>
+                </Standard>
+                <Text />
+                <ScenarioWorkshopItem>
+                    <!-- verweis auf das Asset -->
+                    <AssetReference>124867</AssetReference>
+                </ScenarioWorkshopItem>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- ein ScenarioWorkshopPackage aus dem ScenarioWorkshopItem erstellen -->
+    <ModOp GUID="2258" Type="addNextSibling">
+        <Asset>
+            <Template>ScenarioWorkshopPackage</Template>
+            <Values>
+                <Standard>
+                    <!-- GUID aus Range von schwubbe -->
+                    <GUID>1357900239</GUID>
+                    <Name>WorkshopPackageForGalery</Name>
+                </Standard>
+                <ScenarioWorkshopPackage>
+                    <ScenarioWorkshopItems>
+                        <Item>
+                            <ScenarioWorkshopItem>1357900238</ScenarioWorkshopItem>
+                        </Item>
+                    </ScenarioWorkshopItems>
+                    <RubberDots>0</RubberDots>
+                    <PackageHeadline>0</PackageHeadline>
+                    <PackageRubberDotScaleFactor>1</PackageRubberDotScaleFactor>
+                    <PackageMaxCount>9999</PackageMaxCount>
+                    <PackageDescription>0</PackageDescription>
+                    <PackageFluffText>4590</PackageFluffText>
+                </ScenarioWorkshopPackage>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- ScenarioWorkshopPackage in der Galerie einpflegen -->
+    <ModOp GUID="1252" Type="add" Path="Values/ScenarioWorkshopScene/ScenarioWorkshopCategories/Skin/ScenarioWorkshopCategory">
+        <Item>
+            <ScenarioWorkshopPackage>1357900239</ScenarioWorkshopPackage>
+        </Item>
+    </ModOp>
+
+
+    <!-- ScenarioWorkshopItem fuer Item 190498 Mesoanischer Haden erzeugen -->
+    <ModOp GUID = "4308" Type = "addNextSibling">
+        <Asset>
+            <Template>ScenarioWorkshopItem</Template>
+            <Values>
+                <Standard>
+                    <!-- GUID aus Range von schwubbe -->
+                    <GUID>1357900256</GUID>
+                    <Name>WorkshopItemForGalary</Name>
+                </Standard>
+                <Text />
+                <ScenarioWorkshopItem>
+                    <!-- verweis auf das Asset -->
+                    <AssetReference>190498</AssetReference>
+                </ScenarioWorkshopItem>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- ein ScenarioWorkshopPackage aus dem ScenarioWorkshopItem erstellen -->
+    <ModOp GUID="2258" Type="addNextSibling">
+        <Asset>
+            <Template>ScenarioWorkshopPackage</Template>
+            <Values>
+                <Standard>
+                    <!-- GUID aus Range von schwubbe -->
+                    <GUID>1357900257</GUID>
+                    <Name>WorkshopPackageForGalery</Name>
+                </Standard>
+                <ScenarioWorkshopPackage>
+                    <ScenarioWorkshopItems>
+                        <Item>
+                            <ScenarioWorkshopItem>1357900256</ScenarioWorkshopItem>
+                        </Item>
+                    </ScenarioWorkshopItems>
+                    <RubberDots>20</RubberDots>
+                    <PackageHeadline>0</PackageHeadline>
+                    <PackageRubberDotScaleFactor>1</PackageRubberDotScaleFactor>
+                    <PackageMaxCount>9999</PackageMaxCount>
+                    <PackageDescription>0</PackageDescription>
+                    <PackageFluffText>4590</PackageFluffText>
+                </ScenarioWorkshopPackage>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- ScenarioWorkshopPackage in der Galerie einpflegen -->
+    <ModOp GUID="1252" Type="add" Path="Values/ScenarioWorkshopScene/ScenarioWorkshopCategories/Skin/ScenarioWorkshopCategory">
+        <Item>
+            <ScenarioWorkshopPackage>1357900257</ScenarioWorkshopPackage>
+        </Item>
+    </ModOp>
+
+
+    <!-- ScenarioWorkshopItem fuer Item 190499 Mesoanischer Tempel erzeugen -->
+    <ModOp GUID = "4308" Type = "addNextSibling">
+        <Asset>
+            <Template>ScenarioWorkshopItem</Template>
+            <Values>
+                <Standard>
+                    <!-- GUID aus Range von schwubbe -->
+                    <GUID>1357900258</GUID>
+                    <Name>WorkshopItemForGalary</Name>
+                </Standard>
+                <Text />
+                <ScenarioWorkshopItem>
+                    <!-- verweis auf das Asset -->
+                    <AssetReference>190499</AssetReference>
+                </ScenarioWorkshopItem>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- ein ScenarioWorkshopPackage aus dem ScenarioWorkshopItem erstellen -->
+    <ModOp GUID="2258" Type="addNextSibling">
+        <Asset>
+            <Template>ScenarioWorkshopPackage</Template>
+            <Values>
+                <Standard>
+                    <!-- GUID aus Range von schwubbe -->
+                    <GUID>1357900259</GUID>
+                    <Name>WorkshopPackageForGalery</Name>
+                </Standard>
+                <ScenarioWorkshopPackage>
+                    <ScenarioWorkshopItems>
+                        <Item>
+                            <ScenarioWorkshopItem>1357900258</ScenarioWorkshopItem>
+                        </Item>
+                    </ScenarioWorkshopItems>
+                    <RubberDots>20</RubberDots>
+                    <PackageHeadline>0</PackageHeadline>
+                    <PackageRubberDotScaleFactor>1</PackageRubberDotScaleFactor>
+                    <PackageMaxCount>9999</PackageMaxCount>
+                    <PackageDescription>0</PackageDescription>
+                    <PackageFluffText>4590</PackageFluffText>
+                </ScenarioWorkshopPackage>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- ScenarioWorkshopPackage in der Galerie einpflegen -->
+    <ModOp GUID="1252" Type="add" Path="Values/ScenarioWorkshopScene/ScenarioWorkshopCategories/Skin/ScenarioWorkshopCategory">
+        <Item>
+            <ScenarioWorkshopPackage>1357900259</ScenarioWorkshopPackage>
+        </Item>
+    </ModOp>
+
+
+    <!-- ScenarioWorkshopItem fuer Item 190501 Mesoanischer Kalender erzeugen -->
+    <ModOp GUID = "4308" Type = "addNextSibling">
+        <Asset>
+            <Template>ScenarioWorkshopItem</Template>
+            <Values>
+                <Standard>
+                    <!-- GUID aus Range von schwubbe -->
+                    <GUID>1357900260</GUID>
+                    <Name>WorkshopItemForGalary</Name>
+                </Standard>
+                <Text />
+                <ScenarioWorkshopItem>
+                    <!-- verweis auf das Asset -->
+                    <AssetReference>190501</AssetReference>
+                </ScenarioWorkshopItem>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- ein ScenarioWorkshopPackage aus dem ScenarioWorkshopItem erstellen -->
+    <ModOp GUID="2258" Type="addNextSibling">
+        <Asset>
+            <Template>ScenarioWorkshopPackage</Template>
+            <Values>
+                <Standard>
+                    <!-- GUID aus Range von schwubbe -->
+                    <GUID>1357900261</GUID>
+                    <Name>WorkshopPackageForGalery</Name>
+                </Standard>
+                <ScenarioWorkshopPackage>
+                    <ScenarioWorkshopItems>
+                        <Item>
+                            <ScenarioWorkshopItem>1357900260</ScenarioWorkshopItem>
+                        </Item>
+                    </ScenarioWorkshopItems>
+                    <RubberDots>20</RubberDots>
+                    <PackageHeadline>0</PackageHeadline>
+                    <PackageRubberDotScaleFactor>1</PackageRubberDotScaleFactor>
+                    <PackageMaxCount>9999</PackageMaxCount>
+                    <PackageDescription>0</PackageDescription>
+                    <PackageFluffText>4590</PackageFluffText>
+                </ScenarioWorkshopPackage>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- ScenarioWorkshopPackage in der Galerie einpflegen -->
+    <ModOp GUID="1252" Type="add" Path="Values/ScenarioWorkshopScene/ScenarioWorkshopCategories/Skin/ScenarioWorkshopCategory">
+        <Item>
+            <ScenarioWorkshopPackage>1357900261</ScenarioWorkshopPackage>
+        </Item>
+    </ModOp>
+
+
+    <!-- ScenarioWorkshopItem fuer Item 190474 TakalsHalskette erzeugen -->
+    <ModOp GUID = "4308" Type = "addNextSibling">
+        <Asset>
+            <Template>ScenarioWorkshopItem</Template>
+            <Values>
+                <Standard>
+                    <!-- GUID aus Range von schwubbe -->
+                    <GUID>1357900250</GUID>
+                    <Name>WorkshopItemForGalary</Name>
+                </Standard>
+                <Text />
+                <ScenarioWorkshopItem>
+                    <!-- verweis auf das Asset -->
+                    <AssetReference>190474</AssetReference>
+                </ScenarioWorkshopItem>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- ein ScenarioWorkshopPackage aus dem ScenarioWorkshopItem erstellen -->
+    <ModOp GUID="2258" Type="addNextSibling">
+        <Asset>
+            <Template>ScenarioWorkshopPackage</Template>
+            <Values>
+                <Standard>
+                    <!-- GUID aus Range von schwubbe -->
+                    <GUID>1357900251</GUID>
+                    <Name>WorkshopPackageForGalery</Name>
+                </Standard>
+                <ScenarioWorkshopPackage>
+                    <ScenarioWorkshopItems>
+                        <Item>
+                            <ScenarioWorkshopItem>1357900250</ScenarioWorkshopItem>
+                        </Item>
+                    </ScenarioWorkshopItems>
+                    <RubberDots>15</RubberDots>
+                    <PackageHeadline>0</PackageHeadline>
+                    <PackageRubberDotScaleFactor>1</PackageRubberDotScaleFactor>
+                    <PackageMaxCount>9999</PackageMaxCount>
+                    <PackageDescription>0</PackageDescription>
+                    <PackageFluffText>4590</PackageFluffText>
+                </ScenarioWorkshopPackage>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- ScenarioWorkshopPackage in der Galerie einpflegen -->
+    <ModOp GUID="1252" Type="add" Path="Values/ScenarioWorkshopScene/ScenarioWorkshopCategories/Skin/ScenarioWorkshopCategory">
+        <Item>
+            <ScenarioWorkshopPackage>1357900251</ScenarioWorkshopPackage>
+        </Item>
+    </ModOp>
+
+
+    <!-- ScenarioWorkshopItem fuer Item 190497 Mesoanisches Haus erzeugen -->
+    <ModOp GUID = "4308" Type = "addNextSibling">
+        <Asset>
+            <Template>ScenarioWorkshopItem</Template>
+            <Values>
+                <Standard>
+                    <!-- GUID aus Range von schwubbe -->
+                    <GUID>1357900252</GUID>
+                    <Name>WorkshopItemForGalary</Name>
+                </Standard>
+                <Text />
+                <ScenarioWorkshopItem>
+                    <!-- verweis auf das Asset -->
+                    <AssetReference>190497</AssetReference>
+                </ScenarioWorkshopItem>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- ein ScenarioWorkshopPackage aus dem ScenarioWorkshopItem erstellen -->
+    <ModOp GUID="2258" Type="addNextSibling">
+        <Asset>
+            <Template>ScenarioWorkshopPackage</Template>
+            <Values>
+                <Standard>
+                    <!-- GUID aus Range von schwubbe -->
+                    <GUID>1357900253</GUID>
+                    <Name>WorkshopPackageForGalery</Name>
+                </Standard>
+                <ScenarioWorkshopPackage>
+                    <ScenarioWorkshopItems>
+                        <Item>
+                            <ScenarioWorkshopItem>1357900252</ScenarioWorkshopItem>
+                        </Item>
+                    </ScenarioWorkshopItems>
+                    <RubberDots>15</RubberDots>
+                    <PackageHeadline>0</PackageHeadline>
+                    <PackageRubberDotScaleFactor>1</PackageRubberDotScaleFactor>
+                    <PackageMaxCount>9999</PackageMaxCount>
+                    <PackageDescription>0</PackageDescription>
+                    <PackageFluffText>4590</PackageFluffText>
+                </ScenarioWorkshopPackage>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- ScenarioWorkshopPackage in der Galerie einpflegen -->
+    <ModOp GUID="1252" Type="add" Path="Values/ScenarioWorkshopScene/ScenarioWorkshopCategories/Skin/ScenarioWorkshopCategory">
+        <Item>
+            <ScenarioWorkshopPackage>1357900253</ScenarioWorkshopPackage>
+        </Item>
+    </ModOp>
+
+
+    <!-- ScenarioWorkshopItem fuer Item 190500 Mesoanische Glyphen erzeugen -->
+    <ModOp GUID = "4308" Type = "addNextSibling">
+        <Asset>
+            <Template>ScenarioWorkshopItem</Template>
+            <Values>
+                <Standard>
+                    <!-- GUID aus Range von schwubbe -->
+                    <GUID>1357900254</GUID>
+                    <Name>WorkshopItemForGalary</Name>
+                </Standard>
+                <Text />
+                <ScenarioWorkshopItem>
+                    <!-- verweis auf das Asset -->
+                    <AssetReference>190500</AssetReference>
+                </ScenarioWorkshopItem>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- ein ScenarioWorkshopPackage aus dem ScenarioWorkshopItem erstellen -->
+    <ModOp GUID="2258" Type="addNextSibling">
+        <Asset>
+            <Template>ScenarioWorkshopPackage</Template>
+            <Values>
+                <Standard>
+                    <!-- GUID aus Range von schwubbe -->
+                    <GUID>1357900255</GUID>
+                    <Name>WorkshopPackageForGalery</Name>
+                </Standard>
+                <ScenarioWorkshopPackage>
+                    <ScenarioWorkshopItems>
+                        <Item>
+                            <ScenarioWorkshopItem>1357900254</ScenarioWorkshopItem>
+                        </Item>
+                    </ScenarioWorkshopItems>
+                    <RubberDots>15</RubberDots>
+                    <PackageHeadline>0</PackageHeadline>
+                    <PackageRubberDotScaleFactor>1</PackageRubberDotScaleFactor>
+                    <PackageMaxCount>9999</PackageMaxCount>
+                    <PackageDescription>0</PackageDescription>
+                    <PackageFluffText>4590</PackageFluffText>
+                </ScenarioWorkshopPackage>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- ScenarioWorkshopPackage in der Galerie einpflegen -->
+    <ModOp GUID="1252" Type="add" Path="Values/ScenarioWorkshopScene/ScenarioWorkshopCategories/Skin/ScenarioWorkshopCategory">
+        <Item>
+            <ScenarioWorkshopPackage>1357900255</ScenarioWorkshopPackage>
+        </Item>
+    </ModOp>
+
+
+</ModOps>
