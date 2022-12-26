@@ -1,5 +1,4 @@
-<img src="https://github.com/schwubbe/Git-Repo/blob/main/screenshot.png" style="max-width: 100%;">
-![Image](https://github.com/schwubbe/Git-Repo/blob/main/screenshot.png)
+<p align="center"><img src="https://github.com/schwubbe/Git-Repo/blob/main/screenshot.png" style="max-width: 100%;"></p>
 <h1 align="center">Grand Galery Overhaul</h1>
 
 - EN below -
