@@ -10,11 +10,11 @@
 - Platziert alle wichtigen Kulturitems im dritten Tab der Galerie
 - Erweitert das Angebot der Wirtschaftsitems im vierten Tab massiv.
 
-** Items aus DLCs sind nur verfügbar, wenn man das DLC besitzt!
+**Items aus DLCs sind nur verfügbar, wenn man das DLC besitzt!
 
 
 
-## Historie
+##Historie
 22.01.2023 Version 1.1
 - Französische Übersetzung hinzugefügt (Thx Tonton Yip)
 - 3 neue Items hinzugefügt: Extrem laute Glocke, Pertwees Turbo-Generator, Micaela die Bergbauingenieurin
