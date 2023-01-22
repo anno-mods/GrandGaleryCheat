@@ -1,0 +1,66 @@
+<ModOps>
+    <!-- Hauptmenübutton: Große Galerie -->
+    <!-- Original: Große Galerie --> 
+    <ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '4297']">
+        <Text>
+            <GUID>4297</GUID>
+            <Text>Cheat - Grande Galerie</Text>
+        </Text>
+    </ModOp>
+    <!-- Überschrift Große Galerie -->
+    <!-- Original: Große Galerie --> 
+    <ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '3738']">
+        <Text>
+            <GUID>3738</GUID>
+            <Text>CHEAT DE LA GRANDE GALERIE</Text>
+        </Text>
+    </ModOp>
+    <!-- Tab-Beschriftung "Ornamente" Grand Galery -->
+    <!-- Original: Ornamente -->
+    <ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '3717']">
+        <Text>
+            <GUID>3717</GUID>
+            <Text>Embellissements</Text>
+        </Text>
+    </ModOp>
+    <!-- Tab-Beschriftung "Portraits" Grand Galery -->
+    <!-- Original: Porträts -->
+    <ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '3697']">
+        <Text>
+            <GUID>3697</GUID>
+            <Text>Skins & Portraits</Text>
+        </Text>
+    </ModOp>
+    <!-- Tab-Beschriftung "Skins" Grand Galery -->
+    <!-- Original: Skins -->
+    <ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '3694']">
+        <Text>
+            <GUID>3694</GUID>
+            <Text>Objets culturels</Text>
+        </Text>
+    </ModOp>
+    <!-- Tab-Überschrift "Skins" Grand Galery -->
+    <!-- Original: Zeit für eine Veränderung? -->
+    <ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '4287']">
+        <Text>
+            <GUID>4287</GUID>
+            <Text>Pourrait-ce être un peu plus d'attrait?</Text>
+        </Text>
+    </ModOp>
+    <!-- Tab-Beschreibung "Skins" Grand Galery -->
+    <!-- Original: Auf Belohnungen können Sie von all Ihren Profilen aus zugreifen. -->
+    <ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '4301']">
+        <Text>
+            <GUID>4301</GUID>
+            <Text>Bâtissez les plus beaux zoos, musées et jardins botaniques!</Text>
+        </Text>
+    </ModOp>
+    <!-- Tab-Beschriftung "Portraits" Grand Galery -->
+    <!-- Original: Items -->
+    <ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '3699']">
+        <Text>
+            <GUID>3699</GUID>
+            <Text>Autres objets</Text>
+        </Text>
+    </ModOp>
+</ModOps>

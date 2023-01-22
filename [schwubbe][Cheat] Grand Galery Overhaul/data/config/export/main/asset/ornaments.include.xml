@@ -1,0 +1,884 @@
+<ModOps>
+    <!-- ScenarioWorkshopItem fuer Ornament 102461 Säulen erzeugen -->
+    <ModOp GUID = "4308" Type = "addNextSibling">
+        <Asset>
+            <Template>ScenarioWorkshopItem</Template>
+            <Values>
+                <Standard>
+                    <!-- GUID aus Range von schwubbe -->
+                    <GUID>1357900430</GUID>
+                    <Name>WorkshopItemForGalary</Name>
+                </Standard>
+                <Text />
+                <ScenarioWorkshopItem>
+                    <!-- verweis auf das Asset -->
+                    <AssetReference>102461</AssetReference>
+                    <BuildPermits>10</BuildPermits>
+                </ScenarioWorkshopItem>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- ein ScenarioWorkshopPackage aus dem ScenarioWorkshopItem erstellen -->
+    <ModOp GUID="2258" Type="addNextSibling">
+        <Asset>
+            <Template>ScenarioWorkshopPackage</Template>
+            <Values>
+                <Standard>
+                    <!-- GUID aus Range von schwubbe -->
+                    <GUID>1357900431</GUID>
+                    <Name>WorkshopPackageForGalery</Name>
+                </Standard>
+                <ScenarioWorkshopPackage>
+                    <ScenarioWorkshopItems>
+                        <Item>
+                            <ScenarioWorkshopItem>1357900430</ScenarioWorkshopItem>
+                        </Item>
+                    </ScenarioWorkshopItems>
+                    <RubberDots>10</RubberDots>
+                    <PackageHeadline>0</PackageHeadline>
+                    <PackageBackground>data/ui/2kimages/main/assets/grand_gallery/grandgallery_card_bg_common.png</PackageBackground>
+                    <PackageMaxCount>9999</PackageMaxCount>
+                    <PackageDescription>0</PackageDescription>
+                    <PackageFluffText>4590</PackageFluffText>
+                </ScenarioWorkshopPackage>
+            </Values>
+        </Asset>
+    </ModOp>
+
+<!-- Ornament im Baumenü "Große Galerie" einfügen, um Bau in frühem Stadium zu ermöglichen -->
+<ModOp GUID="4751" Type="add" Path="Values/ConstructionCategory/BuildingList">
+    <Item>
+        <Building>102461</Building>
+    </Item>
+</ModOp>
+
+
+    <!-- ScenarioWorkshopPackage in der Galerie einpflegen -->
+    <ModOp GUID="1252" Type="add" Path="Values/ScenarioWorkshopScene/ScenarioWorkshopCategories/Ornament/ScenarioWorkshopCategory">
+        <Item>
+            <ScenarioWorkshopPackage>1357900431</ScenarioWorkshopPackage>
+        </Item>
+    </ModOp>
+
+
+    <!-- ScenarioWorkshopItem fuer Ornament 102463 Säulen erzeugen -->
+    <ModOp GUID = "4308" Type = "addNextSibling">
+        <Asset>
+            <Template>ScenarioWorkshopItem</Template>
+            <Values>
+                <Standard>
+                    <!-- GUID aus Range von schwubbe -->
+                    <GUID>1357900432</GUID>
+                    <Name>WorkshopItemForGalary</Name>
+                </Standard>
+                <Text />
+                <ScenarioWorkshopItem>
+                    <!-- verweis auf das Asset -->
+                    <AssetReference>102463</AssetReference>
+                    <BuildPermits>10</BuildPermits>
+                </ScenarioWorkshopItem>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- ein ScenarioWorkshopPackage aus dem ScenarioWorkshopItem erstellen -->
+    <ModOp GUID="2258" Type="addNextSibling">
+        <Asset>
+            <Template>ScenarioWorkshopPackage</Template>
+            <Values>
+                <Standard>
+                    <!-- GUID aus Range von schwubbe -->
+                    <GUID>1357900433</GUID>
+                    <Name>WorkshopPackageForGalery</Name>
+                </Standard>
+                <ScenarioWorkshopPackage>
+                    <ScenarioWorkshopItems>
+                        <Item>
+                            <ScenarioWorkshopItem>1357900432</ScenarioWorkshopItem>
+                        </Item>
+                    </ScenarioWorkshopItems>
+                    <RubberDots>10</RubberDots>
+                    <PackageHeadline>0</PackageHeadline>
+                    <PackageBackground>data/ui/2kimages/main/assets/grand_gallery/grandgallery_card_bg_common.png</PackageBackground>
+                    <PackageMaxCount>9999</PackageMaxCount>
+                    <PackageDescription>0</PackageDescription>
+                    <PackageFluffText>4590</PackageFluffText>
+                </ScenarioWorkshopPackage>
+            </Values>
+        </Asset>
+    </ModOp>
+
+<!-- Ornament im Baumenü "Große Galerie" einfügen, um Bau in frühem Stadium zu ermöglichen -->
+<ModOp GUID="4751" Type="add" Path="Values/ConstructionCategory/BuildingList">
+    <Item>
+        <Building>102463</Building>
+    </Item>
+</ModOp>
+
+
+    <!-- ScenarioWorkshopPackage in der Galerie einpflegen -->
+    <ModOp GUID="1252" Type="add" Path="Values/ScenarioWorkshopScene/ScenarioWorkshopCategories/Ornament/ScenarioWorkshopCategory">
+        <Item>
+            <ScenarioWorkshopPackage>1357900433</ScenarioWorkshopPackage>
+        </Item>
+    </ModOp>
+
+
+    <!-- ScenarioWorkshopItem fuer Ornament 102464 Litfaßsäule erzeugen -->
+    <ModOp GUID = "4308" Type = "addNextSibling">
+        <Asset>
+            <Template>ScenarioWorkshopItem</Template>
+            <Values>
+                <Standard>
+                    <!-- GUID aus Range von schwubbe -->
+                    <GUID>1357900434</GUID>
+                    <Name>WorkshopItemForGalary</Name>
+                </Standard>
+                <Text />
+                <ScenarioWorkshopItem>
+                    <!-- verweis auf das Asset -->
+                    <AssetReference>102464</AssetReference>
+                    <BuildPermits>10</BuildPermits>
+                </ScenarioWorkshopItem>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- ein ScenarioWorkshopPackage aus dem ScenarioWorkshopItem erstellen -->
+    <ModOp GUID="2258" Type="addNextSibling">
+        <Asset>
+            <Template>ScenarioWorkshopPackage</Template>
+            <Values>
+                <Standard>
+                    <!-- GUID aus Range von schwubbe -->
+                    <GUID>1357900435</GUID>
+                    <Name>WorkshopPackageForGalery</Name>
+                </Standard>
+                <ScenarioWorkshopPackage>
+                    <ScenarioWorkshopItems>
+                        <Item>
+                            <ScenarioWorkshopItem>1357900434</ScenarioWorkshopItem>
+                        </Item>
+                    </ScenarioWorkshopItems>
+                    <RubberDots>10</RubberDots>
+                    <PackageHeadline>0</PackageHeadline>
+                    <PackageBackground>data/ui/2kimages/main/assets/grand_gallery/grandgallery_card_bg_common.png</PackageBackground>
+                    <PackageMaxCount>9999</PackageMaxCount>
+                    <PackageDescription>0</PackageDescription>
+                    <PackageFluffText>4590</PackageFluffText>
+                </ScenarioWorkshopPackage>
+            </Values>
+        </Asset>
+    </ModOp>
+
+<!-- Ornament im Baumenü "Große Galerie" einfügen, um Bau in frühem Stadium zu ermöglichen -->
+<ModOp GUID="4751" Type="add" Path="Values/ConstructionCategory/BuildingList">
+    <Item>
+        <Building>102464</Building>
+    </Item>
+</ModOp>
+
+
+    <!-- ScenarioWorkshopPackage in der Galerie einpflegen -->
+    <ModOp GUID="1252" Type="add" Path="Values/ScenarioWorkshopScene/ScenarioWorkshopCategories/Ornament/ScenarioWorkshopCategory">
+        <Item>
+            <ScenarioWorkshopPackage>1357900435</ScenarioWorkshopPackage>
+        </Item>
+    </ModOp>
+
+
+    <!-- ScenarioWorkshopItem fuer Ornament 102465 Plakatwand erzeugen -->
+    <ModOp GUID = "4308" Type = "addNextSibling">
+        <Asset>
+            <Template>ScenarioWorkshopItem</Template>
+            <Values>
+                <Standard>
+                    <!-- GUID aus Range von schwubbe -->
+                    <GUID>1357900436</GUID>
+                    <Name>WorkshopItemForGalary</Name>
+                </Standard>
+                <Text />
+                <ScenarioWorkshopItem>
+                    <!-- verweis auf das Asset -->
+                    <AssetReference>102465</AssetReference>
+                    <BuildPermits>10</BuildPermits>
+                </ScenarioWorkshopItem>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- ein ScenarioWorkshopPackage aus dem ScenarioWorkshopItem erstellen -->
+    <ModOp GUID="2258" Type="addNextSibling">
+        <Asset>
+            <Template>ScenarioWorkshopPackage</Template>
+            <Values>
+                <Standard>
+                    <!-- GUID aus Range von schwubbe -->
+                    <GUID>1357900437</GUID>
+                    <Name>WorkshopPackageForGalery</Name>
+                </Standard>
+                <ScenarioWorkshopPackage>
+                    <ScenarioWorkshopItems>
+                        <Item>
+                            <ScenarioWorkshopItem>1357900436</ScenarioWorkshopItem>
+                        </Item>
+                    </ScenarioWorkshopItems>
+                    <RubberDots>10</RubberDots>
+                    <PackageHeadline>0</PackageHeadline>
+                    <PackageBackground>data/ui/2kimages/main/assets/grand_gallery/grandgallery_card_bg_common.png</PackageBackground>
+                    <PackageMaxCount>9999</PackageMaxCount>
+                    <PackageDescription>0</PackageDescription>
+                    <PackageFluffText>4590</PackageFluffText>
+                </ScenarioWorkshopPackage>
+            </Values>
+        </Asset>
+    </ModOp>
+
+<!-- Ornament im Baumenü "Große Galerie" einfügen, um Bau in frühem Stadium zu ermöglichen -->
+<ModOp GUID="4751" Type="add" Path="Values/ConstructionCategory/BuildingList">
+    <Item>
+        <Building>102465</Building>
+    </Item>
+</ModOp>
+
+
+    <!-- ScenarioWorkshopPackage in der Galerie einpflegen -->
+    <ModOp GUID="1252" Type="add" Path="Values/ScenarioWorkshopScene/ScenarioWorkshopCategories/Ornament/ScenarioWorkshopCategory">
+        <Item>
+            <ScenarioWorkshopPackage>1357900437</ScenarioWorkshopPackage>
+        </Item>
+    </ModOp>
+
+
+    <!-- ScenarioWorkshopItem fuer Ornament 102466 Mosaikpflaster erzeugen -->
+    <ModOp GUID = "4308" Type = "addNextSibling">
+        <Asset>
+            <Template>ScenarioWorkshopItem</Template>
+            <Values>
+                <Standard>
+                    <!-- GUID aus Range von schwubbe -->
+                    <GUID>1357900438</GUID>
+                    <Name>WorkshopItemForGalary</Name>
+                </Standard>
+                <Text />
+                <ScenarioWorkshopItem>
+                    <!-- verweis auf das Asset -->
+                    <AssetReference>102466</AssetReference>
+                    <BuildPermits>10</BuildPermits>
+                </ScenarioWorkshopItem>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- ein ScenarioWorkshopPackage aus dem ScenarioWorkshopItem erstellen -->
+    <ModOp GUID="2258" Type="addNextSibling">
+        <Asset>
+            <Template>ScenarioWorkshopPackage</Template>
+            <Values>
+                <Standard>
+                    <!-- GUID aus Range von schwubbe -->
+                    <GUID>1357900439</GUID>
+                    <Name>WorkshopPackageForGalery</Name>
+                </Standard>
+                <ScenarioWorkshopPackage>
+                    <ScenarioWorkshopItems>
+                        <Item>
+                            <ScenarioWorkshopItem>1357900438</ScenarioWorkshopItem>
+                        </Item>
+                    </ScenarioWorkshopItems>
+                    <RubberDots>10</RubberDots>
+                    <PackageHeadline>0</PackageHeadline>
+                    <PackageBackground>data/ui/2kimages/main/assets/grand_gallery/grandgallery_card_bg_common.png</PackageBackground>
+                    <PackageMaxCount>9999</PackageMaxCount>
+                    <PackageDescription>0</PackageDescription>
+                    <PackageFluffText>4590</PackageFluffText>
+                </ScenarioWorkshopPackage>
+            </Values>
+        </Asset>
+    </ModOp>
+
+<!-- Ornament im Baumenü "Große Galerie" einfügen, um Bau in frühem Stadium zu ermöglichen -->
+<ModOp GUID="4751" Type="add" Path="Values/ConstructionCategory/BuildingList">
+    <Item>
+        <Building>102466</Building>
+    </Item>
+</ModOp>
+
+
+    <!-- ScenarioWorkshopPackage in der Galerie einpflegen -->
+    <ModOp GUID="1252" Type="add" Path="Values/ScenarioWorkshopScene/ScenarioWorkshopCategories/Ornament/ScenarioWorkshopCategory">
+        <Item>
+            <ScenarioWorkshopPackage>1357900439</ScenarioWorkshopPackage>
+        </Item>
+    </ModOp>
+
+
+    <!-- ScenarioWorkshopItem fuer Ornament 102467 Flaggenmast erzeugen -->
+    <ModOp GUID = "4308" Type = "addNextSibling">
+        <Asset>
+            <Template>ScenarioWorkshopItem</Template>
+            <Values>
+                <Standard>
+                    <!-- GUID aus Range von schwubbe -->
+                    <GUID>1357900440</GUID>
+                    <Name>WorkshopItemForGalary</Name>
+                </Standard>
+                <Text />
+                <ScenarioWorkshopItem>
+                    <!-- verweis auf das Asset -->
+                    <AssetReference>102467</AssetReference>
+                    <BuildPermits>10</BuildPermits>
+                </ScenarioWorkshopItem>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- ein ScenarioWorkshopPackage aus dem ScenarioWorkshopItem erstellen -->
+    <ModOp GUID="2258" Type="addNextSibling">
+        <Asset>
+            <Template>ScenarioWorkshopPackage</Template>
+            <Values>
+                <Standard>
+                    <!-- GUID aus Range von schwubbe -->
+                    <GUID>1357900441</GUID>
+                    <Name>WorkshopPackageForGalery</Name>
+                </Standard>
+                <ScenarioWorkshopPackage>
+                    <ScenarioWorkshopItems>
+                        <Item>
+                            <ScenarioWorkshopItem>1357900440</ScenarioWorkshopItem>
+                        </Item>
+                    </ScenarioWorkshopItems>
+                    <RubberDots>10</RubberDots>
+                    <PackageHeadline>0</PackageHeadline>
+                    <PackageBackground>data/ui/2kimages/main/assets/grand_gallery/grandgallery_card_bg_common.png</PackageBackground>
+                    <PackageMaxCount>9999</PackageMaxCount>
+                    <PackageDescription>0</PackageDescription>
+                    <PackageFluffText>4590</PackageFluffText>
+                </ScenarioWorkshopPackage>
+            </Values>
+        </Asset>
+    </ModOp>
+
+<!-- Ornament im Baumenü "Große Galerie" einfügen, um Bau in frühem Stadium zu ermöglichen -->
+<ModOp GUID="4751" Type="add" Path="Values/ConstructionCategory/BuildingList">
+    <Item>
+        <Building>102467</Building>
+    </Item>
+</ModOp>
+
+
+    <!-- ScenarioWorkshopPackage in der Galerie einpflegen -->
+    <ModOp GUID="1252" Type="add" Path="Values/ScenarioWorkshopScene/ScenarioWorkshopCategories/Ornament/ScenarioWorkshopCategory">
+        <Item>
+            <ScenarioWorkshopPackage>1357900441</ScenarioWorkshopPackage>
+        </Item>
+    </ModOp>
+
+
+    <!-- ScenarioWorkshopItem fuer Ornament 102468 Kanalbrunnen erzeugen -->
+    <ModOp GUID = "4308" Type = "addNextSibling">
+        <Asset>
+            <Template>ScenarioWorkshopItem</Template>
+            <Values>
+                <Standard>
+                    <!-- GUID aus Range von schwubbe -->
+                    <GUID>1357900442</GUID>
+                    <Name>WorkshopItemForGalary</Name>
+                </Standard>
+                <Text />
+                <ScenarioWorkshopItem>
+                    <!-- verweis auf das Asset -->
+                    <AssetReference>102468</AssetReference>
+                    <BuildPermits>10</BuildPermits>
+                </ScenarioWorkshopItem>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- ein ScenarioWorkshopPackage aus dem ScenarioWorkshopItem erstellen -->
+    <ModOp GUID="2258" Type="addNextSibling">
+        <Asset>
+            <Template>ScenarioWorkshopPackage</Template>
+            <Values>
+                <Standard>
+                    <!-- GUID aus Range von schwubbe -->
+                    <GUID>1357900443</GUID>
+                    <Name>WorkshopPackageForGalery</Name>
+                </Standard>
+                <ScenarioWorkshopPackage>
+                    <ScenarioWorkshopItems>
+                        <Item>
+                            <ScenarioWorkshopItem>1357900442</ScenarioWorkshopItem>
+                        </Item>
+                    </ScenarioWorkshopItems>
+                    <RubberDots>10</RubberDots>
+                    <PackageHeadline>0</PackageHeadline>
+                    <PackageBackground>data/ui/2kimages/main/assets/grand_gallery/grandgallery_card_bg_common.png</PackageBackground>
+                    <PackageMaxCount>9999</PackageMaxCount>
+                    <PackageDescription>0</PackageDescription>
+                    <PackageFluffText>4590</PackageFluffText>
+                </ScenarioWorkshopPackage>
+            </Values>
+        </Asset>
+    </ModOp>
+
+<!-- Ornament im Baumenü "Große Galerie" einfügen, um Bau in frühem Stadium zu ermöglichen -->
+<ModOp GUID="4751" Type="add" Path="Values/ConstructionCategory/BuildingList">
+    <Item>
+        <Building>102468</Building>
+    </Item>
+</ModOp>
+
+
+    <!-- ScenarioWorkshopPackage in der Galerie einpflegen -->
+    <ModOp GUID="1252" Type="add" Path="Values/ScenarioWorkshopScene/ScenarioWorkshopCategories/Ornament/ScenarioWorkshopCategory">
+        <Item>
+            <ScenarioWorkshopPackage>1357900443</ScenarioWorkshopPackage>
+        </Item>
+    </ModOp>
+
+
+    <!-- ScenarioWorkshopItem fuer Ornament 102469 Kanalbrücke erzeugen -->
+    <ModOp GUID = "4308" Type = "addNextSibling">
+        <Asset>
+            <Template>ScenarioWorkshopItem</Template>
+            <Values>
+                <Standard>
+                    <!-- GUID aus Range von schwubbe -->
+                    <GUID>1357900444</GUID>
+                    <Name>WorkshopItemForGalary</Name>
+                </Standard>
+                <Text />
+                <ScenarioWorkshopItem>
+                    <!-- verweis auf das Asset -->
+                    <AssetReference>102469</AssetReference>
+                    <BuildPermits>10</BuildPermits>
+                </ScenarioWorkshopItem>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- ein ScenarioWorkshopPackage aus dem ScenarioWorkshopItem erstellen -->
+    <ModOp GUID="2258" Type="addNextSibling">
+        <Asset>
+            <Template>ScenarioWorkshopPackage</Template>
+            <Values>
+                <Standard>
+                    <!-- GUID aus Range von schwubbe -->
+                    <GUID>1357900445</GUID>
+                    <Name>WorkshopPackageForGalery</Name>
+                </Standard>
+                <ScenarioWorkshopPackage>
+                    <ScenarioWorkshopItems>
+                        <Item>
+                            <ScenarioWorkshopItem>1357900444</ScenarioWorkshopItem>
+                        </Item>
+                    </ScenarioWorkshopItems>
+                    <RubberDots>10</RubberDots>
+                    <PackageHeadline>0</PackageHeadline>
+                    <PackageBackground>data/ui/2kimages/main/assets/grand_gallery/grandgallery_card_bg_common.png</PackageBackground>
+                    <PackageMaxCount>9999</PackageMaxCount>
+                    <PackageDescription>0</PackageDescription>
+                    <PackageFluffText>4590</PackageFluffText>
+                </ScenarioWorkshopPackage>
+            </Values>
+        </Asset>
+    </ModOp>
+
+<!-- Ornament im Baumenü "Große Galerie" einfügen, um Bau in frühem Stadium zu ermöglichen -->
+<ModOp GUID="4751" Type="add" Path="Values/ConstructionCategory/BuildingList">
+    <Item>
+        <Building>102469</Building>
+    </Item>
+</ModOp>
+
+
+    <!-- ScenarioWorkshopPackage in der Galerie einpflegen -->
+    <ModOp GUID="1252" Type="add" Path="Values/ScenarioWorkshopScene/ScenarioWorkshopCategories/Ornament/ScenarioWorkshopCategory">
+        <Item>
+            <ScenarioWorkshopPackage>1357900445</ScenarioWorkshopPackage>
+        </Item>
+    </ModOp>
+
+
+    <!-- ScenarioWorkshopItem fuer Ornament 102470 Kanal erzeugen -->
+    <ModOp GUID = "4308" Type = "addNextSibling">
+        <Asset>
+            <Template>ScenarioWorkshopItem</Template>
+            <Values>
+                <Standard>
+                    <!-- GUID aus Range von schwubbe -->
+                    <GUID>1357900446</GUID>
+                    <Name>WorkshopItemForGalary</Name>
+                </Standard>
+                <Text />
+                <ScenarioWorkshopItem>
+                    <!-- verweis auf das Asset -->
+                    <AssetReference>102470</AssetReference>
+                    <BuildPermits>10</BuildPermits>
+                </ScenarioWorkshopItem>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- ein ScenarioWorkshopPackage aus dem ScenarioWorkshopItem erstellen -->
+    <ModOp GUID="2258" Type="addNextSibling">
+        <Asset>
+            <Template>ScenarioWorkshopPackage</Template>
+            <Values>
+                <Standard>
+                    <!-- GUID aus Range von schwubbe -->
+                    <GUID>1357900447</GUID>
+                    <Name>WorkshopPackageForGalery</Name>
+                </Standard>
+                <ScenarioWorkshopPackage>
+                    <ScenarioWorkshopItems>
+                        <Item>
+                            <ScenarioWorkshopItem>1357900446</ScenarioWorkshopItem>
+                        </Item>
+                    </ScenarioWorkshopItems>
+                    <RubberDots>10</RubberDots>
+                    <PackageHeadline>0</PackageHeadline>
+                    <PackageBackground>data/ui/2kimages/main/assets/grand_gallery/grandgallery_card_bg_common.png</PackageBackground>
+                    <PackageMaxCount>9999</PackageMaxCount>
+                    <PackageDescription>0</PackageDescription>
+                    <PackageFluffText>4590</PackageFluffText>
+                </ScenarioWorkshopPackage>
+            </Values>
+        </Asset>
+    </ModOp>
+
+<!-- Ornament im Baumenü "Große Galerie" einfügen, um Bau in frühem Stadium zu ermöglichen -->
+<ModOp GUID="4751" Type="add" Path="Values/ConstructionCategory/BuildingList">
+    <Item>
+        <Building>102470</Building>
+    </Item>
+</ModOp>
+
+
+    <!-- ScenarioWorkshopPackage in der Galerie einpflegen -->
+    <ModOp GUID="1252" Type="add" Path="Values/ScenarioWorkshopScene/ScenarioWorkshopCategories/Ornament/ScenarioWorkshopCategory">
+        <Item>
+            <ScenarioWorkshopPackage>1357900447</ScenarioWorkshopPackage>
+        </Item>
+    </ModOp>
+
+
+    <!-- ScenarioWorkshopItem fuer Ornament 102471 Kanal erzeugen -->
+    <ModOp GUID = "4308" Type = "addNextSibling">
+        <Asset>
+            <Template>ScenarioWorkshopItem</Template>
+            <Values>
+                <Standard>
+                    <!-- GUID aus Range von schwubbe -->
+                    <GUID>1357900448</GUID>
+                    <Name>WorkshopItemForGalary</Name>
+                </Standard>
+                <Text />
+                <ScenarioWorkshopItem>
+                    <!-- verweis auf das Asset -->
+                    <AssetReference>102471</AssetReference>
+                    <BuildPermits>10</BuildPermits>
+                </ScenarioWorkshopItem>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- ein ScenarioWorkshopPackage aus dem ScenarioWorkshopItem erstellen -->
+    <ModOp GUID="2258" Type="addNextSibling">
+        <Asset>
+            <Template>ScenarioWorkshopPackage</Template>
+            <Values>
+                <Standard>
+                    <!-- GUID aus Range von schwubbe -->
+                    <GUID>1357900449</GUID>
+                    <Name>WorkshopPackageForGalery</Name>
+                </Standard>
+                <ScenarioWorkshopPackage>
+                    <ScenarioWorkshopItems>
+                        <Item>
+                            <ScenarioWorkshopItem>1357900448</ScenarioWorkshopItem>
+                        </Item>
+                    </ScenarioWorkshopItems>
+                    <RubberDots>10</RubberDots>
+                    <PackageHeadline>0</PackageHeadline>
+                    <PackageBackground>data/ui/2kimages/main/assets/grand_gallery/grandgallery_card_bg_common.png</PackageBackground>
+                    <PackageMaxCount>9999</PackageMaxCount>
+                    <PackageDescription>0</PackageDescription>
+                    <PackageFluffText>4590</PackageFluffText>
+                </ScenarioWorkshopPackage>
+            </Values>
+        </Asset>
+    </ModOp>
+
+<!-- Ornament im Baumenü "Große Galerie" einfügen, um Bau in frühem Stadium zu ermöglichen -->
+<ModOp GUID="4751" Type="add" Path="Values/ConstructionCategory/BuildingList">
+    <Item>
+        <Building>102471</Building>
+    </Item>
+</ModOp>
+
+
+    <!-- ScenarioWorkshopPackage in der Galerie einpflegen -->
+    <ModOp GUID="1252" Type="add" Path="Values/ScenarioWorkshopScene/ScenarioWorkshopCategories/Ornament/ScenarioWorkshopCategory">
+        <Item>
+            <ScenarioWorkshopPackage>1357900449</ScenarioWorkshopPackage>
+        </Item>
+    </ModOp>
+
+
+    <!-- ScenarioWorkshopItem fuer Ornament 102472 Kanal erzeugen -->
+    <ModOp GUID = "4308" Type = "addNextSibling">
+        <Asset>
+            <Template>ScenarioWorkshopItem</Template>
+            <Values>
+                <Standard>
+                    <!-- GUID aus Range von schwubbe -->
+                    <GUID>1357900450</GUID>
+                    <Name>WorkshopItemForGalary</Name>
+                </Standard>
+                <Text />
+                <ScenarioWorkshopItem>
+                    <!-- verweis auf das Asset -->
+                    <AssetReference>102472</AssetReference>
+                    <BuildPermits>10</BuildPermits>
+                </ScenarioWorkshopItem>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- ein ScenarioWorkshopPackage aus dem ScenarioWorkshopItem erstellen -->
+    <ModOp GUID="2258" Type="addNextSibling">
+        <Asset>
+            <Template>ScenarioWorkshopPackage</Template>
+            <Values>
+                <Standard>
+                    <!-- GUID aus Range von schwubbe -->
+                    <GUID>1357900451</GUID>
+                    <Name>WorkshopPackageForGalery</Name>
+                </Standard>
+                <ScenarioWorkshopPackage>
+                    <ScenarioWorkshopItems>
+                        <Item>
+                            <ScenarioWorkshopItem>1357900450</ScenarioWorkshopItem>
+                        </Item>
+                    </ScenarioWorkshopItems>
+                    <RubberDots>10</RubberDots>
+                    <PackageHeadline>0</PackageHeadline>
+                    <PackageBackground>data/ui/2kimages/main/assets/grand_gallery/grandgallery_card_bg_common.png</PackageBackground>
+                    <PackageMaxCount>9999</PackageMaxCount>
+                    <PackageDescription>0</PackageDescription>
+                    <PackageFluffText>4590</PackageFluffText>
+                </ScenarioWorkshopPackage>
+            </Values>
+        </Asset>
+    </ModOp>
+
+<!-- Ornament im Baumenü "Große Galerie" einfügen, um Bau in frühem Stadium zu ermöglichen -->
+<ModOp GUID="4751" Type="add" Path="Values/ConstructionCategory/BuildingList">
+    <Item>
+        <Building>102472</Building>
+    </Item>
+</ModOp>
+
+
+    <!-- ScenarioWorkshopPackage in der Galerie einpflegen -->
+    <ModOp GUID="1252" Type="add" Path="Values/ScenarioWorkshopScene/ScenarioWorkshopCategories/Ornament/ScenarioWorkshopCategory">
+        <Item>
+            <ScenarioWorkshopPackage>1357900451</ScenarioWorkshopPackage>
+        </Item>
+    </ModOp>
+
+
+    <!-- ScenarioWorkshopItem fuer Ornament 102473 Weltausstellungstor erzeugen -->
+    <ModOp GUID = "4308" Type = "addNextSibling">
+        <Asset>
+            <Template>ScenarioWorkshopItem</Template>
+            <Values>
+                <Standard>
+                    <!-- GUID aus Range von schwubbe -->
+                    <GUID>1357900452</GUID>
+                    <Name>WorkshopItemForGalary</Name>
+                </Standard>
+                <Text />
+                <ScenarioWorkshopItem>
+                    <!-- verweis auf das Asset -->
+                    <AssetReference>102473</AssetReference>
+                    <BuildPermits>10</BuildPermits>
+                </ScenarioWorkshopItem>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- ein ScenarioWorkshopPackage aus dem ScenarioWorkshopItem erstellen -->
+    <ModOp GUID="2258" Type="addNextSibling">
+        <Asset>
+            <Template>ScenarioWorkshopPackage</Template>
+            <Values>
+                <Standard>
+                    <!-- GUID aus Range von schwubbe -->
+                    <GUID>1357900453</GUID>
+                    <Name>WorkshopPackageForGalery</Name>
+                </Standard>
+                <ScenarioWorkshopPackage>
+                    <ScenarioWorkshopItems>
+                        <Item>
+                            <ScenarioWorkshopItem>1357900452</ScenarioWorkshopItem>
+                        </Item>
+                    </ScenarioWorkshopItems>
+                    <RubberDots>10</RubberDots>
+                    <PackageHeadline>0</PackageHeadline>
+                    <PackageBackground>data/ui/2kimages/main/assets/grand_gallery/grandgallery_card_bg_common.png</PackageBackground>
+                    <PackageMaxCount>9999</PackageMaxCount>
+                    <PackageDescription>0</PackageDescription>
+                    <PackageFluffText>4590</PackageFluffText>
+                </ScenarioWorkshopPackage>
+            </Values>
+        </Asset>
+    </ModOp>
+
+<!-- Ornament im Baumenü "Große Galerie" einfügen, um Bau in frühem Stadium zu ermöglichen -->
+<ModOp GUID="4751" Type="add" Path="Values/ConstructionCategory/BuildingList">
+    <Item>
+        <Building>102473</Building>
+    </Item>
+</ModOp>
+
+
+    <!-- ScenarioWorkshopPackage in der Galerie einpflegen -->
+    <ModOp GUID="1252" Type="add" Path="Values/ScenarioWorkshopScene/ScenarioWorkshopCategories/Ornament/ScenarioWorkshopCategory">
+        <Item>
+            <ScenarioWorkshopPackage>1357900453</ScenarioWorkshopPackage>
+        </Item>
+    </ModOp>
+
+
+    <!-- ScenarioWorkshopItem fuer Ornament 102474 Weltausstellungspavillon erzeugen -->
+    <ModOp GUID = "4308" Type = "addNextSibling">
+        <Asset>
+            <Template>ScenarioWorkshopItem</Template>
+            <Values>
+                <Standard>
+                    <!-- GUID aus Range von schwubbe -->
+                    <GUID>1357900454</GUID>
+                    <Name>WorkshopItemForGalary</Name>
+                </Standard>
+                <Text />
+                <ScenarioWorkshopItem>
+                    <!-- verweis auf das Asset -->
+                    <AssetReference>102474</AssetReference>
+                    <BuildPermits>10</BuildPermits>
+                </ScenarioWorkshopItem>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- ein ScenarioWorkshopPackage aus dem ScenarioWorkshopItem erstellen -->
+    <ModOp GUID="2258" Type="addNextSibling">
+        <Asset>
+            <Template>ScenarioWorkshopPackage</Template>
+            <Values>
+                <Standard>
+                    <!-- GUID aus Range von schwubbe -->
+                    <GUID>1357900455</GUID>
+                    <Name>WorkshopPackageForGalery</Name>
+                </Standard>
+                <ScenarioWorkshopPackage>
+                    <ScenarioWorkshopItems>
+                        <Item>
+                            <ScenarioWorkshopItem>1357900454</ScenarioWorkshopItem>
+                        </Item>
+                    </ScenarioWorkshopItems>
+                    <RubberDots>10</RubberDots>
+                    <PackageHeadline>0</PackageHeadline>
+                    <PackageBackground>data/ui/2kimages/main/assets/grand_gallery/grandgallery_card_bg_common.png</PackageBackground>
+                    <PackageMaxCount>9999</PackageMaxCount>
+                    <PackageDescription>0</PackageDescription>
+                    <PackageFluffText>4590</PackageFluffText>
+                </ScenarioWorkshopPackage>
+            </Values>
+        </Asset>
+    </ModOp>
+
+<!-- Ornament im Baumenü "Große Galerie" einfügen, um Bau in frühem Stadium zu ermöglichen -->
+<ModOp GUID="4751" Type="add" Path="Values/ConstructionCategory/BuildingList">
+    <Item>
+        <Building>102474</Building>
+    </Item>
+</ModOp>
+
+
+    <!-- ScenarioWorkshopPackage in der Galerie einpflegen -->
+    <ModOp GUID="1252" Type="add" Path="Values/ScenarioWorkshopScene/ScenarioWorkshopCategories/Ornament/ScenarioWorkshopCategory">
+        <Item>
+            <ScenarioWorkshopPackage>1357900455</ScenarioWorkshopPackage>
+        </Item>
+    </ModOp>
+
+
+    <!-- ScenarioWorkshopItem fuer Ornament 102475 Weltausstellungsturm erzeugen -->
+    <ModOp GUID = "4308" Type = "addNextSibling">
+        <Asset>
+            <Template>ScenarioWorkshopItem</Template>
+            <Values>
+                <Standard>
+                    <!-- GUID aus Range von schwubbe -->
+                    <GUID>1357900456</GUID>
+                    <Name>WorkshopItemForGalary</Name>
+                </Standard>
+                <Text />
+                <ScenarioWorkshopItem>
+                    <!-- verweis auf das Asset -->
+                    <AssetReference>102475</AssetReference>
+                    <BuildPermits>10</BuildPermits>
+                </ScenarioWorkshopItem>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- ein ScenarioWorkshopPackage aus dem ScenarioWorkshopItem erstellen -->
+    <ModOp GUID="2258" Type="addNextSibling">
+        <Asset>
+            <Template>ScenarioWorkshopPackage</Template>
+            <Values>
+                <Standard>
+                    <!-- GUID aus Range von schwubbe -->
+                    <GUID>1357900457</GUID>
+                    <Name>WorkshopPackageForGalery</Name>
+                </Standard>
+                <ScenarioWorkshopPackage>
+                    <ScenarioWorkshopItems>
+                        <Item>
+                            <ScenarioWorkshopItem>1357900456</ScenarioWorkshopItem>
+                        </Item>
+                    </ScenarioWorkshopItems>
+                    <RubberDots>10</RubberDots>
+                    <PackageHeadline>0</PackageHeadline>
+                    <PackageBackground>data/ui/2kimages/main/assets/grand_gallery/grandgallery_card_bg_common.png</PackageBackground>
+                    <PackageMaxCount>9999</PackageMaxCount>
+                    <PackageDescription>0</PackageDescription>
+                    <PackageFluffText>4590</PackageFluffText>
+                </ScenarioWorkshopPackage>
+            </Values>
+        </Asset>
+    </ModOp>
+
+<!-- Ornament im Baumenü "Große Galerie" einfügen, um Bau in frühem Stadium zu ermöglichen -->
+<ModOp GUID="4751" Type="add" Path="Values/ConstructionCategory/BuildingList">
+    <Item>
+        <Building>102475</Building>
+    </Item>
+</ModOp>
+
+
+    <!-- ScenarioWorkshopPackage in der Galerie einpflegen -->
+    <ModOp GUID="1252" Type="add" Path="Values/ScenarioWorkshopScene/ScenarioWorkshopCategories/Ornament/ScenarioWorkshopCategory">
+        <Item>
+            <ScenarioWorkshopPackage>1357900457</ScenarioWorkshopPackage>
+        </Item>
+    </ModOp>
+
+
+</ModOps>
