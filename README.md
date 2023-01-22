@@ -19,6 +19,7 @@
 - Französische Übersetzung hinzugefügt (Thx Tonton Yip)
 - 3 neue Items hinzugefügt: Extrem laute Glocke, Pertwees Turbo-Generator, Micaela die Bergbauingenieurin
 - 2 neue Textanpassungen: Button Hauptbemü, Überschrift in der Großen Galerie
+
 25.12.2022 Version 1.0
 - Erstellung
 
@@ -40,6 +41,7 @@
 - French translation added (Thx Tonton Yip)
 - 3 new items hinzugefügt: Extremely loud bell, Pertwee's Turbo Generator, Micaela the Mining Engineer
 - 2 new text changes: Button main menu, headline of grand galery
+
 12/12/2025 Version 1.0
 - Creation
 
