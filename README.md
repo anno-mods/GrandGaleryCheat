@@ -10,7 +10,7 @@
 - Platziert alle wichtigen Kulturitems im dritten Tab der Galerie
 - Erweitert das Angebot der Wirtschaftsitems im vierten Tab massiv.
 
-**Items aus DLCs sind nur verfügbar, wenn man das DLC besitzt!
+** Items aus DLCs sind nur verfügbar, wenn man das DLC besitzt!
 
 
 
@@ -48,18 +48,6 @@
 ## All added Items
 
 | GUID | Name DE | Name EN | Version | DLC |
-
-| 124839 | Lehmvorkommen verschieben | Move Clay Deposit | 01. January 1970 | Land of Lions |
-| 124840 | Ölquelle verschieben | Move Oil Spring | 01. January 1970 | Land of Lions |
-| 124841 | Erzart der Mine anpassen | Change Deposit Ore | 01. January 1970 | Land of Lions |
-| 124842 | Fruchtbarkeit anpassen | Change Fertility | 01. January 1970 | Land of Lions |
-| 124845 | Kaffeeproduktion der Alten Welt | Old World Coffee Production | 01. January 1970 | Land of Lions |
-| 124849 | Rumproduktion der Alten Welt | Old World Rum Production | 01. January 1970 | Land of Lions |
-| 124850 | Baumwollproduktion der Alten Welt | Old World Cotton Production | 01. January 1970 | Land of Lions |
-| 124843 | Baugenehmigung für die Great Eastern | Great Eastern Permit | 01. January 1970 | Land of Lions |
-| 124844 | Baugenehmigung für den Ausbau der Anlegestelle | Pier Upgrade Permit | 01. January 1970 | Land of Lions |
-| 124846 | Forschungskoffer | Research Kit | 01. January 1970 | Land of Lions |
-| 125340 | Genehmigung zur Erweiterung des Campus | Campus Extension Permit | 01. January 1970 | Land of Lions |
 | 111120 | Kautschukbaum | Hevea Tree | 01. January 1970 | Botanica |
 | 112612 | Riesenseerose | Giant Water Lily | 01. January 1970 | Botanica |
 | 112731 | Metaxya-​Farn | Metaxya Fern | 01. January 1970 | Botanica |
@@ -335,20 +323,6 @@
 | 191505 | Flamingo | Flamingo | 01. January 1970 | Land of Lions |
 | 124151 | Grauhals-Kronenkranich | Grey Crowned Crane | 01. January 1970 | Land of Lions |
 | 124158 | Flusspferd | Hippopotamus | 01. January 1970 | Land of Lions |
-| 102461 | Säulen | Columns | 01. January 1970 | --- |
-| 102463 | Säulen | Columns | 01. January 1970 | --- |
-| 102464 | Litfaßsäule | Morris Column | 01. January 1970 | --- |
-| 102465 | Plakatwand | Billboard | 01. January 1970 | --- |
-| 102466 | Mosaikpflaster | Mosaic Paving | 01. January 1970 | --- |
-| 102467 | Flaggenmast | Flagpole | 01. January 1970 | --- |
-| 102468 | Kanalbrunnen | Channel Fountain | 01. January 1970 | --- |
-| 102469 | Kanalbrücke | Channel Bridge | 01. January 1970 | --- |
-| 102470 | Kanal | Channel | 01. January 1970 | --- |
-| 102471 | Kanal | Channel | 01. January 1970 | --- |
-| 102472 | Kanal | Channel | 01. January 1970 | --- |
-| 102473 | Weltausstellungs​tor | World's Fair Gate | 01. January 1970 | --- |
-| 102474 | Weltausstellungs​pavillon | World's Fair Pavillion | 01. January 1970 | --- |
-| 102475 | Weltausstellungs​turm | World's Fair Tower | 01. January 1970 | --- |
 
 
 
