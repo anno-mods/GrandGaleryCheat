@@ -14,7 +14,7 @@
 
 
 
-##Historie
+## Historie
 22.01.2023 Version 1.1
 - Französische Übersetzung hinzugefügt (Thx Tonton Yip)
 - 3 neue Items hinzugefügt: Extrem laute Glocke, Pertwees Turbo-Generator, Micaela die Bergbauingenieurin
@@ -31,7 +31,7 @@
 - Places all important culture items in the third tab of the gallery
 - Massively expands the range of economy items in the fourth tab
 
-**Items from DLCs are only available if you own the DLC!
+** Items from DLCs are only available if you own the DLC!
 
 
 
