@@ -4,7 +4,7 @@
     <ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '3717']">
         <Text>
             <GUID>3717</GUID>
-            <Text>Deco & Buildings</Text>
+            <Text>装饰与建筑</Text>
         </Text>
     </ModOp>
     <!-- Tab-Beschriftung "Portraits" Grand Galery -->
@@ -12,7 +12,7 @@
     <ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '3697']">
         <Text>
             <GUID>3697</GUID>
-            <Text>Skins & Portraits</Text>
+            <Text>外观与肖像</Text>
         </Text>
     </ModOp>
     <!-- Tab-Beschriftung "Skins" Grand Galery -->
@@ -20,7 +20,7 @@
     <ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '3694']">
         <Text>
             <GUID>3694</GUID>
-            <Text>Culture Items</Text>
+            <Text>文化</Text>
         </Text>
     </ModOp>
     <!-- Tab-Überschrift "Skins" Grand Galery -->
@@ -28,7 +28,7 @@
     <ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '4287']">
         <Text>
             <GUID>4287</GUID>
-            <Text>May it be a little more attractiveness?</Text>
+            <Text>它可能更有吸引力吗？</Text>
         </Text>
     </ModOp>
     <!-- Tab-Beschreibung "Skins" Grand Galery -->
@@ -36,7 +36,7 @@
     <ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '4301']">
         <Text>
             <GUID>4301</GUID>
-            <Text>Build the most beautiful zoos, museums and botanical gardens!</Text>
+            <Text>建造最美丽的动物园、博物馆和植物园！</Text>
         </Text>
     </ModOp>
     <!-- Tab-Beschriftung "Portraits" Grand Galery -->
@@ -44,7 +44,7 @@
     <ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '3699']">
         <Text>
             <GUID>3699</GUID>
-            <Text>Economy Items</Text>
+            <Text>经济</Text>
         </Text>
     </ModOp>
 </ModOps>
