@@ -4,7 +4,7 @@
   "IncompatibleIds": null,
   "ModDependencies": null,
   "Category": {
-    "Chinese": null,
+    "Chinese": "作弊",
     "English": "Cheat",
     "French": null,
     "German": "Cheat",
@@ -17,7 +17,7 @@
     "Taiwanese": null
   },
   "ModName": {
-    "Chinese": null,
+    "Chinese": "壮丽艺廊",
     "English": "Grand Galery Overhaul",
     "French": null,
     "German": "Grand Galery Overhaul",
@@ -30,7 +30,7 @@
     "Taiwanese": null
   },
   "Description": {
-    "Chinese": null,
+    "Chinese": "将许多项目添加到库中，并将所有价格设置为0。",
     "English": "Adds many items to the gallery and sets all prices to 0.",
     "French": null,
     "German": "Fügt viele Items der Galerie hinzu und setzt alle Preise auf 0.",
